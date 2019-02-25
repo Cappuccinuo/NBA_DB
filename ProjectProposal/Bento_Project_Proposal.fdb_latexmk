@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1551125606 "Bento_Project_Proposal.tex" "Bento_Project_Proposal.pdf" "Bento_Project_Proposal" 1551125607
+["pdflatex"] 1551125987 "Bento_Project_Proposal.tex" "Bento_Project_Proposal.pdf" "Bento_Project_Proposal" 1551125988
   "/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1284331290 1458 43ab4710dc82f3edeabecd0d099626b2 ""
   "/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty" 1303254447 7140 ece2cc23d9f20e1f53975ac167f42d3e ""
   "/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty" 1335995445 6797 68c89f65e01894df882dd523d3fc0a8f ""
@@ -37,14 +37,14 @@
   "/usr/local/texlive/2015/texmf-dist/tex/latex/tools/bm.sty" 1428932888 11958 868abf06896ae48c2db3b4ddf4ac819a ""
   "/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/local/texlive/2015/texmf-dist/tex/xelatex/xetex-def/xetex.def" 1427500247 17536 f287c5eacddc627c62141f8a352c932d ""
-  "Bento_Project_Proposal.aux" 1551125606 538 2ccb956f38386c089aec1e785f297356 ""
-  "Bento_Project_Proposal.tex" 1551125606 4702 b946a586593044e03005b71943035b18 ""
+  "Bento_Project_Proposal.aux" 1551125987 538 2ccb956f38386c089aec1e785f297356 ""
+  "Bento_Project_Proposal.tex" 1551125987 4674 9c607181a4843a6b8d48410136c197e3 ""
   "DeleteChart.jpg" 1551124628 424601 59bc6fac3be3e5a49fe12898d676e7b8 ""
   "InsertChart.jpg" 1551124671 465004 8bc79d5677ad6da984c2c22d5a743dc5 ""
   "NBA.png" 1551121594 61814 2df7882f4d7d65c7e857e796bf8e106d ""
   "QueryChart.jpg" 1551125326 369414 a701923e88d381db1b1891d6327f9896 ""
   "UpdateChart.jpg" 1551124510 434524 18d3eab3ff875e54d349bd84c93f8479 ""
   (generated)
-  "Bento_Project_Proposal.pdf"
-  "Bento_Project_Proposal.log"
   "Bento_Project_Proposal.aux"
+  "Bento_Project_Proposal.log"
+  "Bento_Project_Proposal.pdf"
