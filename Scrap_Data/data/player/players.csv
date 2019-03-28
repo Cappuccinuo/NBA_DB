@@ -1,536 +1,495 @@
-PERSON_ID,DISPLAY_LAST_COMMA_FIRST,DISPLAY_FIRST_LAST,ROSTERSTATUS,FROM_YEAR,TO_YEAR,PLAYERCODE,TEAM_ID,TEAM_CITY,TEAM_NAME,TEAM_ABBREVIATION,TEAM_CODE,GAMES_PLAYED_FLAG
-203518,"Abrines, Alex",Alex Abrines,0,2016,2018,alex_abrines,0,,,,,Y
-203112,"Acy, Quincy",Quincy Acy,0,2012,2018,quincy_acy,0,,,,,Y
-1629121,"Adams, Jaylen",Jaylen Adams,1,2018,2018,jaylen_adams,1610612737,Atlanta,Hawks,ATL,hawks,Y
-203500,"Adams, Steven",Steven Adams,1,2013,2018,steven_adams,1610612760,Oklahoma City,Thunder,OKC,thunder,Y
-1628389,"Adebayo, Bam",Bam Adebayo,1,2017,2018,bam_adebayo,1610612748,Miami,Heat,MIA,heat,Y
-1629061,"Adel, Deng",Deng Adel,1,2018,2018,deng_adel,1610612739,Cleveland,Cavaliers,CLE,cavaliers,Y
-1629152,"Akoon-Purcell, DeVaughn",DeVaughn Akoon-Purcell,0,2018,2018,devaughn_akoon-purcell,0,,,,,Y
-200746,"Aldridge, LaMarcus",LaMarcus Aldridge,1,2006,2018,lamarcus_aldridge,1610612759,San Antonio,Spurs,SAS,spurs,Y
-1628959,"Alkins, Rawle",Rawle Alkins,1,2018,2018,rawle_alkins,1610612741,Chicago,Bulls,CHI,bulls,Y
-1628960,"Allen, Grayson",Grayson Allen,1,2018,2018,grayson_allen,1610612762,Utah,Jazz,UTA,jazz,Y
-1628386,"Allen, Jarrett",Jarrett Allen,1,2017,2018,jarrett_allen,1610612751,Brooklyn,Nets,BKN,nets,Y
-1628443,"Allen, Kadeem",Kadeem Allen,1,2017,2018,kadeem_allen,1610612752,New York,Knicks,NYK,knicks,Y
-202329,"Aminu, Al-Farouq",Al-Farouq Aminu,1,2010,2018,al-farouq_aminu,1610612757,Portland,Trail Blazers,POR,blazers,Y
-1626147,"Anderson, Justin",Justin Anderson,1,2015,2018,justin_anderson,1610612737,Atlanta,Hawks,ATL,hawks,Y
-203937,"Anderson, Kyle",Kyle Anderson,1,2014,2018,kyle_anderson,1610612763,Memphis,Grizzlies,MEM,grizzlies,Y
-201583,"Anderson, Ryan",Ryan Anderson,1,2008,2018,ryan_anderson,1610612748,Miami,Heat,MIA,heat,Y
-1628387,"Anigbogu, Ike",Ike Anigbogu,0,2017,2018,ike_anigbogu,0,,,,,Y
-203507,"Antetokounmpo, Giannis",Giannis Antetokounmpo,1,2013,2018,giannis_antetokounmpo,1610612749,Milwaukee,Bucks,MIL,bucks,Y
-1628961,"Antetokounmpo, Kostas",Kostas Antetokounmpo,1,2018,2018,kostas_antetokounmpo,1610612742,Dallas,Mavericks,DAL,mavericks,Y
-2546,"Anthony, Carmelo",Carmelo Anthony,0,2003,2018,carmelo_anthony,0,,,,,Y
-1628384,"Anunoby, OG",OG Anunoby,1,2017,2018,og_anunoby,1610612761,Toronto,Raptors,TOR,raptors,Y
-1627853,"Arcidiacono, Ryan",Ryan Arcidiacono,1,2017,2018,ryan_arcidiacono,1610612741,Chicago,Bulls,CHI,bulls,Y
-2772,"Ariza, Trevor",Trevor Ariza,1,2004,2018,trevor_ariza,1610612764,Washington,Wizards,WAS,wizards,Y
-201571,"Augustin, D.J.",D.J. Augustin,1,2008,2018,d.j._augustin,1610612753,Orlando,Magic,ORL,magic,Y
-1629028,"Ayton, Deandre",Deandre Ayton,1,2018,2018,deandre_ayton,1610612756,Phoenix,Suns,PHX,suns,Y
-1628407,"Bacon, Dwayne",Dwayne Bacon,1,2017,2018,dwayne_bacon,1610612766,Charlotte,Hornets,CHA,hornets,Y
-1628963,"Bagley III, Marvin",Marvin Bagley III,1,2018,2018,marvin_bagley_iii,1610612758,Sacramento,Kings,SAC,kings,Y
-1627758,"Baker, Ron",Ron Baker,0,2016,2018,ron_baker,0,,,,,Y
-1627735,"Baldwin IV, Wade",Wade Baldwin IV,0,2016,2018,wade_baldwin iv,0,,,,,Y
-1628366,"Ball, Lonzo",Lonzo Ball,1,2017,2018,lonzo_ball,1610612747,Los Angeles,Lakers,LAL,lakers,Y
-1628964,"Bamba, Mo",Mo Bamba,1,2018,2018,mohamed_bamba,1610612753,Orlando,Magic,ORL,magic,Y
-200826,"Barea, J.J.",J.J. Barea,1,2006,2018,j.j._barea,1610612742,Dallas,Mavericks,DAL,mavericks,Y
-203084,"Barnes, Harrison",Harrison Barnes,1,2012,2018,harrison_barnes,1610612758,Sacramento,Kings,SAC,kings,Y
-203115,"Barton, Will",Will Barton,1,2012,2018,will_barton,1610612743,Denver,Nuggets,DEN,nuggets,Y
-1628966,"Bates-Diop, Keita",Keita Bates-Diop,1,2018,2018,keita_bates-diop,1610612750,Minnesota,Timberwolves,MIN,timberwolves,Y
-201587,"Batum, Nicolas",Nicolas Batum,1,2008,2018,nicolas_batum,1610612766,Charlotte,Hornets,CHA,hornets,Y
-201573,"Bayless, Jerryd",Jerryd Bayless,1,2008,2018,jerryd_bayless,1610612750,Minnesota,Timberwolves,MIN,timberwolves,Y
-203382,"Baynes, Aron",Aron Baynes,1,2012,2018,aron_baynes,1610612738,Boston,Celtics,BOS,celtics,Y
-203145,"Bazemore, Kent",Kent Bazemore,1,2012,2018,kent_bazemore,1610612737,Atlanta,Hawks,ATL,hawks,Y
-203078,"Beal, Bradley",Bradley Beal,1,2012,2018,bradley_beal,1610612764,Washington,Wizards,WAS,wizards,Y
-1627736,"Beasley, Malik",Malik Beasley,1,2016,2018,malik_beasley,1610612743,Denver,Nuggets,DEN,nuggets,Y
-201563,"Beasley, Michael",Michael Beasley,0,2008,2018,michael_beasley,0,,,,,Y
-201158,"Belinelli, Marco",Marco Belinelli,1,2007,2018,marco_belinelli,1610612759,San Antonio,Spurs,SAS,spurs,Y
-1628395,"Bell, Jordan",Jordan Bell,1,2017,2018,jordan_bell,1610612744,Golden State,Warriors,GSW,warriors,Y
-1627761,"Bembry, DeAndre'",DeAndre' Bembry,1,2016,2018,deandre'_bembry,1610612737,Atlanta,Hawks,ATL,hawks,Y
-1627733,"Bender, Dragan",Dragan Bender,1,2016,2018,dragan_bender,1610612756,Phoenix,Suns,PHX,suns,Y
-1629541,"Bertans, Dairis",Dairis Bertans,1,2018,2018,tmp_dairis_bertans,1610612740,New Orleans,Pelicans,NOP,pelicans,Y
-202722,"Bertans, Davis",Davis Bertans,1,2016,2018,davis_bertans,1610612759,San Antonio,Spurs,SAS,spurs,Y
-201976,"Beverley, Patrick",Patrick Beverley,1,2012,2018,patrick_beverley,1610612746,LA,Clippers,LAC,clippers,Y
-1629167,"Bibbs, Justin",Justin Bibbs,1,2018,2018,justin_bibbs,1610612746,LA,Clippers,LAC,clippers,N
-203920,"Birch, Khem",Khem Birch,1,2017,2018,khem_birch,1610612753,Orlando,Magic,ORL,magic,Y
-202687,"Biyombo, Bismack",Bismack Biyombo,1,2011,2018,bismack_biyombo,1610612766,Charlotte,Hornets,CHA,hornets,Y
-202357,"Bjelica, Nemanja",Nemanja Bjelica,1,2015,2018,nemanja_bjelica,1610612758,Sacramento,Kings,SAC,kings,Y
-1628469,"Blakeney, Antonio",Antonio Blakeney,1,2017,2018,antonio_blakeney,1610612741,Chicago,Bulls,CHI,bulls,Y
-202339,"Bledsoe, Eric",Eric Bledsoe,1,2010,2018,eric_bledsoe,1610612749,Milwaukee,Bucks,MIL,bucks,Y
-1628417,"Blossomgame, Jaron",Jaron Blossomgame,1,2018,2018,jaron_blossomgame,1610612739,Cleveland,Cavaliers,CLE,cavaliers,Y
-1629129,"Bluiett, Trevon",Trevon Bluiett,1,2018,2018,trevon_bluiett,1610612740,New Orleans,Pelicans,NOP,pelicans,Y
-203992,"Bogdanovic, Bogdan",Bogdan Bogdanovic,1,2017,2018,bogdan_bogdanovic,1610612758,Sacramento,Kings,SAC,kings,Y
-202711,"Bogdanovic, Bojan",Bojan Bogdanovic,1,2014,2018,bojan_bogdanovic,1610612754,Indiana,Pacers,IND,pacers,Y
-101106,"Bogut, Andrew",Andrew Bogut,1,2005,2018,andrew_bogut,1610612744,Golden State,Warriors,GSW,warriors,Y
-1628413,"Bolden, Jonah",Jonah Bolden,1,2018,2018,jonah_bolden,1610612755,Philadelphia,76ers,PHI,sixers,Y
-1629067,"Bonga, Isaac",Isaac Bonga,1,2018,2018,isaac_bonga,1610612747,Los Angeles,Lakers,LAL,lakers,Y
-1626164,"Booker, Devin",Devin Booker,1,2015,2018,devin_booker,1610612756,Phoenix,Suns,PHX,suns,Y
-1628449,"Boucher, Chris",Chris Boucher,1,2017,2018,chris_boucher,1610612761,Toronto,Raptors,TOR,raptors,Y
-202340,"Bradley, Avery",Avery Bradley,1,2010,2018,avery_bradley,1610612763,Memphis,Grizzlies,MEM,grizzlies,Y
-1628396,"Bradley, Tony",Tony Bradley,1,2017,2018,tony_bradley,1610612762,Utah,Jazz,UTA,jazz,Y
-201147,"Brewer, Corey",Corey Brewer,1,2007,2018,corey_brewer,1610612758,Sacramento,Kings,SAC,kings,Y
-1628969,"Bridges, Mikal",Mikal Bridges,1,2018,2018,mikal_bridges,1610612756,Phoenix,Suns,PHX,suns,Y
-1628970,"Bridges, Miles",Miles Bridges,1,2018,2018,miles_bridges,1610612766,Charlotte,Hornets,CHA,hornets,Y
-1628515,"Briscoe, Isaiah",Isaiah Briscoe,1,2018,2018,isaiah_briscoe,1610612753,Orlando,Magic,ORL,magic,Y
-1629151,"Broekhoff, Ryan",Ryan Broekhoff,1,2018,2018,ryan_broekhoff,1610612742,Dallas,Mavericks,DAL,mavericks,Y
-1627763,"Brogdon, Malcolm",Malcolm Brogdon,1,2016,2018,malcolm_brogdon,1610612749,Milwaukee,Bucks,MIL,bucks,Y
-1628415,"Brooks, Dillon",Dillon Brooks,1,2017,2018,dillon_brooks,1610612763,Memphis,Grizzlies,MEM,grizzlies,Y
-202705,"Brooks, MarShon",MarShon Brooks,0,2011,2018,marshon_brooks,0,,,,,Y
-1628971,"Brown, Bruce",Bruce Brown,1,2018,2018,tmp_bruce_brown,1610612765,Detroit,Pistons,DET,pistons,Y
-1627759,"Brown, Jaylen",Jaylen Brown,1,2016,2018,jaylen_brown,1610612738,Boston,Celtics,BOS,celtics,Y
-203485,"Brown, Lorenzo",Lorenzo Brown,0,2013,2018,lorenzo_brown,0,,,,,Y
-1628425,"Brown, Sterling",Sterling Brown,1,2017,2018,sterling_brown,1610612749,Milwaukee,Bucks,MIL,bucks,Y
-1628972,"Brown Jr., Troy",Troy Brown Jr.,1,2018,2018,troy_brown_jr,1610612764,Washington,Wizards,WAS,wizards,Y
-1628973,"Brunson, Jalen",Jalen Brunson,1,2018,2018,jalen_brunson,1610612742,Dallas,Mavericks,DAL,mavericks,Y
-1628418,"Bryant, Thomas",Thomas Bryant,1,2017,2018,thomas_bryant,1610612764,Washington,Wizards,WAS,wizards,Y
-203493,"Bullock, Reggie",Reggie Bullock,1,2013,2018,reggie_bullock,1610612747,Los Angeles,Lakers,LAL,lakers,Y
-203504,"Burke, Trey",Trey Burke,1,2013,2018,trey_burke,1610612742,Dallas,Mavericks,DAL,mavericks,Y
-202692,"Burks, Alec",Alec Burks,1,2011,2018,alec_burks,1610612758,Sacramento,Kings,SAC,kings,Y
-1629126,"Burton, Deonte",Deonte Burton,1,2018,2018,deonte_burton,1610612760,Oklahoma City,Thunder,OKC,thunder,Y
-202710,"Butler, Jimmy",Jimmy Butler,1,2011,2018,jimmy_butler,1610612755,Philadelphia,76ers,PHI,sixers,Y
-203998,"Caboclo, Bruno",Bruno Caboclo,1,2014,2018,bruno_caboclo,1610612763,Memphis,Grizzlies,MEM,grizzlies,Y
-101181,"Calderon, Jose",Jose Calderon,1,2005,2018,jose_calderon,1610612765,Detroit,Pistons,DET,pistons,Y
-203484,"Caldwell-Pope, Kentavious",Kentavious Caldwell-Pope,1,2013,2018,kentavious_caldwell-pope,1610612747,Los Angeles,Lakers,LAL,lakers,Y
-203477,"Canaan, Isaiah",Isaiah Canaan,0,2013,2018,isaiah_canaan,0,,,,,Y
-203991,"Capela, Clint",Clint Capela,1,2014,2018,clint_capela,1610612745,Houston,Rockets,HOU,rockets,Y
-201960,"Carroll, DeMarre",DeMarre Carroll,1,2009,2018,demarre_carroll,1610612751,Brooklyn,Nets,BKN,nets,Y
-1628975,"Carter, Jevon",Jevon Carter,1,2018,2018,jevon_carter,1610612763,Memphis,Grizzlies,MEM,grizzlies,Y
-1713,"Carter, Vince",Vince Carter,1,1998,2018,vince_carter,1610612737,Atlanta,Hawks,ATL,hawks,Y
-1628976,"Carter Jr., Wendell",Wendell Carter Jr.,1,2018,2018,wendell_carter_jr,1610612741,Chicago,Bulls,CHI,bulls,Y
-203487,"Carter-Williams, Michael",Michael Carter-Williams,1,2013,2018,michael_carter-williams,1610612753,Orlando,Magic,ORL,magic,Y
-1627936,"Caruso, Alex",Alex Caruso,1,2017,2018,alex_caruso,1610612747,Los Angeles,Lakers,LAL,lakers,Y
-201956,"Casspi, Omri",Omri Casspi,0,2009,2018,omri_casspi,0,,,,,Y
-1626161,"Cauley-Stein, Willie",Willie Cauley-Stein,1,2015,2018,willie_cauley-stein,1610612758,Sacramento,Kings,SAC,kings,Y
-1628505,"Caupain, Troy",Troy Caupain,1,2018,2018,troy_caupain,1610612753,Orlando,Magic,ORL,magic,Y
-1628463,"Cavanaugh, Tyler",Tyler Cavanaugh,1,2017,2018,tyler_cavanaugh,1610612762,Utah,Jazz,UTA,jazz,Y
-2199,"Chandler, Tyson",Tyson Chandler,1,2001,2018,tyson_chandler,1610612747,Los Angeles,Lakers,LAL,lakers,Y
-201163,"Chandler, Wilson",Wilson Chandler,1,2007,2018,wilson_chandler,1610612746,LA,Clippers,LAC,clippers,Y
-1629147,"Chealey, Joe",Joe Chealey,1,2018,2018,joe_chealey,1610612766,Charlotte,Hornets,CHA,hornets,Y
-1629185,"Chiozza, Chris",Chris Chiozza,1,2018,2018,chris_chiozza,1610612745,Houston,Rockets,HOU,rockets,Y
-1627737,"Chriss, Marquese",Marquese Chriss,1,2016,2018,marquese_chriss,1610612739,Cleveland,Cavaliers,CLE,cavaliers,Y
-1629109,"Clark, Gary",Gary Clark,1,2018,2018,gary_clark,1610612745,Houston,Rockets,HOU,rockets,Y
-203546,"Clark, Ian",Ian Clark,1,2013,2018,ian_clark,1610612740,New Orleans,Pelicans,NOP,pelicans,Y
-203903,"Clarkson, Jordan",Jordan Clarkson,1,2014,2018,jordan_clarkson,1610612739,Cleveland,Cavaliers,CLE,cavaliers,Y
-1628381,"Collins, John",John Collins,1,2017,2018,john_collins,1610612737,Atlanta,Hawks,ATL,hawks,Y
-1628380,"Collins, Zach",Zach Collins,1,2017,2018,zach_collins,1610612757,Portland,Trail Blazers,POR,blazers,Y
-201954,"Collison, Darren",Darren Collison,1,2009,2018,darren_collison,1610612754,Indiana,Pacers,IND,pacers,Y
-1629045,"Colson, Bonzie",Bonzie Colson,1,2018,2018,bonzie_colson,1610612749,Milwaukee,Bucks,MIL,bucks,Y
-201144,"Conley, Mike",Mike Conley,1,2007,2018,mike_conley,1610612763,Memphis,Grizzlies,MEM,grizzlies,Y
-1626192,"Connaughton, Pat",Pat Connaughton,1,2015,2018,pat_connaughton,1610612749,Milwaukee,Bucks,MIL,bucks,Y
-1626188,"Cook, Quinn",Quinn Cook,1,2016,2018,quinn_cook,1610612744,Golden State,Warriors,GSW,warriors,Y
-202326,"Cousins, DeMarcus",DeMarcus Cousins,1,2010,2018,demarcus_cousins,1610612744,Golden State,Warriors,GSW,warriors,Y
-203496,"Covington, Robert",Robert Covington,1,2013,2018,robert_covington,1610612750,Minnesota,Timberwolves,MIN,timberwolves,Y
-203459,"Crabbe, Allen",Allen Crabbe,1,2013,2018,allen_crabbe,1610612751,Brooklyn,Nets,BKN,nets,Y
-1628470,"Craig, Torrey",Torrey Craig,1,2017,2018,torrey_craig,1610612743,Denver,Nuggets,DEN,nuggets,Y
-2037,"Crawford, Jamal",Jamal Crawford,1,2000,2018,jamal_crawford,1610612756,Phoenix,Suns,PHX,suns,Y
-1628249,"Creek, Mitchell",Mitchell Creek,0,2018,2018,mitchell_creek,0,,,,,Y
-203109,"Crowder, Jae",Jae Crowder,1,2012,2018,jae_crowder,1610612762,Utah,Jazz,UTA,jazz,Y
-201967,"Cunningham, Dante",Dante Cunningham,1,2009,2018,dante_cunningham,1610612759,San Antonio,Spurs,SAS,spurs,Y
-203552,"Curry, Seth",Seth Curry,1,2013,2018,seth_curry,1610612757,Portland,Trail Blazers,POR,blazers,Y
-201939,"Curry, Stephen",Stephen Curry,1,2009,2018,stephen_curry,1610612744,Golden State,Warriors,GSW,warriors,Y
-203584,"Daniels, Troy",Troy Daniels,1,2013,2018,troy_daniels,1610612756,Phoenix,Suns,PHX,suns,Y
-203076,"Davis, Anthony",Anthony Davis,1,2012,2018,anthony_davis,1610612740,New Orleans,Pelicans,NOP,pelicans,Y
-1627738,"Davis, Deyonta",Deyonta Davis,1,2016,2018,deyonta_davis,1610612737,Atlanta,Hawks,ATL,hawks,Y
-202334,"Davis, Ed",Ed Davis,1,2010,2018,ed_davis,1610612751,Brooklyn,Nets,BKN,nets,Y
-1629093,"Davis, Tyler",Tyler Davis,0,2018,2018,tyler_davis,0,,,,,Y
-201942,"DeRozan, DeMar",DeMar DeRozan,1,2009,2018,demar_derozan,1610612759,San Antonio,Spurs,SAS,spurs,Y
-203473,"Dedmon, Dewayne",Dewayne Dedmon,1,2013,2018,dewayne_dedmon,1610612737,Atlanta,Hawks,ATL,hawks,Y
-1626155,"Dekker, Sam",Sam Dekker,1,2015,2018,sam_dekker,1610612764,Washington,Wizards,WAS,wizards,Y
-1629116,"Delgado, Angel",Angel Delgado,1,2018,2018,angel_delgado,1610612746,LA,Clippers,LAC,clippers,Y
-203521,"Dellavedova, Matthew",Matthew Dellavedova,1,2013,2018,matthew_dellavedova,1610612739,Cleveland,Cavaliers,CLE,cavaliers,Y
-1628610,"Demps, Cody",Cody Demps,1,2018,2018,cody_demps,1610612758,Sacramento,Kings,SAC,kings,N
-2736,"Deng, Luol",Luol Deng,1,2004,2018,luol_deng,1610612750,Minnesota,Timberwolves,MIN,timberwolves,Y
-1629094,"Derrickson, Marcus",Marcus Derrickson,1,2018,2018,marcus_derrickson,1610612744,Golden State,Warriors,GSW,warriors,Y
-1628978,"DiVincenzo, Donte",Donte DiVincenzo,1,2018,2018,donte_divincenzo,1610612749,Milwaukee,Bucks,MIL,bucks,Y
-1627767,"Diallo, Cheick",Cheick Diallo,1,2016,2018,cheick_diallo,1610612740,New Orleans,Pelicans,NOP,pelicans,Y
-1628977,"Diallo, Hamidou",Hamidou Diallo,1,2018,2018,hamidou_diallo,1610612760,Oklahoma City,Thunder,OKC,thunder,Y
-203476,"Dieng, Gorgui",Gorgui Dieng,1,2013,2018,gorgui_dieng,1610612750,Minnesota,Timberwolves,MIN,timberwolves,Y
-203915,"Dinwiddie, Spencer",Spencer Dinwiddie,1,2014,2018,spencer_dinwiddie,1610612751,Brooklyn,Nets,BKN,nets,Y
-1629029,"Doncic, Luka",Luka Doncic,1,2018,2018,luka_don,1610612742,Dallas,Mavericks,DAL,mavericks,Y
-1628416,"Dorsey, Tyler",Tyler Dorsey,1,2017,2018,tyler_dorsey,1610612763,Memphis,Grizzlies,MEM,grizzlies,Y
-1628422,"Dotson, Damyean",Damyean Dotson,1,2017,2018,damyean_dotson,1610612752,New York,Knicks,NYK,knicks,Y
-1628408,"Dozier, PJ",PJ Dozier,1,2017,2018,pj_dozier,1610612738,Boston,Celtics,BOS,celtics,Y
-201609,"Dragic, Goran",Goran Dragic,1,2008,2018,goran_dragic,1610612748,Miami,Heat,MIA,heat,Y
-203083,"Drummond, Andre",Andre Drummond,1,2012,2018,andre_drummond,1610612765,Detroit,Pistons,DET,pistons,Y
-201162,"Dudley, Jared",Jared Dudley,1,2007,2018,jared_dudley,1610612751,Brooklyn,Nets,BKN,nets,Y
-1627739,"Dunn, Kris",Kris Dunn,1,2016,2018,kris_dunn,1610612741,Chicago,Bulls,CHI,bulls,Y
-201142,"Durant, Kevin",Kevin Durant,1,2007,2018,kevin_durant,1610612744,Golden State,Warriors,GSW,warriors,Y
-1628979,"Duval, Trevon",Trevon Duval,1,2018,2018,trevon_duval,1610612749,Milwaukee,Bucks,MIL,bucks,Y
-1629053,"Edwards, Vincent",Vincent Edwards,1,2018,2018,vincent_edwards,1610612745,Houston,Rockets,HOU,rockets,Y
-1627740,"Ellenson, Henry",Henry Ellenson,1,2016,2018,henry_ellenson,1610612752,New York,Knicks,NYK,knicks,Y
-201961,"Ellington, Wayne",Wayne Ellington,1,2009,2018,wayne_ellington,1610612765,Detroit,Pistons,DET,pistons,Y
-203954,"Embiid, Joel",Joel Embiid,1,2014,2018,joel_embiid,1610612755,Philadelphia,76ers,PHI,sixers,Y
-203516,"Ennis III, James",James Ennis III,1,2014,2018,james_ennis iii,1610612755,Philadelphia,76ers,PHI,sixers,Y
-1629234,"Eubanks, Drew",Drew Eubanks,1,2018,2018,drew_eubanks,1610612759,San Antonio,Spurs,SAS,spurs,Y
-1628980,"Evans, Jacob",Jacob Evans,1,2018,2018,jacob_evans,1610612744,Golden State,Warriors,GSW,warriors,Y
-1628393,"Evans, Jawun",Jawun Evans,1,2017,2018,jawun_evans,1610612760,Oklahoma City,Thunder,OKC,thunder,Y
-201936,"Evans, Tyreke",Tyreke Evans,1,2009,2018,tyreke_evans,1610612754,Indiana,Pacers,IND,pacers,Y
-203957,"Exum, Dante",Dante Exum,1,2014,2018,dante_exum,1610612762,Utah,Jazz,UTA,jazz,Y
-202702,"Faried, Kenneth",Kenneth Faried,1,2011,2018,kenneth_faried,1610612745,Houston,Rockets,HOU,rockets,Y
-202324,"Favors, Derrick",Derrick Favors,1,2010,2018,derrick_favors,1610612762,Utah,Jazz,UTA,jazz,Y
-1626245,"Felicio, Cristiano",Cristiano Felicio,1,2015,2018,cristiano_felicio,1610612741,Chicago,Bulls,CHI,bulls,Y
-101109,"Felton, Raymond",Raymond Felton,1,2005,2018,raymond_felton,1610612760,Oklahoma City,Thunder,OKC,thunder,Y
-1628390,"Ferguson, Terrance",Terrance Ferguson,1,2017,2018,terrance_ferguson,1610612760,Oklahoma City,Thunder,OKC,thunder,Y
-1627812,"Ferrell, Yogi",Yogi Ferrell,1,2016,2018,yogi_ferrell,1610612758,Sacramento,Kings,SAC,kings,Y
-1627827,"Finney-Smith, Dorian",Dorian Finney-Smith,1,2016,2018,dorian_finney-smith,1610612742,Dallas,Mavericks,DAL,mavericks,Y
-1627854,"Forbes, Bryn",Bryn Forbes,1,2016,2018,bryn_forbes,1610612759,San Antonio,Spurs,SAS,spurs,Y
-203095,"Fournier, Evan",Evan Fournier,1,2012,2018,evan_fournier,1610612753,Orlando,Magic,ORL,magic,Y
-1628368,"Fox, De'Aaron",De'Aaron Fox,1,2017,2018,de'aaron_fox,1610612758,Sacramento,Kings,SAC,kings,Y
-204025,"Frazier, Tim",Tim Frazier,1,2014,2018,tim_frazier,1610612749,Milwaukee,Bucks,MIL,bucks,Y
-1628982,"Frazier Jr., Melvin",Melvin Frazier Jr.,1,2018,2018,melvin_frazier_jr,1610612753,Orlando,Magic,ORL,magic,Y
-202690,"Fredette, Jimmer",Jimmer Fredette,1,2011,2018,jimmer_fredette,1610612756,Phoenix,Suns,PHX,suns,Y
-101112,"Frye, Channing",Channing Frye,1,2005,2018,channing_frye,1610612739,Cleveland,Cavaliers,CLE,cavaliers,Y
-1628365,"Fultz, Markelle",Markelle Fultz,1,2017,2018,markelle_fultz,1610612753,Orlando,Magic,ORL,magic,Y
-1629117,"Gabriel, Wenyen",Wenyen Gabriel,1,2018,2018,wenyen_gabriel,1610612758,Sacramento,Kings,SAC,kings,Y
-201568,"Gallinari, Danilo",Danilo Gallinari,1,2008,2018,danilo_gallinari,1610612746,LA,Clippers,LAC,clippers,Y
-204038,"Galloway, Langston",Langston Galloway,1,2014,2018,langston_galloway,1610612765,Detroit,Pistons,DET,pistons,Y
-201188,"Gasol, Marc",Marc Gasol,1,2008,2018,marc_gasol,1610612761,Toronto,Raptors,TOR,raptors,Y
-2200,"Gasol, Pau",Pau Gasol,1,2001,2018,pau_gasol,1610612749,Milwaukee,Bucks,MIL,bucks,Y
-200752,"Gay, Rudy",Rudy Gay,1,2006,2018,rudy_gay,1610612759,San Antonio,Spurs,SAS,spurs,Y
-202331,"George, Paul",Paul George,1,2010,2018,paul_george,1610612760,Oklahoma City,Thunder,OKC,thunder,Y
-201959,"Gibson, Taj",Taj Gibson,1,2009,2018,taj_gibson,1610612750,Minnesota,Timberwolves,MIN,timberwolves,Y
-1628385,"Giles III, Harry",Harry Giles III,1,2017,2018,harry_giles,1610612758,Sacramento,Kings,SAC,kings,Y
-1628983,"Gilgeous-Alexander, Shai",Shai Gilgeous-Alexander,1,2018,2018,shai_gilgeous-alexander,1610612746,LA,Clippers,LAC,clippers,Y
-203497,"Gobert, Rudy",Rudy Gobert,1,2013,2018,rudy_gobert,1610612762,Utah,Jazz,UTA,jazz,Y
-1629164,"Goodwin, Brandon",Brandon Goodwin,1,2018,2018,brandon_goodwin,1610612743,Denver,Nuggets,DEN,nuggets,Y
-203932,"Gordon, Aaron",Aaron Gordon,1,2014,2018,aaron_gordon,1610612753,Orlando,Magic,ORL,magic,Y
-201569,"Gordon, Eric",Eric Gordon,1,2008,2018,eric_gordon,1610612745,Houston,Rockets,HOU,rockets,Y
-101162,"Gortat, Marcin",Marcin Gortat,0,2007,2018,marcin_gortat,0,,,,,Y
-1628984,"Graham, Devonte'",Devonte' Graham,1,2018,2018,devonte_graham,1610612766,Charlotte,Hornets,CHA,hornets,Y
-1626203,"Graham, Treveon",Treveon Graham,1,2016,2018,treveon_graham,1610612751,Brooklyn,Nets,BKN,nets,Y
-203924,"Grant, Jerami",Jerami Grant,1,2014,2018,jerami_grant,1610612760,Oklahoma City,Thunder,OKC,thunder,Y
-1626170,"Grant, Jerian",Jerian Grant,1,2015,2018,jerian_grant,1610612753,Orlando,Magic,ORL,magic,Y
-1629055,"Grantham, Donte",Donte Grantham,1,2018,2018,donte_grantham,1610612760,Oklahoma City,Thunder,OKC,thunder,Y
-201980,"Green, Danny",Danny Green,1,2009,2018,danny_green,1610612761,Toronto,Raptors,TOR,raptors,Y
-203110,"Green, Draymond",Draymond Green,1,2012,2018,draymond_green,1610612744,Golden State,Warriors,GSW,warriors,Y
-101123,"Green, Gerald",Gerald Green,1,2005,2018,gerald_green,1610612745,Houston,Rockets,HOU,rockets,Y
-203210,"Green, JaMychal",JaMychal Green,1,2014,2018,jamychal_green,1610612746,LA,Clippers,LAC,clippers,Y
-201145,"Green, Jeff",Jeff Green,1,2007,2018,jeff_green,1610612764,Washington,Wizards,WAS,wizards,Y
-201933,"Griffin, Blake",Blake Griffin,1,2009,2018,blake_griffin,1610612765,Detroit,Pistons,DET,pistons,Y
-1627772,"Hamilton, Daniel",Daniel Hamilton,0,2017,2018,daniel_hamilton,0,,,,,Y
-203501,"Hardaway Jr., Tim",Tim Hardaway Jr.,1,2013,2018,tim_hardaway jr.,1610612742,Dallas,Mavericks,DAL,mavericks,Y
-201935,"Harden, James",James Harden,1,2009,2018,james_harden,1610612745,Houston,Rockets,HOU,rockets,Y
-203090,"Harkless, Maurice",Maurice Harkless,1,2012,2018,maurice_harkless,1610612757,Portland,Trail Blazers,POR,blazers,Y
-1626149,"Harrell, Montrezl",Montrezl Harrell,1,2015,2018,montrezl_harrell,1610612746,LA,Clippers,LAC,clippers,Y
-2734,"Harris, Devin",Devin Harris,1,2004,2018,devin_harris,1610612742,Dallas,Mavericks,DAL,mavericks,Y
-203914,"Harris, Gary",Gary Harris,1,2014,2018,gary_harris,1610612743,Denver,Nuggets,DEN,nuggets,Y
-203925,"Harris, Joe",Joe Harris,1,2014,2018,joe_harris,1610612751,Brooklyn,Nets,BKN,nets,Y
-202699,"Harris, Tobias",Tobias Harris,1,2011,2018,tobias_harris,1610612755,Philadelphia,76ers,PHI,sixers,Y
-1626150,"Harrison, Andrew",Andrew Harrison,0,2016,2018,andrew_harrison,0,,,,,Y
-1627885,"Harrison, Shaquille",Shaquille Harrison,1,2017,2018,shaquille_harrison,1610612741,Chicago,Bulls,CHI,bulls,Y
-1628404,"Hart, Josh",Josh Hart,1,2017,2018,josh_hart,1610612747,Los Angeles,Lakers,LAL,lakers,Y
-1628392,"Hartenstein, Isaiah",Isaiah Hartenstein,1,2018,2018,isaiah_hartenstein,1610612745,Houston,Rockets,HOU,rockets,Y
-2617,"Haslem, Udonis",Udonis Haslem,1,2003,2018,udonis_haslem,1610612748,Miami,Heat,MIA,heat,Y
-202330,"Hayward, Gordon",Gordon Hayward,1,2010,2018,gordon_hayward,1610612738,Boston,Celtics,BOS,celtics,Y
-203089,"Henson, John",John Henson,1,2012,2018,john_henson,1610612739,Cleveland,Cavaliers,CLE,cavaliers,Y
-1627823,"Hernangomez, Juancho",Juancho Hernangomez,1,2016,2018,juan_hernangomez,1610612743,Denver,Nuggets,DEN,nuggets,Y
-1626195,"Hernangomez, Willy",Willy Hernangomez,1,2016,2018,willy_hernangomez,1610612766,Charlotte,Hornets,CHA,hornets,Y
-1626209,"Hezonja, Mario",Mario Hezonja,1,2015,2018,mario_hezonja,1610612752,New York,Knicks,NYK,knicks,Y
-1628439,"Hicks, Isaiah",Isaiah Hicks,1,2017,2018,isaiah_hicks,1610612752,New York,Knicks,NYK,knicks,Y
-1627741,"Hield, Buddy",Buddy Hield,1,2016,2018,buddy_hield,1610612758,Sacramento,Kings,SAC,kings,Y
-1629312,"Highsmith, Haywood",Haywood Highsmith,1,2018,2018,haywood_highsmith,1610612755,Philadelphia,76ers,PHI,sixers,Y
-2403,Nene,Nene,1,2002,2018,nene_hilario,1610612745,Houston,Rockets,HOU,rockets,Y
-201588,"Hill, George",George Hill,1,2008,2018,george_hill,1610612749,Milwaukee,Bucks,MIL,bucks,Y
-203524,"Hill, Solomon",Solomon Hill,1,2013,2018,solomon_hill,1610612740,New Orleans,Pelicans,NOP,pelicans,Y
-1628988,"Holiday, Aaron",Aaron Holiday,1,2018,2018,aaron_holiday,1610612754,Indiana,Pacers,IND,pacers,Y
-201950,"Holiday, Jrue",Jrue Holiday,1,2009,2018,jrue_holiday,1610612740,New Orleans,Pelicans,NOP,pelicans,Y
-203200,"Holiday, Justin",Justin Holiday,1,2012,2018,justin_holiday,1610612763,Memphis,Grizzlies,MEM,grizzlies,Y
-204066,"Holland, John",John Holland,0,2015,2018,john_holland,0,,,,,Y
-1626178,"Hollis-Jefferson, Rondae",Rondae Hollis-Jefferson,1,2015,2018,rondae_hollis-jefferson,1610612751,Brooklyn,Nets,BKN,nets,Y
-1626158,"Holmes, Richaun",Richaun Holmes,1,2015,2018,richaun_holmes,1610612756,Phoenix,Suns,PHX,suns,Y
-203918,"Hood, Rodney",Rodney Hood,1,2014,2018,rodney_hood,1610612757,Portland,Trail Blazers,POR,blazers,Y
-201143,"Horford, Al",Al Horford,1,2007,2018,al_horford,1610612738,Boston,Celtics,BOS,celtics,Y
-1627863,"House Jr., Danuel",Danuel House Jr.,1,2016,2018,danuel_house,1610612745,Houston,Rockets,HOU,rockets,Y
-2730,"Howard, Dwight",Dwight Howard,1,2004,2018,dwight_howard,1610612764,Washington,Wizards,WAS,wizards,Y
-1628989,"Huerter, Kevin",Kevin Huerter,1,2018,2018,kevin_huerter,1610612737,Atlanta,Hawks,ATL,hawks,Y
-1626154,"Hunter, RJ",RJ Hunter,1,2015,2018,rj_hunter,1610612738,Boston,Celtics,BOS,celtics,Y
-1628990,"Hutchison, Chandler",Chandler Hutchison,1,2018,2018,chandler_hutchison,1610612741,Chicago,Bulls,CHI,bulls,Y
-201586,"Ibaka, Serge",Serge Ibaka,1,2009,2018,serge_ibaka,1610612761,Toronto,Raptors,TOR,raptors,Y
-2738,"Iguodala, Andre",Andre Iguodala,1,2004,2018,andre_iguodala,1610612744,Golden State,Warriors,GSW,warriors,Y
-101141,"Ilyasova, Ersan",Ersan Ilyasova,1,2006,2018,ersan_ilyasova,1610612749,Milwaukee,Bucks,MIL,bucks,Y
-204060,"Ingles, Joe",Joe Ingles,1,2014,2018,joe_ingles,1610612762,Utah,Jazz,UTA,jazz,Y
-201281,"Ingram, Andre",Andre Ingram,0,2017,2018,andre_ingram,0,,,,,Y
-1627742,"Ingram, Brandon",Brandon Ingram,1,2016,2018,brandon_ingram,1610612747,Los Angeles,Lakers,LAL,lakers,Y
-202681,"Irving, Kyrie",Kyrie Irving,1,2011,2018,kyrie_irving,1610612738,Boston,Celtics,BOS,celtics,Y
-1628371,"Isaac, Jonathan",Jonathan Isaac,1,2017,2018,jonathan_isaac,1610612753,Orlando,Magic,ORL,magic,Y
-1628411,"Iwundu, Wes",Wes Iwundu,1,2017,2018,wes_iwundu,1610612753,Orlando,Magic,ORL,magic,Y
-1627743,"Jackson, Demetrius",Demetrius Jackson,0,2016,2018,demetrius_jackson,0,,,,,Y
-1628402,"Jackson, Frank",Frank Jackson,1,2017,2018,frank_jackson,1610612740,New Orleans,Pelicans,NOP,pelicans,Y
-1628367,"Jackson, Josh",Josh Jackson,1,2017,2018,josh_jackson,1610612756,Phoenix,Suns,PHX,suns,Y
-1628382,"Jackson, Justin",Justin Jackson,1,2017,2018,justin_jackson,1610612742,Dallas,Mavericks,DAL,mavericks,Y
-202704,"Jackson, Reggie",Reggie Jackson,1,2011,2018,reggie_jackson,1610612765,Detroit,Pistons,DET,pistons,Y
-1628991,"Jackson Jr., Jaren",Jaren Jackson Jr.,1,2018,2018,jaren_jackson_jr,1610612763,Memphis,Grizzlies,MEM,grizzlies,Y
-2544,"James, LeBron",LeBron James,1,2003,2018,lebron_james,1610612747,Los Angeles,Lakers,LAL,lakers,Y
-1628518,"Jefferson, Amile",Amile Jefferson,1,2017,2018,amile_jefferson,1610612753,Orlando,Magic,ORL,magic,Y
-203098,"Jenkins, John",John Jenkins,1,2012,2018,john_jenkins,1610612752,New York,Knicks,NYK,knicks,Y
-201973,"Jerebko, Jonas",Jonas Jerebko,1,2009,2018,jonas_jerebko,1610612744,Golden State,Warriors,GSW,warriors,Y
-1628993,"Johnson, Alize",Alize Johnson,1,2018,2018,alize_johnson,1610612754,Indiana,Pacers,IND,pacers,Y
-101161,"Johnson, Amir",Amir Johnson,1,2005,2018,amir_johnson,1610612755,Philadelphia,76ers,PHI,sixers,Y
-1629168,"Johnson, BJ",BJ Johnson,1,2018,2018,bj_johnson,1610612737,Atlanta,Hawks,ATL,hawks,Y
-201949,"Johnson, James",James Johnson,1,2009,2018,james_johnson,1610612748,Miami,Heat,MIA,heat,Y
-1626169,"Johnson, Stanley",Stanley Johnson,1,2015,2018,stanley_johnson,1610612740,New Orleans,Pelicans,NOP,pelicans,Y
-204020,"Johnson, Tyler",Tyler Johnson,1,2014,2018,tyler_johnson,1610612756,Phoenix,Suns,PHX,suns,Y
-202325,"Johnson, Wesley",Wesley Johnson,1,2010,2018,wesley_johnson,1610612764,Washington,Wizards,WAS,wizards,Y
-203999,"Jokic, Nikola",Nikola Jokic,1,2015,2018,nikola_jokic,1610612743,Denver,Nuggets,DEN,nuggets,Y
-1627745,"Jones, Damian",Damian Jones,1,2016,2018,damian_jones,1610612744,Golden State,Warriors,GSW,warriors,Y
-1627883,"Jones, Jalen",Jalen Jones,0,2017,2018,jalen_jones,0,,,,,Y
-203093,"Jones, Terrence",Terrence Jones,1,2012,2018,terrence_jones,1610612745,Houston,Rockets,HOU,rockets,Y
-1626145,"Jones, Tyus",Tyus Jones,1,2015,2018,tyus_jones,1610612750,Minnesota,Timberwolves,MIN,timberwolves,Y
-1627884,"Jones Jr., Derrick",Derrick Jones Jr.,1,2016,2018,derrick_jones jr.,1610612748,Miami,Heat,MIA,heat,Y
-201599,"Jordan, DeAndre",DeAndre Jordan,1,2008,2018,deandre_jordan,1610612752,New York,Knicks,NYK,knicks,Y
-202709,"Joseph, Cory",Cory Joseph,1,2011,2018,cory_joseph,1610612754,Indiana,Pacers,IND,pacers,Y
-1626163,"Kaminsky, Frank",Frank Kaminsky,1,2015,2018,frank_kaminsky,1610612766,Charlotte,Hornets,CHA,hornets,Y
-202683,"Kanter, Enes",Enes Kanter,1,2011,2018,enes_kanter,1610612757,Portland,Trail Blazers,POR,blazers,Y
-1628379,"Kennard, Luke",Luke Kennard,1,2017,2018,luke_kennard,1610612765,Detroit,Pistons,DET,pistons,Y
-203077,"Kidd-Gilchrist, Michael",Michael Kidd-Gilchrist,1,2012,2018,michael_kidd-gilchrist,1610612766,Charlotte,Hornets,CHA,hornets,Y
-1628994,"King, George",George King,1,2018,2018,george_king,1610612756,Phoenix,Suns,PHX,suns,Y
-1628467,"Kleber, Maxi",Maxi Kleber,1,2017,2018,maxi_kleber,1610612742,Dallas,Mavericks,DAL,mavericks,Y
-202688,"Knight, Brandon",Brandon Knight,1,2011,2018,brandon_knight,1610612739,Cleveland,Cavaliers,CLE,cavaliers,Y
-1628995,"Knox, Kevin",Kevin Knox,1,2018,2018,kevin_knox,1610612752,New York,Knicks,NYK,knicks,Y
-1627788,"Korkmaz, Furkan",Furkan Korkmaz,1,2017,2018,furkan_korkmaz,1610612755,Philadelphia,76ers,PHI,sixers,Y
-1628436,"Kornet, Luke",Luke Kornet,1,2017,2018,luke_kornet,1610612752,New York,Knicks,NYK,knicks,Y
-2594,"Korver, Kyle",Kyle Korver,1,2003,2018,kyle_korver,1610612762,Utah,Jazz,UTA,jazz,Y
-201585,"Koufos, Kosta",Kosta Koufos,1,2008,2018,kosta_koufos,1610612758,Sacramento,Kings,SAC,kings,Y
-1629066,"Kurucs, Rodions",Rodions Kurucs,1,2018,2018,rodions_kurucs,1610612751,Brooklyn,Nets,BKN,nets,Y
-1628398,"Kuzma, Kyle",Kyle Kuzma,1,2017,2018,kyle_kuzma,1610612747,Los Angeles,Lakers,LAL,lakers,Y
-203897,"LaVine, Zach",Zach LaVine,1,2014,2018,zach_lavine,1610612741,Chicago,Bulls,CHI,bulls,Y
-1627746,"Labissiere, Skal",Skal Labissiere,1,2016,2018,skal_labissiere,1610612757,Portland,Trail Blazers,POR,blazers,Y
-203087,"Lamb, Jeremy",Jeremy Lamb,1,2012,2018,jeremy_lamb,1610612766,Charlotte,Hornets,CHA,hornets,Y
-1627774,"Layman, Jake",Jake Layman,1,2016,2018,jake_layman,1610612757,Portland,Trail Blazers,POR,blazers,Y
-1627747,"LeVert, Caris",Caris LeVert,1,2016,2018,caris_levert,1610612751,Brooklyn,Nets,BKN,nets,Y
-1628388,"Leaf, TJ",TJ Leaf,1,2017,2018,tj_leaf,1610612754,Indiana,Pacers,IND,pacers,Y
-201584,"Lee, Courtney",Courtney Lee,1,2008,2018,courtney_lee,1610612742,Dallas,Mavericks,DAL,mavericks,Y
-1627814,"Lee, Damion",Damion Lee,1,2017,2018,damion_lee,1610612744,Golden State,Warriors,GSW,warriors,Y
-203458,"Len, Alex",Alex Len,1,2013,2018,alex_len,1610612737,Atlanta,Hawks,ATL,hawks,Y
-202695,"Leonard, Kawhi",Kawhi Leonard,1,2011,2018,kawhi_leonard,1610612761,Toronto,Raptors,TOR,raptors,Y
-203086,"Leonard, Meyers",Meyers Leonard,1,2012,2018,meyers_leonard,1610612757,Portland,Trail Blazers,POR,blazers,Y
-202720,"Leuer, Jon",Jon Leuer,1,2011,2018,jon_leuer,1610612765,Detroit,Pistons,DET,pistons,Y
-203081,"Lillard, Damian",Damian Lillard,1,2012,2018,damian_lillard,1610612757,Portland,Trail Blazers,POR,blazers,Y
-202391,"Lin, Jeremy",Jeremy Lin,1,2010,2018,jeremy_lin,1610612761,Toronto,Raptors,TOR,raptors,Y
-2733,"Livingston, Shaun",Shaun Livingston,1,2004,2018,shaun_livingston,1610612744,Golden State,Warriors,GSW,warriors,Y
-1629155,"Lofton, Zach",Zach Lofton,0,2018,2018,zach_lofton,0,,,,,Y
-1626172,"Looney, Kevon",Kevon Looney,1,2015,2018,kevon_looney,1610612744,Golden State,Warriors,GSW,warriors,Y
-201572,"Lopez, Brook",Brook Lopez,1,2008,2018,brook_lopez,1610612749,Milwaukee,Bucks,MIL,bucks,Y
-201577,"Lopez, Robin",Robin Lopez,1,2008,2018,robin_lopez,1610612741,Chicago,Bulls,CHI,bulls,Y
-201567,"Love, Kevin",Kevin Love,1,2008,2018,kevin_love,1610612739,Cleveland,Cavaliers,CLE,cavaliers,Y
-200768,"Lowry, Kyle",Kyle Lowry,1,2006,2018,kyle_lowry,1610612761,Toronto,Raptors,TOR,raptors,Y
-1628070,"Loyd, Jordan",Jordan Loyd,1,2018,2018,jordan_loyd,1610612761,Toronto,Raptors,TOR,raptors,Y
-203564,"Lucas, Kalin",Kalin Lucas,1,2014,2018,kalin_lucas,1610612765,Detroit,Pistons,DET,pistons,Y
-1627789,"Luwawu-Cabarrot, Timothe",Timothe Luwawu-Cabarrot,1,2016,2018,timothe_luwawu-cabarrot,1610612741,Chicago,Bulls,CHI,bulls,Y
-1628399,"Lydon, Tyler",Tyler Lydon,1,2017,2018,tyler_lydon,1610612743,Denver,Nuggets,DEN,nuggets,Y
-1626168,"Lyles, Trey",Trey Lyles,1,2015,2018,trey_lyles,1610612743,Denver,Nuggets,DEN,nuggets,Y
-203159,"Machado, Scott",Scott Machado,1,2012,2018,scott_machado,1610612747,Los Angeles,Lakers,LAL,lakers,Y
-202714,"Mack, Shelvin",Shelvin Mack,1,2011,2018,shelvin_mack,1610612766,Charlotte,Hornets,CHA,hornets,Y
-1629133,"Macon, Daryl",Daryl Macon,1,2018,2018,daryl_macon,1610612742,Dallas,Mavericks,DAL,mavericks,Y
-1629122,"Macura, J.P.",J.P. Macura,1,2018,2018,jp_macura,1610612766,Charlotte,Hornets,CHA,hornets,Y
-101133,"Mahinmi, Ian",Ian Mahinmi,1,2007,2018,ian_mahinmi,1610612764,Washington,Wizards,WAS,wizards,Y
-1627748,"Maker, Thon",Thon Maker,1,2016,2018,thon_maker,1610612765,Detroit,Pistons,DET,pistons,Y
-1626246,"Marjanovic, Boban",Boban Marjanovic,1,2015,2018,boban_marjanovic,1610612755,Philadelphia,76ers,PHI,sixers,Y
-1628374,"Markkanen, Lauri",Lauri Markkanen,1,2017,2018,lauri_markkanen,1610612741,Chicago,Bulls,CHI,bulls,Y
-1626185,"Martin, Jarell",Jarell Martin,1,2015,2018,jarell_martin,1610612753,Orlando,Magic,ORL,magic,Y
-1628412,"Mason, Frank",Frank Mason,1,2017,2018,frank_mason,1610612758,Sacramento,Kings,SAC,kings,Y
-1628999,"Maten, Yante",Yante Maten,1,2018,2018,yaten_maten,1610612748,Miami,Heat,MIA,heat,Y
-202083,"Matthews, Wesley",Wesley Matthews,1,2009,2018,wesley_matthews,1610612754,Indiana,Pacers,IND,pacers,Y
-201601,"Mbah a Moute, Luc",Luc Mbah a Moute,1,2008,2018,luc_mbah a moute,1610612746,LA,Clippers,LAC,clippers,Y
-1628769,"McCall, Tahjere",Tahjere McCall,0,2018,2018,tahjere_mccall,0,,,,,Y
-1627775,"McCaw, Patrick",Patrick McCaw,1,2016,2018,patrick_mccaw,1610612761,Toronto,Raptors,TOR,raptors,Y
-203468,"McCollum, CJ",CJ McCollum,1,2013,2018,cj_mccollum,1610612757,Portland,Trail Blazers,POR,blazers,Y
-204456,"McConnell, T.J.",T.J. McConnell,1,2015,2018,t.j._mcconnell,1610612755,Philadelphia,76ers,PHI,sixers,Y
-203926,"McDermott, Doug",Doug McDermott,1,2014,2018,doug_mcdermott,1610612754,Indiana,Pacers,IND,pacers,Y
-201580,"McGee, JaVale",JaVale McGee,1,2008,2018,javale_mcgee,1610612747,Los Angeles,Lakers,LAL,lakers,Y
-203585,"McGruder, Rodney",Rodney McGruder,1,2016,2018,rodney_mcgruder,1610612748,Miami,Heat,MIA,heat,Y
-1628035,"McKinnie, Alfonzo",Alfonzo McKinnie,1,2017,2018,alfonzo_mckinnie,1610612744,Golden State,Warriors,GSW,warriors,Y
-203463,"McLemore, Ben",Ben McLemore,0,2013,2018,ben_mclemore,0,,,,,Y
-203895,"McRae, Jordan",Jordan McRae,1,2015,2018,jordan_mcrae,1610612764,Washington,Wizards,WAS,wizards,Y
-201975,"Meeks, Jodie",Jodie Meeks,0,2009,2018,jodie_meeks,0,,,,,Y
-1626257,"Mejri, Salah",Salah Mejri,1,2015,2018,salah_mejri,1610612742,Dallas,Mavericks,DAL,mavericks,Y
-1629001,"Melton, De'Anthony",De'Anthony Melton,1,2018,2018,deanthony_melton,1610612756,Phoenix,Suns,PHX,suns,Y
-1629002,"Metu, Chimezie",Chimezie Metu,1,2018,2018,chimezie_metu,1610612759,San Antonio,Spurs,SAS,spurs,Y
-203114,"Middleton, Khris",Khris Middleton,1,2012,2018,khris_middleton,1610612749,Milwaukee,Bucks,MIL,bucks,Y
-101139,"Miles, CJ",CJ Miles,1,2005,2018,cj_miles,1610612763,Memphis,Grizzlies,MEM,grizzlies,Y
-203121,"Miller, Darius",Darius Miller,1,2012,2018,darius_miller,1610612740,New Orleans,Pelicans,NOP,pelicans,Y
-1626259,"Miller, Malcolm",Malcolm Miller,1,2017,2018,malcolm_miller,1610612761,Toronto,Raptors,TOR,raptors,Y
-201988,"Mills, Patty",Patty Mills,1,2009,2018,patty_mills,1610612759,San Antonio,Spurs,SAS,spurs,Y
-200794,"Millsap, Paul",Paul Millsap,1,2006,2018,paul_millsap,1610612743,Denver,Nuggets,DEN,nuggets,Y
-1629003,"Milton, Shake",Shake Milton,1,2018,2018,shake_milton,1610612755,Philadelphia,76ers,PHI,sixers,Y
-202703,"Mirotic, Nikola",Nikola Mirotic,1,2014,2018,nikola_mirotic,1610612749,Milwaukee,Bucks,MIL,bucks,Y
-1628378,"Mitchell, Donovan",Donovan Mitchell,1,2017,2018,donovan_mitchell,1610612762,Utah,Jazz,UTA,jazz,Y
-1628513,"Mitrou-Long, Naz",Naz Mitrou-Long,1,2017,2018,naz_mitrou-long,1610612762,Utah,Jazz,UTA,jazz,Y
-1628370,"Monk, Malik",Malik Monk,1,2017,2018,malik_monk,1610612766,Charlotte,Hornets,CHA,hornets,Y
-202328,"Monroe, Greg",Greg Monroe,1,2010,2018,greg_monroe,1610612738,Boston,Celtics,BOS,celtics,Y
-1628500,"Moore, Ben",Ben Moore,1,2017,2018,ben_moore,1610612759,San Antonio,Spurs,SAS,spurs,Y
-202734,"Moore, E'Twaun",E'Twaun Moore,1,2011,2018,e'twaun_moore,1610612740,New Orleans,Pelicans,NOP,pelicans,Y
-203961,"Moreland, Eric",Eric Moreland,1,2014,2018,eric_moreland,1610612761,Toronto,Raptors,TOR,raptors,Y
-1628537,"Morris, Jaylen",Jaylen Morris,0,2017,2018,jaylen_morris,0,,,,,Y
-202694,"Morris, Marcus",Marcus Morris,1,2011,2018,marcus_morris,1610612738,Boston,Celtics,BOS,celtics,Y
-202693,"Morris, Markieff",Markieff Morris,1,2011,2018,markieff_morris,1610612760,Oklahoma City,Thunder,OKC,thunder,Y
-1628420,"Morris, Monte",Monte Morris,1,2017,2018,monte_morris,1610612743,Denver,Nuggets,DEN,nuggets,Y
-1628405,"Motley, Johnathan",Johnathan Motley,1,2017,2018,johnathan_motley,1610612746,LA,Clippers,LAC,clippers,Y
-202389,"Mozgov, Timofey",Timofey Mozgov,1,2010,2018,timofey_mozgov,1610612753,Orlando,Magic,ORL,magic,Y
-1626144,"Mudiay, Emmanuel",Emmanuel Mudiay,1,2015,2018,emmanuel_mudiay,1610612752,New York,Knicks,NYK,knicks,Y
-1627749,"Murray, Dejounte",Dejounte Murray,1,2016,2018,dejounte_murray,1610612759,San Antonio,Spurs,SAS,spurs,Y
-1627750,"Murray, Jamal",Jamal Murray,1,2016,2018,jamal_murray,1610612743,Denver,Nuggets,DEN,nuggets,Y
-1629058,"Musa, Dzanan",Dzanan Musa,1,2018,2018,dzanan_musa,1610612751,Brooklyn,Nets,BKN,nets,Y
-203488,"Muscala, Mike",Mike Muscala,1,2013,2018,mike_muscala,1610612747,Los Angeles,Lakers,LAL,lakers,Y
-1629004,"Mykhailiuk, Svi",Svi Mykhailiuk,1,2018,2018,sviatoslav_mykhailiuk,1610612765,Detroit,Pistons,DET,pistons,Y
-1627846,"Nader, Abdel",Abdel Nader,1,2017,2018,abdel_nader,1610612760,Oklahoma City,Thunder,OKC,thunder,Y
-1626204,"Nance Jr., Larry",Larry Nance Jr.,1,2015,2018,larry_nance jr.,1610612739,Cleveland,Cavaliers,CLE,cavaliers,Y
-203894,"Napier, Shabazz",Shabazz Napier,1,2014,2018,shabazz_napier,1610612751,Brooklyn,Nets,BKN,nets,Y
-203526,"Neto, Raul",Raul Neto,1,2015,2018,raul_neto,1610612762,Utah,Jazz,UTA,jazz,Y
-1627777,"Niang, Georges",Georges Niang,1,2016,2018,georges_niang,1610612762,Utah,Jazz,UTA,jazz,Y
-201149,"Noah, Joakim",Joakim Noah,1,2007,2018,joakim_noah,1610612763,Memphis,Grizzlies,MEM,grizzlies,Y
-203457,"Noel, Nerlens",Nerlens Noel,1,2013,2018,nerlens_noel,1610612760,Oklahoma City,Thunder,OKC,thunder,Y
-1717,"Nowitzki, Dirk",Dirk Nowitzki,1,1998,2018,dirk_nowitzki,1610612742,Dallas,Mavericks,DAL,mavericks,Y
-1628373,"Ntilikina, Frank",Frank Ntilikina,1,2017,2018,frank_ntilikina,1610612752,New York,Knicks,NYK,knicks,Y
-203263,"Nunnally, James",James Nunnally,0,2013,2018,james_nunnally,0,,,,,Y
-203994,"Nurkic, Jusuf",Jusuf Nurkic,1,2014,2018,jusuf_nurkic,1610612757,Portland,Trail Blazers,POR,blazers,Y
-1628021,"Nwaba, David",David Nwaba,1,2016,2018,david_nwaba,1610612739,Cleveland,Cavaliers,CLE,cavaliers,Y
-1626220,"O'Neale, Royce",Royce O'Neale,1,2017,2018,royce_o'neale,1610612762,Utah,Jazz,UTA,jazz,Y
-203124,"O'Quinn, Kyle",Kyle O'Quinn,1,2012,2018,kyle_o'quinn,1610612754,Indiana,Pacers,IND,pacers,Y
-1628400,"Ojeleye, Semi",Semi Ojeleye,1,2017,2018,semi_ojeleye,1610612738,Boston,Celtics,BOS,celtics,Y
-1626143,"Okafor, Jahlil",Jahlil Okafor,1,2015,2018,jahlil_okafor,1610612740,New Orleans,Pelicans,NOP,pelicans,Y
-1629059,"Okobo, Elie",Elie Okobo,1,2018,2018,elie_okobo,1610612756,Phoenix,Suns,PHX,suns,Y
-1629006,"Okogie, Josh",Josh Okogie,1,2018,2018,josh_okogie,1610612750,Minnesota,Timberwolves,MIN,timberwolves,Y
-203506,"Oladipo, Victor",Victor Oladipo,1,2013,2018,victor_oladipo,1610612754,Indiana,Pacers,IND,pacers,Y
-203482,"Olynyk, Kelly",Kelly Olynyk,1,2013,2018,kelly_olynyk,1610612748,Miami,Heat,MIA,heat,Y
-1626224,"Osman, Cedi",Cedi Osman,1,2017,2018,cedi_osman,1610612739,Cleveland,Cavaliers,CLE,cavaliers,Y
-1626162,"Oubre Jr., Kelly",Kelly Oubre Jr.,1,2015,2018,kelly_oubre jr.,1610612756,Phoenix,Suns,PHX,suns,Y
-2585,"Pachulia, Zaza",Zaza Pachulia,1,2003,2018,zaza_pachulia,1610612765,Detroit,Pistons,DET,pistons,Y
-203953,"Parker, Jabari",Jabari Parker,1,2014,2018,jabari_parker,1610612764,Washington,Wizards,WAS,wizards,Y
-2225,"Parker, Tony",Tony Parker,1,2001,2018,tony_parker,1610612766,Charlotte,Hornets,CHA,hornets,Y
-202718,"Parsons, Chandler",Chandler Parsons,1,2011,2018,chandler_parsons,1610612763,Memphis,Grizzlies,MEM,grizzlies,Y
-202335,"Patterson, Patrick",Patrick Patterson,1,2010,2018,patrick_patterson,1610612760,Oklahoma City,Thunder,OKC,thunder,Y
-1628383,"Patton, Justin",Justin Patton,1,2017,2018,justin_patton,1610612755,Philadelphia,76ers,PHI,sixers,Y
-101108,"Paul, Chris",Chris Paul,1,2005,2018,chris_paul,1610612745,Houston,Rockets,HOU,rockets,Y
-1626166,"Payne, Cameron",Cameron Payne,0,2015,2018,cameron_payne,0,,,,,Y
-203901,"Payton, Elfrid",Elfrid Payton,1,2014,2018,elfrid_payton,1610612740,New Orleans,Pelicans,NOP,pelicans,Y
-1627780,"Payton II, Gary",Gary Payton II,0,2016,2018,gary_payton ii,0,,,,,Y
-1629033,"Pinson, Theo",Theo Pinson,1,2018,2018,theo_pinson,1610612751,Brooklyn,Nets,BKN,nets,Y
-203486,"Plumlee, Mason",Mason Plumlee,1,2013,2018,mason_plumlee,1610612743,Denver,Nuggets,DEN,nuggets,Y
-203101,"Plumlee, Miles",Miles Plumlee,1,2012,2018,miles_plumlee,1610612737,Atlanta,Hawks,ATL,hawks,Y
-1627751,"Poeltl, Jakob",Jakob Poeltl,1,2016,2018,jakob_poeltl,1610612759,San Antonio,Spurs,SAS,spurs,Y
-202347,"Pondexter, Quincy",Quincy Pondexter,1,2010,2018,quincy_pondexter,1610612759,San Antonio,Spurs,SAS,spurs,Y
-1629008,"Porter Jr., Michael",Michael Porter Jr.,1,2018,2018,michael_porter_jr,1610612743,Denver,Nuggets,DEN,nuggets,Y
-203490,"Porter Jr., Otto",Otto Porter Jr.,1,2013,2018,otto_porter jr.,1610612741,Chicago,Bulls,CHI,bulls,Y
-1626171,"Portis, Bobby",Bobby Portis,1,2015,2018,bobby_portis,1610612764,Washington,Wizards,WAS,wizards,Y
-204001,"Porzingis, Kristaps",Kristaps Porzingis,1,2015,2018,kristaps_porzingis,1610612742,Dallas,Mavericks,DAL,mavericks,Y
-203939,"Powell, Dwight",Dwight Powell,1,2014,2018,dwight_powell,1610612742,Dallas,Mavericks,DAL,mavericks,Y
-1626181,"Powell, Norman",Norman Powell,1,2015,2018,norman_powell,1610612761,Toronto,Raptors,TOR,raptors,Y
-1627816,"Poythress, Alex",Alex Poythress,1,2016,2018,alex_poythress,1610612737,Atlanta,Hawks,ATL,hawks,Y
-1627752,"Prince, Taurean",Taurean Prince,1,2016,2018,taurean_prince,1610612737,Atlanta,Hawks,ATL,hawks,Y
-1627753,Zhou Qi,Zhou Qi,0,2017,2018,zhou_qi,0,,,,,Y
-1628397,"Rabb, Ivan",Ivan Rabb,1,2017,2018,ivan_rabb,1610612763,Memphis,Grizzlies,MEM,grizzlies,Y
-1626184,"Randle, Chasson",Chasson Randle,1,2016,2018,chasson_randle,1610612764,Washington,Wizards,WAS,wizards,Y
-203944,"Randle, Julius",Julius Randle,1,2014,2018,julius_randle,1610612740,New Orleans,Pelicans,NOP,pelicans,Y
-200755,"Redick, JJ",JJ Redick,1,2006,2018,jj_redick,1610612755,Philadelphia,76ers,PHI,sixers,Y
-1628432,"Reed, Davon",Davon Reed,1,2017,2018,davon_reed,1610612754,Indiana,Pacers,IND,pacers,Y
-1629244,"Reynolds, Cameron",Cameron Reynolds,1,2018,2018,cameron_reynolds,1610612750,Minnesota,Timberwolves,MIN,timberwolves,Y
-1626196,"Richardson, Josh",Josh Richardson,1,2015,2018,josh_richardson,1610612748,Miami,Heat,MIA,heat,Y
-1627781,"Richardson, Malachi",Malachi Richardson,0,2016,2018,malachi_richardson,0,,,,,Y
-203085,"Rivers, Austin",Austin Rivers,1,2012,2018,austin_rivers,1610612745,Houston,Rockets,HOU,rockets,Y
-203460,"Roberson, Andre",Andre Roberson,1,2013,2018,andre_roberson,1610612760,Oklahoma City,Thunder,OKC,thunder,Y
-1628421,"Robinson, Devin",Devin Robinson,1,2017,2018,devin_robinson,1610612764,Washington,Wizards,WAS,wizards,Y
-1629130,"Robinson, Duncan",Duncan Robinson,1,2018,2018,duncan_robinson,1610612748,Miami,Heat,MIA,heat,Y
-1629010,"Robinson, Jerome",Jerome Robinson,1,2018,2018,jerome_robinson,1610612746,LA,Clippers,LAC,clippers,Y
-1629011,"Robinson, Mitchell",Mitchell Robinson,1,2018,2018,mitchell_robinson,1610612752,New York,Knicks,NYK,knicks,Y
-203922,"Robinson III, Glenn",Glenn Robinson III,1,2014,2018,glenn_robinson iii,1610612765,Detroit,Pistons,DET,pistons,Y
-200765,"Rondo, Rajon",Rajon Rondo,1,2006,2018,rajon_rondo,1610612747,Los Angeles,Lakers,LAL,lakers,Y
-201565,"Rose, Derrick",Derrick Rose,1,2008,2018,derrick_rose,1610612750,Minnesota,Timberwolves,MIN,timberwolves,Y
-203082,"Ross, Terrence",Terrence Ross,1,2012,2018,terrence_ross,1610612753,Orlando,Magic,ORL,magic,Y
-1626179,"Rozier, Terry",Terry Rozier,1,2015,2018,terry_rozier,1610612738,Boston,Celtics,BOS,celtics,Y
-201937,"Rubio, Ricky",Ricky Rubio,1,2011,2018,ricky_rubio,1610612762,Utah,Jazz,UTA,jazz,Y
-1626156,"Russell, D'Angelo",D'Angelo Russell,1,2015,2018,d'angelo_russell,1610612751,Brooklyn,Nets,BKN,nets,Y
-1627734,"Sabonis, Domantas",Domantas Sabonis,1,2016,2018,domantas_sabonis,1610612754,Indiana,Pacers,IND,pacers,Y
-1629102,"Sampson, Brandon",Brandon Sampson,1,2018,2018,brandon_sampson,1610612741,Chicago,Bulls,CHI,bulls,Y
-203967,"Saric, Dario",Dario Saric,1,2016,2018,dario_saric,1610612750,Minnesota,Timberwolves,MIN,timberwolves,Y
-203107,"Satoransky, Tomas",Tomas Satoransky,1,2016,2018,tomas_satoransky,1610612764,Washington,Wizards,WAS,wizards,Y
-203471,"Schroder, Dennis",Dennis Schroder,1,2013,2018,dennis_schroder,1610612760,Oklahoma City,Thunder,OKC,thunder,Y
-203118,"Scott, Mike",Mike Scott,1,2012,2018,mike_scott,1610612755,Philadelphia,76ers,PHI,sixers,Y
-200757,"Sefolosha, Thabo",Thabo Sefolosha,1,2006,2018,thabo_sefolosha,1610612762,Utah,Jazz,UTA,jazz,Y
-1627782,"Selden, Wayne",Wayne Selden,1,2016,2018,wayne_selden,1610612741,Chicago,Bulls,CHI,bulls,Y
-1629012,"Sexton, Collin",Collin Sexton,1,2018,2018,collin_sexton,1610612739,Cleveland,Cavaliers,CLE,cavaliers,Y
-1629013,"Shamet, Landry",Landry Shamet,1,2018,2018,landry_shamet,1610612746,LA,Clippers,LAC,clippers,Y
-202697,"Shumpert, Iman",Iman Shumpert,1,2011,2018,iman_shumpert,1610612745,Houston,Rockets,HOU,rockets,Y
-1627783,"Siakam, Pascal",Pascal Siakam,1,2016,2018,pascal_siakam,1610612761,Toronto,Raptors,TOR,raptors,Y
-1626296,"Sibert, Jordan",Jordan Sibert,0,2018,2018,jordan_sibert,0,,,,,Y
-1627732,"Simmons, Ben",Ben Simmons,1,2016,2018,ben_simmons,1610612755,Philadelphia,76ers,PHI,sixers,Y
-203613,"Simmons, Jonathon",Jonathon Simmons,1,2015,2018,jonathon_simmons,1610612755,Philadelphia,76ers,PHI,sixers,Y
-1628424,"Simmons, Kobi",Kobi Simmons,0,2017,2018,kobi_simmons,0,,,,,Y
-1629014,"Simons, Anfernee",Anfernee Simons,1,2018,2018,anfernee_simons,1610612757,Portland,Trail Blazers,POR,blazers,Y
-203935,"Smart, Marcus",Marcus Smart,1,2014,2018,marcus_smart,1610612738,Boston,Celtics,BOS,celtics,Y
-202397,"Smith, Ish",Ish Smith,1,2010,2018,ish_smith,1610612765,Detroit,Pistons,DET,pistons,Y
-2747,"Smith, JR",JR Smith,1,2004,2018,jr_smith,1610612739,Cleveland,Cavaliers,CLE,cavaliers,Y
-201160,"Smith, Jason",Jason Smith,0,2007,2018,jason_smith,0,,,,,Y
-1629015,"Smith, Zhaire",Zhaire Smith,1,2018,2018,zhaire_smith,1610612755,Philadelphia,76ers,PHI,sixers,N
-1628372,"Smith Jr., Dennis",Dennis Smith Jr.,1,2017,2018,dennis_smith jr.,1610612752,New York,Knicks,NYK,knicks,Y
-203503,"Snell, Tony",Tony Snell,1,2013,2018,tony_snell,1610612749,Milwaukee,Bucks,MIL,bucks,Y
-1629034,"Spalding, Ray",Ray Spalding,1,2018,2018,ray_spalding,1610612756,Phoenix,Suns,PHX,suns,Y
-1629016,"Spellman, Omari",Omari Spellman,1,2018,2018,omari_spellman,1610612737,Atlanta,Hawks,ATL,hawks,Y
-203917,"Stauskas, Nik",Nik Stauskas,1,2014,2018,nik_stauskas,1610612739,Cleveland,Cavaliers,CLE,cavaliers,Y
-203474,"Stephens, DJ",DJ Stephens,0,2013,2018,dj_stephens,0,,,,,Y
-202362,"Stephenson, Lance",Lance Stephenson,1,2010,2018,lance_stephenson,1610612747,Los Angeles,Lakers,LAL,lakers,Y
-1628410,"Sumner, Edmond",Edmond Sumner,1,2017,2018,edmond_sumner,1610612754,Indiana,Pacers,IND,pacers,Y
-1628403,"Swanigan, Caleb",Caleb Swanigan,1,2017,2018,caleb_swanigan,1610612758,Sacramento,Kings,SAC,kings,Y
-1628369,"Tatum, Jayson",Jayson Tatum,1,2017,2018,jayson_tatum,1610612738,Boston,Celtics,BOS,celtics,Y
-201952,"Teague, Jeff",Jeff Teague,1,2009,2018,jeff_teague,1610612750,Minnesota,Timberwolves,MIN,timberwolves,Y
-202066,"Temple, Garrett",Garrett Temple,1,2009,2018,garrett_temple,1610612746,LA,Clippers,LAC,clippers,Y
-1628462,"Teodosic, Milos",Milos Teodosic,0,2017,2018,milos_teodosic,0,,,,,Y
-1629123,"Terrell, Jared",Jared Terrell,1,2018,2018,jared_terrell,1610612750,Minnesota,Timberwolves,MIN,timberwolves,Y
-1629150,"Terry, Emanuel",Emanuel Terry,0,2018,2018,emanuel_terry,0,,,,,Y
-1628464,"Theis, Daniel",Daniel Theis,1,2017,2018,daniel_theis,1610612738,Boston,Celtics,BOS,celtics,Y
-202738,"Thomas, Isaiah",Isaiah Thomas,1,2011,2018,isaiah_thomas,1610612743,Denver,Nuggets,DEN,nuggets,Y
-1629017,"Thomas, Khyri",Khyri Thomas,1,2018,2018,khyri_thomas,1610612765,Detroit,Pistons,DET,pistons,Y
-202498,"Thomas, Lance",Lance Thomas,1,2011,2018,lance_thomas,1610612752,New York,Knicks,NYK,knicks,Y
-202691,"Thompson, Klay",Klay Thompson,1,2011,2018,klay_thompson,1610612744,Golden State,Warriors,GSW,warriors,Y
-202684,"Thompson, Tristan",Tristan Thompson,1,2011,2018,tristan_thompson,1610612739,Cleveland,Cavaliers,CLE,cavaliers,Y
-1628414,"Thornwell, Sindarius",Sindarius Thornwell,1,2017,2018,sindarius_thornwell,1610612746,LA,Clippers,LAC,clippers,Y
-201229,"Tolliver, Anthony",Anthony Tolliver,1,2008,2018,anthony_tolliver,1610612750,Minnesota,Timberwolves,MIN,timberwolves,Y
-1626157,"Towns, Karl-Anthony",Karl-Anthony Towns,1,2015,2018,karl-anthony_towns,1610612750,Minnesota,Timberwolves,MIN,timberwolves,Y
-1629018,"Trent Jr., Gary",Gary Trent Jr.,1,2018,2018,tmp_gary_trent,1610612757,Portland,Trail Blazers,POR,blazers,Y
-1629019,"Trier, Allonzo",Allonzo Trier,1,2018,2018,allonzo_trier,1610612752,New York,Knicks,NYK,knicks,Y
-200782,"Tucker, PJ",PJ Tucker,1,2006,2018,pj_tucker,1610612745,Houston,Rockets,HOU,rockets,Y
-202323,"Turner, Evan",Evan Turner,1,2010,2018,evan_turner,1610612757,Portland,Trail Blazers,POR,blazers,Y
-1626167,"Turner, Myles",Myles Turner,1,2015,2018,myles_turner,1610612754,Indiana,Pacers,IND,pacers,Y
-202327,"Udoh, Ekpe",Ekpe Udoh,1,2010,2018,ekpe_udoh,1610612762,Utah,Jazz,UTA,jazz,Y
-1627755,"Ulis, Tyler",Tyler Ulis,0,2016,2018,tyler_ulis,0,,,,,Y
-202685,"Valanciunas, Jonas",Jonas Valanciunas,1,2012,2018,jonas_valanciunas,1610612763,Memphis,Grizzlies,MEM,grizzlies,Y
-1627756,"Valentine, Denzel",Denzel Valentine,1,2016,2018,denzel_valentine,1610612741,Chicago,Bulls,CHI,bulls,Y
-1627832,"VanVleet, Fred",Fred VanVleet,1,2016,2018,fred_vanvleet,1610612761,Toronto,Raptors,TOR,raptors,Y
-1629020,"Vanderbilt, Jarred",Jarred Vanderbilt,1,2018,2018,jarred_vanderbilt,1610612743,Denver,Nuggets,DEN,nuggets,Y
-203943,"Vonleh, Noah",Noah Vonleh,1,2014,2018,noah_vonleh,1610612752,New York,Knicks,NYK,knicks,Y
-202696,"Vucevic, Nikola",Nikola Vucevic,1,2011,2018,nikola_vucevic,1610612753,Orlando,Magic,ORL,magic,Y
-2548,"Wade, Dwyane",Dwyane Wade,1,2003,2018,dwyane_wade,1610612748,Miami,Heat,MIA,heat,Y
-1629021,"Wagner, Moritz",Moritz Wagner,1,2018,2018,moritz_wagner,1610612747,Los Angeles,Lakers,LAL,lakers,Y
-203079,"Waiters, Dion",Dion Waiters,1,2012,2018,dion_waiters,1610612748,Miami,Heat,MIA,heat,Y
-202689,"Walker, Kemba",Kemba Walker,1,2011,2018,kemba_walker,1610612766,Charlotte,Hornets,CHA,hornets,Y
-1629022,"Walker IV, Lonnie",Lonnie Walker IV,1,2018,2018,lonnie_walker,1610612759,San Antonio,Spurs,SAS,spurs,Y
-202322,"Wall, John",John Wall,1,2010,2018,john_wall,1610612764,Washington,Wizards,WAS,wizards,Y
-1627820,"Wallace, Tyrone",Tyrone Wallace,1,2017,2018,tyrone_wallace,1610612746,LA,Clippers,LAC,clippers,Y
-202954,"Wanamaker, Brad",Brad Wanamaker,1,2018,2018,brad_wanamaker,1610612738,Boston,Celtics,BOS,celtics,Y
-203933,"Warren, T.J.",T.J. Warren,1,2014,2018,tj_warren,1610612756,Phoenix,Suns,PHX,suns,Y
-1627395,"Washburn, Julian",Julian Washburn,1,2018,2018,julian_washburn,1610612763,Memphis,Grizzlies,MEM,grizzlies,Y
-1629139,"Watanabe, Yuta",Yuta Watanabe,1,2018,2018,yuta_watanabe,1610612763,Memphis,Grizzlies,MEM,grizzlies,Y
-1629118,"Welsh, Thomas",Thomas Welsh,1,2018,2018,thomas_welsh,1610612743,Denver,Nuggets,DEN,nuggets,Y
-201566,"Westbrook, Russell",Russell Westbrook,1,2008,2018,russell_westbrook,1610612760,Oklahoma City,Thunder,OKC,thunder,Y
-1628401,"White, Derrick",Derrick White,1,2017,2018,derrick_white,1610612759,San Antonio,Spurs,SAS,spurs,Y
-1627855,"White, Okaro",Okaro White,0,2016,2018,okaro_white,0,,,,,Y
-1627785,"Whitehead, Isaiah",Isaiah Whitehead,1,2016,2018,isaiah_whitehead,1610612765,Detroit,Pistons,DET,pistons,Y
-202355,"Whiteside, Hassan",Hassan Whiteside,1,2010,2018,hassan_whiteside,1610612748,Miami,Heat,MIA,heat,Y
-203952,"Wiggins, Andrew",Andrew Wiggins,1,2014,2018,andrew_wiggins,1610612750,Minnesota,Timberwolves,MIN,timberwolves,Y
-1626210,"Williams, Alan",Alan Williams,1,2015,2018,alan_williams,1610612751,Brooklyn,Nets,BKN,nets,Y
-203710,"Williams, C.J.",C.J. Williams,1,2017,2018,c.j._williams,1610612750,Minnesota,Timberwolves,MIN,timberwolves,Y
-1629140,"Williams, Johnathan",Johnathan Williams,1,2018,2018,johnathan_williams,1610612747,Los Angeles,Lakers,LAL,lakers,Y
-1629026,"Williams, Kenrich",Kenrich Williams,1,2018,2018,kenrich_williams,1610612740,New Orleans,Pelicans,NOP,pelicans,Y
-101150,"Williams, Lou",Lou Williams,1,2005,2018,lou_williams,1610612746,LA,Clippers,LAC,clippers,Y
-101107,"Williams, Marvin",Marvin Williams,1,2005,2018,marvin_williams,1610612766,Charlotte,Hornets,CHA,hornets,Y
-1627786,"Williams, Troy",Troy Williams,1,2016,2018,troy_williams,1610612758,Sacramento,Kings,SAC,kings,Y
-1629057,"Williams III, Robert",Robert Williams III,1,2018,2018,robert_williams,1610612738,Boston,Celtics,BOS,celtics,Y
-1628391,"Wilson, D.J.",D.J. Wilson,1,2017,2018,d.j._wilson,1610612749,Milwaukee,Bucks,MIL,bucks,Y
-1626159,"Winslow, Justise",Justise Winslow,1,2015,2018,justise_winslow,1610612748,Miami,Heat,MIA,heat,Y
-1626174,"Wood, Christian",Christian Wood,1,2015,2018,christian_wood,1610612740,New Orleans,Pelicans,NOP,pelicans,Y
-1626153,"Wright, Delon",Delon Wright,1,2015,2018,delon_wright,1610612763,Memphis,Grizzlies,MEM,grizzlies,Y
-1627824,"Yabusele, Guerschon",Guerschon Yabusele,1,2017,2018,guerschon_yabusele,1610612738,Boston,Celtics,BOS,celtics,Y
-201156,"Young, Nick",Nick Young,0,2007,2018,nick_young,0,,,,,Y
-201152,"Young, Thaddeus",Thaddeus Young,1,2007,2018,thaddeus_young,1610612754,Indiana,Pacers,IND,pacers,Y
-1629027,"Young, Trae",Trae Young,1,2018,2018,trae_young,1610612737,Atlanta,Hawks,ATL,hawks,Y
-203469,"Zeller, Cody",Cody Zeller,1,2013,2018,cody_zeller,1610612766,Charlotte,Hornets,CHA,hornets,Y
-203092,"Zeller, Tyler",Tyler Zeller,0,2012,2018,tyler_zeller,0,,,,,Y
-1627790,"Zizic, Ante",Ante Zizic,1,2017,2018,ante_zizic,1610612739,Cleveland,Cavaliers,CLE,cavaliers,Y
-1627826,"Zubac, Ivica",Ivica Zubac,1,2016,2018,ivica_zubac,1610612746,LA,Clippers,LAC,clippers,Y
+PERSON_ID,FIRST_NAME,LAST_NAME,DISPLAY_FIRST_LAST,BIRTHDATE,SCHOOL,COUNTRY,HEIGHT,WEIGHT,POSITION,ROSTERSTATUS,TEAM_ID,FROM_YEAR,TO_YEAR,DRAFT_YEAR,DRAFT_ROUND,DRAFT_NUMBER
+1629121,Jaylen,Adams,Jaylen Adams,1996-05-04T00:00:00,St. Bonaventure,USA,6-2,190,Guard,Active,1610612737,2018,2018,Undrafted,Undrafted,Undrafted
+203500,Steven,Adams,Steven Adams,1993-07-20T00:00:00,Pittsburgh,New Zealand,7-0,265,Center,Active,1610612760,2013,2018,2013,1,12
+1628389,Bam,Adebayo,Bam Adebayo,1997-07-18T00:00:00,Kentucky,USA,6-10,255,Center-Forward,Active,1610612748,2017,2018,2017,1,14
+1629061,Deng,Adel,Deng Adel,1997-02-01T00:00:00,,South Sudan,6-7,200,Forward,Active,1610612739,2018,2018,Undrafted,Undrafted,Undrafted
+200746,LaMarcus,Aldridge,LaMarcus Aldridge,1985-07-19T00:00:00,Texas,USA,6-11,260,Center-Forward,Active,1610612759,2006,2018,2006,1,2
+1628959,Rawle,Alkins,Rawle Alkins,1997-10-29T00:00:00,,USA,6-5,225,Guard,Active,1610612741,2018,2018,Undrafted,Undrafted,Undrafted
+1628960,Grayson,Allen,Grayson Allen,1995-10-08T00:00:00,Duke,USA,6-5,198,Guard,Active,1610612762,2018,2018,2018,1,21
+1628386,Jarrett,Allen,Jarrett Allen,1998-04-21T00:00:00,Texas,USA,6-11,237,Center,Active,1610612751,2017,2018,2017,1,22
+1628443,Kadeem,Allen,Kadeem Allen,1993-01-15T00:00:00,Arizona,USA,6-3,200,Guard,Active,1610612738,2017,2018,2017,2,53
+202329,Al-Farouq,Aminu,Al-Farouq Aminu,1990-09-21T00:00:00,Wake Forest,USA,6-9,220,Forward,Active,1610612757,2010,2018,2010,1,8
+1626147,Justin,Anderson,Justin Anderson,1993-11-19T00:00:00,Virginia,USA,6-6,230,Guard-Forward,Active,1610612737,2015,2018,2015,1,21
+203937,Kyle,Anderson,Kyle Anderson,1993-09-20T00:00:00,UCLA,USA,6-9,230,Forward,Active,1610612763,2014,2018,2014,1,30
+201583,Ryan,Anderson,Ryan Anderson,1988-05-06T00:00:00,California,USA,6-10,240,Forward,Active,1610612748,2008,2018,2008,1,21
+203507,Giannis,Antetokounmpo,Giannis Antetokounmpo,1994-12-06T00:00:00,Greece,Greece,6-11,242,Forward,Active,1610612749,2013,2018,2013,1,15
+1628961,Kostas,Antetokounmpo,Kostas Antetokounmpo,1997-11-20T00:00:00,Dayton,Greece,6-10,200,Forward,Active,1610612742,2018,2018,2018,2,60
+1628384,OG,Anunoby,OG Anunoby,1997-07-17T00:00:00,Indiana,United Kingdom,6-8,232,Forward,Active,1610612761,2017,2018,2017,1,23
+1627853,Ryan,Arcidiacono,Ryan Arcidiacono,1994-03-26T00:00:00,Villanova,USA,6-3,200,Guard,Active,1610612741,2017,2018,Undrafted,Undrafted,Undrafted
+2772,Trevor,Ariza,Trevor Ariza,1985-06-30T00:00:00,UCLA,USA,6-8,215,Forward,Active,1610612764,2004,2018,2004,2,43
+201571,D.J.,Augustin,D.J. Augustin,1987-11-10T00:00:00,Texas,USA,6-0,183,Guard,Active,1610612753,2008,2018,2008,1,9
+1629028,Deandre,Ayton,Deandre Ayton,1998-07-23T00:00:00,Arizona,Bahamas,7-1,250,Center,Active,1610612756,2018,2018,2018,1,1
+1628407,Dwayne,Bacon,Dwayne Bacon,1995-08-30T00:00:00,Florida State,USA,6-7,221,Guard-Forward,Active,1610612766,2017,2018,2017,2,40
+1628963,Marvin,Bagley III,Marvin Bagley III,1999-03-14T00:00:00,Duke,USA,6-11,234,Forward,Active,1610612758,2018,2018,2018,1,2
+1628366,Lonzo,Ball,Lonzo Ball,1997-10-27T00:00:00,California-Los Angeles,USA,6-6,190,Guard,Active,1610612747,2017,2018,2017,1,2
+1628964,Mo,Bamba,Mo Bamba,1998-05-12T00:00:00,Texas,USA,7-0,221,Center,Active,1610612753,2018,2018,2018,1,6
+200826,J.J.,Barea,J.J. Barea,1984-06-26T00:00:00,Northeastern,Puerto Rico,6-0,185,Guard,Active,1610612742,2006,2018,Undrafted,Undrafted,Undrafted
+203084,Harrison,Barnes,Harrison Barnes,1992-05-30T00:00:00,North Carolina,USA,6-8,225,Forward,Active,1610612758,2012,2018,2012,1,7
+203115,Will,Barton,Will Barton,1991-01-06T00:00:00,Memphis,USA,6-6,190,Guard,Active,1610612743,2012,2018,2012,2,40
+1628966,Keita,Bates-Diop,Keita Bates-Diop,1996-01-23T00:00:00,Ohio State,USA,6-9,229,Forward,Active,1610612750,2018,2018,2018,2,48
+201587,Nicolas,Batum,Nicolas Batum,1988-12-14T00:00:00,"Lisieux, France",France,6-8,200,Forward-Guard,Active,1610612766,2008,2018,2008,1,25
+201573,Jerryd,Bayless,Jerryd Bayless,1988-08-20T00:00:00,Arizona,USA,6-3,200,Guard,Active,1610612750,2008,2018,2008,1,11
+203382,Aron,Baynes,Aron Baynes,1986-12-09T00:00:00,Washington State,Australia,6-10,260,Center-Forward,Active,1610612738,2012,2018,Undrafted,Undrafted,Undrafted
+203145,Kent,Bazemore,Kent Bazemore,1989-07-01T00:00:00,Old Dominion,USA,6-5,201,Guard,Active,1610612737,2012,2018,Undrafted,Undrafted,Undrafted
+203078,Bradley,Beal,Bradley Beal,1993-06-28T00:00:00,Florida,USA,6-5,207,Guard,Active,1610612764,2012,2018,2012,1,3
+1627736,Malik,Beasley,Malik Beasley,1996-11-26T00:00:00,Florida State,USA,6-5,195,Guard,Active,1610612743,2016,2018,2016,1,19
+201158,Marco,Belinelli,Marco Belinelli,1986-03-25T00:00:00,"Bologna, Italy",Italy,6-5,210,Guard-Forward,Active,1610612759,2007,2018,2007,1,18
+1628395,Jordan,Bell,Jordan Bell,1995-01-07T00:00:00,Oregon,USA,6-9,224,Forward,Active,1610612744,2017,2018,2017,2,38
+1627761,DeAndre',Bembry,DeAndre' Bembry,1994-07-04T00:00:00,Saint Joseph's,USA,6-6,210,Forward,Active,1610612737,2016,2018,2016,1,21
+1627733,Dragan,Bender,Dragan Bender,1997-11-17T00:00:00,,Croatia,7-1,225,Forward,Active,1610612756,2016,2018,2016,1,4
+1629541,Dairis,Bertans,Dairis Bertans,1989-09-09T00:00:00,,Latvia,6-4,200,Guard,Active,1610612740,2018,2018,Undrafted,Undrafted,Undrafted
+202722,Davis,Bertans,Davis Bertans,1992-11-12T00:00:00,,Latvia,6-10,225,Forward,Active,1610612759,2016,2018,2011,2,42
+201976,Patrick,Beverley,Patrick Beverley,1988-07-12T00:00:00,Arkansas,USA,6-1,185,Guard,Active,1610612746,2012,2018,2009,2,42
+1629167,Justin,Bibbs,Justin Bibbs,1996-01-14T00:00:00,,USA,6-5,220,Guard,Active,1610612746,2018,2018,Undrafted,Undrafted,Undrafted
+203920,Khem,Birch,Khem Birch,1992-09-28T00:00:00,Nevada-Las Vegas,Canada,6-9,233,Center,Active,1610612753,2017,2018,Undrafted,Undrafted,Undrafted
+202687,Bismack,Biyombo,Bismack Biyombo,1992-08-28T00:00:00,"Lubumbashi, DR Congo",Democratic Republic of the Congo,6-9,255,Center,Active,1610612766,2011,2018,2011,1,7
+202357,Nemanja,Bjelica,Nemanja Bjelica,1988-05-09T00:00:00,,Serbia,6-10,234,Forward,Active,1610612758,2015,2018,2010,2,35
+1628469,Antonio,Blakeney,Antonio Blakeney,1996-10-04T00:00:00,Louisiana State,USA,6-4,192,Guard,Active,1610612741,2017,2018,Undrafted,Undrafted,Undrafted
+202339,Eric,Bledsoe,Eric Bledsoe,1989-12-09T00:00:00,Kentucky,USA,6-1,205,Guard,Active,1610612749,2010,2018,2010,1,18
+1628417,Jaron,Blossomgame,Jaron Blossomgame,1993-09-16T00:00:00,Clemson,USA,6-8,220,Forward,Active,1610612739,2018,2018,2017,2,59
+1629129,Trevon,Bluiett,Trevon Bluiett,1994-11-04T00:00:00,Xavier (Ohio),USA,6-6,198,Guard-Forward,Active,1610612740,2018,2018,Undrafted,Undrafted,Undrafted
+203992,Bogdan,Bogdanovic,Bogdan Bogdanovic,1992-08-18T00:00:00,,Serbia,6-6,205,Guard,Active,1610612758,2017,2018,2014,1,27
+202711,Bojan,Bogdanovic,Bojan Bogdanovic,1989-04-18T00:00:00,,Croatia,6-8,216,Forward,Active,1610612754,2014,2018,2011,2,31
+101106,Andrew,Bogut,Andrew Bogut,1984-11-28T00:00:00,Utah,Australia,7-0,260,Center,Active,1610612749,2005,2018,2005,1,1
+1628413,Jonah,Bolden,Jonah Bolden,1996-01-02T00:00:00,,Australia,6-10,220,Forward,Active,1610612755,2018,2018,2017,2,36
+1629067,Isaac,Bonga,Isaac Bonga,1999-11-08T00:00:00,,Germany,6-8,180,Guard,Active,1610612747,2018,2018,2018,2,39
+1626164,Devin,Booker,Devin Booker,1996-10-30T00:00:00,Kentucky,USA,6-6,210,Guard,Active,1610612756,2015,2018,2015,1,13
+1628449,Chris,Boucher,Chris Boucher,1993-01-11T00:00:00,Oregon,Canada,6-10,200,Forward,Active,1610612761,2017,2018,Undrafted,Undrafted,Undrafted
+202340,Avery,Bradley,Avery Bradley,1990-11-26T00:00:00,Texas,USA,6-2,180,Guard,Active,1610612763,2010,2018,2010,1,19
+1628396,Tony,Bradley,Tony Bradley,1998-01-08T00:00:00,North Carolina,USA,6-10,248,Center,Active,1610612762,2017,2018,2017,1,28
+201147,Corey,Brewer,Corey Brewer,1986-03-05T00:00:00,Florida,USA,6-9,186,Guard-Forward,Active,1610612750,2007,2018,2007,1,7
+1628969,Mikal,Bridges,Mikal Bridges,1996-08-30T00:00:00,Villanova,USA,6-7,210,Forward,Active,1610612756,2018,2018,2018,1,10
+1628970,Miles,Bridges,Miles Bridges,1998-03-21T00:00:00,Michigan State,USA,6-7,225,Forward,Active,1610612766,2018,2018,2018,1,12
+1628515,Isaiah,Briscoe,Isaiah Briscoe,1996-04-13T00:00:00,,USA,6-3,215,Guard,Active,1610612753,2018,2018,Undrafted,Undrafted,Undrafted
+1629151,Ryan,Broekhoff,Ryan Broekhoff,1990-08-23T00:00:00,,Australia,6-7,215,Guard-Forward,Active,1610612742,2018,2018,Undrafted,Undrafted,Undrafted
+1627763,Malcolm,Brogdon,Malcolm Brogdon,1992-12-11T00:00:00,Virginia,USA,6-5,229,Guard,Active,1610612749,2016,2018,2016,2,36
+1628415,Dillon,Brooks,Dillon Brooks,1996-01-22T00:00:00,Oregon,Canada,6-6,220,Guard-Forward,Active,1610612763,2017,2018,2017,2,45
+1628971,Bruce,Brown,Bruce Brown,1996-08-15T00:00:00,Miami (FL),USA,6-5,202,Guard,Active,1610612765,2018,2018,2018,2,42
+1627759,Jaylen,Brown,Jaylen Brown,1996-10-24T00:00:00,California,USA,6-7,220,Guard,Active,1610612738,2016,2018,2016,1,3
+1628425,Sterling,Brown,Sterling Brown,1995-02-10T00:00:00,Southern Methodist,USA,6-6,232,Guard,Active,1610612749,2017,2018,2017,2,46
+1628972,Troy,Brown Jr.,Troy Brown Jr.,1999-07-28T00:00:00,Oregon,USA,6-7,215,Forward,Active,1610612764,2018,2018,2018,1,15
+1628973,Jalen,Brunson,Jalen Brunson,1996-08-31T00:00:00,Villanova,USA,6-3,190,Guard,Active,1610612742,2018,2018,2018,2,33
+1628418,Thomas,Bryant,Thomas Bryant,1997-07-31T00:00:00,Indiana,USA,6-11,248,Center,Active,1610612764,2017,2018,2017,2,42
+203493,Reggie,Bullock,Reggie Bullock,1991-03-16T00:00:00,North Carolina,USA,6-7,205,Guard-Forward,Active,1610612747,2013,2018,2013,1,25
+203504,Trey,Burke,Trey Burke,1992-11-12T00:00:00,Michigan,USA,6-1,175,Guard,Active,1610612742,2013,2018,2013,1,9
+202692,Alec,Burks,Alec Burks,1991-07-20T00:00:00,Colorado,USA,6-6,214,Guard,Active,1610612758,2011,2018,2011,1,12
+1629126,Deonte,Burton,Deonte Burton,1994-01-31T00:00:00,Iowa State,USA,6-5,245,Guard,Active,1610612760,2018,2018,Undrafted,Undrafted,Undrafted
+202710,Jimmy,Butler,Jimmy Butler,1989-09-14T00:00:00,Marquette,USA,6-8,232,Guard-Forward,Active,1610612755,2011,2018,2011,1,30
+203998,Bruno,Caboclo,Bruno Caboclo,1995-09-21T00:00:00,,Brazil,6-9,218,Forward,Active,1610612761,2014,2018,2014,1,20
+101181,Jose,Calderon,Jose Calderon,1981-09-28T00:00:00,"Villanueva de la Serena, Spain",Spain,6-3,200,Guard,Active,1610612765,2005,2018,Undrafted,Undrafted,Undrafted
+203484,Kentavious,Caldwell-Pope,Kentavious Caldwell-Pope,1993-02-18T00:00:00,Georgia,USA,6-5,205,Guard,Active,1610612747,2013,2018,2013,1,8
+203991,Clint,Capela,Clint Capela,1994-05-18T00:00:00,,Switzerland,6-10,240,Center,Active,1610612745,2014,2018,2014,1,25
+201960,DeMarre,Carroll,DeMarre Carroll,1986-07-27T00:00:00,Missouri,USA,6-8,215,Forward,Active,1610612751,2009,2018,2009,1,27
+1628975,Jevon,Carter,Jevon Carter,1995-09-14T00:00:00,West Virginia,USA,6-2,196,Guard,Active,1610612763,2018,2018,2018,2,32
+1713,Vince,Carter,Vince Carter,1977-01-26T00:00:00,North Carolina,USA,6-6,220,Forward-Guard,Active,1610612737,1998,2018,1998,1,5
+1628976,Wendell,Carter Jr.,Wendell Carter Jr.,1999-04-16T00:00:00,Duke,USA,6-10,255,Center,Active,1610612741,2018,2018,2018,1,7
+203487,Michael,Carter-Williams,Michael Carter-Williams,1991-10-10T00:00:00,Syracuse,USA,6-6,190,Guard,Active,1610612753,2013,2018,2013,1,11
+1627936,Alex,Caruso,Alex Caruso,1994-02-28T00:00:00,Texas A&M,USA,6-5,186,Guard,Active,1610612747,2017,2018,Undrafted,Undrafted,Undrafted
+1626161,Willie,Cauley-Stein,Willie Cauley-Stein,1993-08-18T00:00:00,Kentucky,USA,7-0,240,Center,Active,1610612758,2015,2018,2015,1,6
+1628505,Troy,Caupain,Troy Caupain,1995-11-29T00:00:00,Cincinnati,USA,6-4,210,Guard,Active,1610612753,2018,2018,Undrafted,Undrafted,Undrafted
+1628463,Tyler,Cavanaugh,Tyler Cavanaugh,1994-02-09T00:00:00,George Washington,USA,6-9,238,Forward,Active,1610612762,2017,2018,Undrafted,Undrafted,Undrafted
+2199,Tyson,Chandler,Tyson Chandler,1982-10-02T00:00:00,Dominquez H.S,USA,7-1,240,Center,Active,1610612747,2001,2018,2001,1,2
+201163,Wilson,Chandler,Wilson Chandler,1987-05-10T00:00:00,DePaul,USA,6-9,225,Forward,Active,1610612746,2007,2018,2007,1,23
+1629147,Joe,Chealey,Joe Chealey,1995-11-01T00:00:00,Charleston (SC),USA,6-3,190,Guard,Active,1610612766,2018,2018,Undrafted,Undrafted,Undrafted
+1629185,Chris,Chiozza,Chris Chiozza,1995-11-21T00:00:00,,USA,6-0,175,Guard,Active,1610612745,2018,2018,Undrafted,Undrafted,Undrafted
+1627737,Marquese,Chriss,Marquese Chriss,1997-07-02T00:00:00,Washington,USA,6-10,240,Forward,Active,1610612739,2016,2018,2016,1,8
+1629109,Gary,Clark,Gary Clark,1994-11-16T00:00:00,,USA,6-8,225,Forward,Active,1610612745,2018,2018,Undrafted,Undrafted,Undrafted
+203546,Ian,Clark,Ian Clark,1991-03-07T00:00:00,Belmont,USA,6-3,175,Guard,Active,1610612740,2013,2018,Undrafted,Undrafted,Undrafted
+203903,Jordan,Clarkson,Jordan Clarkson,1992-06-07T00:00:00,Missouri,USA,6-5,194,Guard,Active,1610612739,2014,2018,2014,2,46
+1628381,John,Collins,John Collins,1997-09-23T00:00:00,Wake Forest,USA,6-10,235,Forward-Center,Active,1610612737,2017,2018,2017,1,19
+1628380,Zach,Collins,Zach Collins,1997-11-19T00:00:00,Gonzaga,USA,7-0,235,Forward-Center,Active,1610612757,2017,2018,2017,1,10
+201954,Darren,Collison,Darren Collison,1987-08-23T00:00:00,UCLA,USA,6-0,175,Guard,Active,1610612754,2009,2018,2009,1,21
+1629045,Bonzie,Colson,Bonzie Colson,1996-01-12T00:00:00,Notre Dame,USA,6-6,225,Forward,Active,1610612749,2018,2018,Undrafted,Undrafted,Undrafted
+201144,Mike,Conley,Mike Conley,1987-10-11T00:00:00,Ohio State,USA,6-1,175,Guard,Active,1610612763,2007,2018,2007,1,4
+1626192,Pat,Connaughton,Pat Connaughton,1993-01-06T00:00:00,Notre Dame,USA,6-4,209,Guard,Active,1610612749,2015,2018,2015,2,41
+1626188,Quinn,Cook,Quinn Cook,1993-03-23T00:00:00,Duke,USA,6-2,179,Guard,Active,1610612744,2016,2018,Undrafted,Undrafted,Undrafted
+202326,DeMarcus,Cousins,DeMarcus Cousins,1990-08-13T00:00:00,Kentucky,USA,6-11,270,Center,Active,1610612744,2010,2018,2010,1,5
+203496,Robert,Covington,Robert Covington,1990-12-14T00:00:00,Tennessee State,USA,6-9,225,Forward,Active,1610612750,2013,2018,Undrafted,Undrafted,Undrafted
+203459,Allen,Crabbe,Allen Crabbe,1992-04-09T00:00:00,California,USA,6-6,212,Guard-Forward,Active,1610612751,2013,2018,2013,2,31
+1628470,Torrey,Craig,Torrey Craig,1990-12-19T00:00:00,South Carolina Upstate,USA,6-7,215,Forward,Active,1610612743,2017,2018,Undrafted,Undrafted,Undrafted
+2037,Jamal,Crawford,Jamal Crawford,1980-03-20T00:00:00,Michigan,USA,6-5,185,Guard,Active,1610612756,2000,2018,2000,1,8
+203109,Jae,Crowder,Jae Crowder,1990-07-06T00:00:00,Marquette,USA,6-6,235,Forward,Active,1610612762,2012,2018,2012,2,34
+201967,Dante,Cunningham,Dante Cunningham,1987-04-22T00:00:00,Villanova,USA,6-8,230,Forward,Active,1610612759,2009,2018,2009,2,33
+203552,Seth,Curry,Seth Curry,1990-08-23T00:00:00,Duke,USA,6-2,185,Guard,Active,1610612757,2013,2018,Undrafted,Undrafted,Undrafted
+201939,Stephen,Curry,Stephen Curry,1988-03-14T00:00:00,Davidson,USA,6-3,190,Guard,Active,1610612744,2009,2018,2009,1,7
+203584,Troy,Daniels,Troy Daniels,1991-07-15T00:00:00,Virginia Commonwealth,USA,6-4,205,Guard,Active,1610612756,2013,2018,Undrafted,Undrafted,Undrafted
+203076,Anthony,Davis,Anthony Davis,1993-03-11T00:00:00,Kentucky,USA,6-10,253,Forward-Center,Active,1610612740,2012,2018,2012,1,1
+1627738,Deyonta,Davis,Deyonta Davis,1996-12-02T00:00:00,Michigan State,USA,6-11,237,Center-Forward,Active,1610612763,2016,2018,2016,2,31
+202334,Ed,Davis,Ed Davis,1989-06-05T00:00:00,North Carolina,USA,6-10,225,Center,Active,1610612751,2010,2018,2010,1,13
+201942,DeMar,DeRozan,DeMar DeRozan,1989-08-07T00:00:00,Southern California,USA,6-7,220,Guard,Active,1610612759,2009,2018,2009,1,9
+203473,Dewayne,Dedmon,Dewayne Dedmon,1989-08-12T00:00:00,Southern California,USA,7-0,245,Center,Active,1610612737,2013,2018,Undrafted,Undrafted,Undrafted
+1626155,Sam,Dekker,Sam Dekker,1994-05-08T00:00:00,Wisconsin,USA,6-9,230,Forward,Active,1610612764,2015,2018,2015,1,18
+1629116,Angel,Delgado,Angel Delgado,1994-11-20T00:00:00,,Dominican Republic,6-10,245,Center,Active,1610612746,2018,2018,Undrafted,Undrafted,Undrafted
+203521,Matthew,Dellavedova,Matthew Dellavedova,1990-09-08T00:00:00,Saint Mary's (CA),Australia,6-4,200,Guard,Active,1610612739,2013,2018,Undrafted,Undrafted,Undrafted
+1628610,Cody,Demps,Cody Demps,1993-12-02T00:00:00,Sacramento State,USA,6-4,195,Forward,Active,1610612758,2018,2018,Undrafted,Undrafted,Undrafted
+2736,Luol,Deng,Luol Deng,1985-04-16T00:00:00,Duke,United Kingdom,6-9,237,Forward,Active,1610612750,2004,2018,2004,1,7
+1629094,Marcus,Derrickson,Marcus Derrickson,1996-02-01T00:00:00,,USA,6-7,249,Forward,Active,1610612744,2018,2018,Undrafted,Undrafted,Undrafted
+1628978,Donte,DiVincenzo,Donte DiVincenzo,1997-01-31T00:00:00,Villanova,USA,6-4,203,Guard,Active,1610612749,2018,2018,2018,1,17
+1627767,Cheick,Diallo,Cheick Diallo,1996-09-13T00:00:00,Kansas,Mali,6-9,220,Forward,Active,1610612740,2016,2018,2016,2,33
+1628977,Hamidou,Diallo,Hamidou Diallo,1998-07-31T00:00:00,Kentucky,USA,6-5,198,Guard,Active,1610612760,2018,2018,2018,2,45
+203476,Gorgui,Dieng,Gorgui Dieng,1990-01-18T00:00:00,Louisville,Senegal,6-11,252,Center,Active,1610612750,2013,2018,2013,1,21
+203915,Spencer,Dinwiddie,Spencer Dinwiddie,1993-04-06T00:00:00,Colorado,USA,6-6,210,Guard,Active,1610612751,2014,2018,2014,2,38
+1629029,Luka,Doncic,Luka Doncic,1999-02-28T00:00:00,,Slovenia,6-7,218,Forward-Guard,Active,1610612742,2018,2018,2018,1,3
+1628416,Tyler,Dorsey,Tyler Dorsey,1996-02-18T00:00:00,Oregon,USA,6-5,183,Guard,Active,1610612763,2017,2018,2017,2,41
+1628422,Damyean,Dotson,Damyean Dotson,1994-05-06T00:00:00,Houston,USA,6-6,210,Guard,Active,1610612752,2017,2018,2017,2,44
+1628408,PJ,Dozier,PJ Dozier,1996-10-25T00:00:00,South Carolina,USA,6-6,205,Guard-Forward,Active,1610612738,2017,2018,Undrafted,Undrafted,Undrafted
+201609,Goran,Dragic,Goran Dragic,1986-05-06T00:00:00,"Ljubljana, Slovenia",Slovenia,6-3,190,Guard,Active,1610612748,2008,2018,2008,2,45
+203083,Andre,Drummond,Andre Drummond,1993-08-10T00:00:00,Connecticut,USA,6-11,279,Center,Active,1610612765,2012,2018,2012,1,9
+201162,Jared,Dudley,Jared Dudley,1985-07-10T00:00:00,Boston College,USA,6-7,237,Forward,Active,1610612751,2007,2018,2007,1,22
+1627739,Kris,Dunn,Kris Dunn,1994-03-18T00:00:00,Providence,USA,6-4,205,Guard,Active,1610612741,2016,2018,2016,1,5
+201142,Kevin,Durant,Kevin Durant,1988-09-29T00:00:00,Texas,USA,6-9,240,Forward,Active,1610612744,2007,2018,2007,1,2
+1628979,Trevon,Duval,Trevon Duval,1998-08-03T00:00:00,,USA,6-2,189,Guard,Active,1610612745,2018,2018,Undrafted,Undrafted,Undrafted
+1629053,Vincent,Edwards,Vincent Edwards,1996-04-05T00:00:00,Purdue,USA,6-8,225,Forward,Active,1610612745,2018,2018,2018,2,52
+1627740,Henry,Ellenson,Henry Ellenson,1997-01-13T00:00:00,Marquette,USA,6-11,245,Forward,Active,1610612752,2016,2018,2016,1,18
+201961,Wayne,Ellington,Wayne Ellington,1987-11-29T00:00:00,North Carolina,USA,6-5,200,Guard,Active,1610612765,2009,2018,2009,1,28
+203954,Joel,Embiid,Joel Embiid,1994-03-16T00:00:00,Kansas,Cameroon,7-0,250,Forward-Center,Active,1610612755,2014,2018,2014,1,3
+203516,James,Ennis III,James Ennis III,1990-07-01T00:00:00,Long Beach State,USA,6-7,210,Forward,Active,1610612755,2014,2018,2013,2,50
+1629234,Drew,Eubanks,Drew Eubanks,1997-02-01T00:00:00,,USA,6-10,245,Forward,Active,1610612759,2018,2018,Undrafted,Undrafted,Undrafted
+1628980,Jacob,Evans,Jacob Evans,1997-06-18T00:00:00,Cincinnati,USA,6-6,210,Guard,Active,1610612744,2018,2018,2018,1,28
+1628393,Jawun,Evans,Jawun Evans,1996-07-26T00:00:00,Oklahoma State,USA,6-0,190,Guard,Active,1610612760,2017,2018,2017,2,39
+201936,Tyreke,Evans,Tyreke Evans,1989-09-19T00:00:00,Memphis,USA,6-6,220,Guard,Active,1610612754,2009,2018,2009,1,4
+203957,Dante,Exum,Dante Exum,1995-07-13T00:00:00,,Australia,6-6,190,Guard,Active,1610612762,2014,2018,2014,1,5
+202702,Kenneth,Faried,Kenneth Faried,1989-11-19T00:00:00,Morehead State,USA,6-8,220,Forward-Center,Active,1610612745,2011,2018,2011,1,22
+202324,Derrick,Favors,Derrick Favors,1991-07-15T00:00:00,Georgia Tech,USA,6-10,265,Forward-Center,Active,1610612762,2010,2018,2010,1,3
+1626245,Cristiano,Felicio,Cristiano Felicio,1992-07-07T00:00:00,,Brazil,6-10,265,Forward-Center,Active,1610612741,2015,2018,Undrafted,Undrafted,Undrafted
+101109,Raymond,Felton,Raymond Felton,1984-06-26T00:00:00,North Carolina,USA,6-1,205,Guard,Active,1610612760,2005,2018,2005,1,5
+1628390,Terrance,Ferguson,Terrance Ferguson,1998-05-17T00:00:00,,USA,6-7,190,Guard,Active,1610612760,2017,2018,2017,1,21
+1627812,Yogi,Ferrell,Yogi Ferrell,1993-05-09T00:00:00,Indiana,USA,6-0,180,Guard,Active,1610612758,2016,2018,Undrafted,Undrafted,Undrafted
+1627827,Dorian,Finney-Smith,Dorian Finney-Smith,1993-05-04T00:00:00,Florida,USA,6-8,220,Forward,Active,1610612742,2016,2018,Undrafted,Undrafted,Undrafted
+1627854,Bryn,Forbes,Bryn Forbes,1993-07-23T00:00:00,Michigan State,USA,6-3,190,Guard,Active,1610612759,2016,2018,Undrafted,Undrafted,Undrafted
+203095,Evan,Fournier,Evan Fournier,1992-10-29T00:00:00,France,France,6-7,205,Guard-Forward,Active,1610612753,2012,2018,2012,1,20
+1628368,De'Aaron,Fox,De'Aaron Fox,1997-12-20T00:00:00,Kentucky,USA,6-3,175,Guard,Active,1610612758,2017,2018,2017,1,5
+204025,Tim,Frazier,Tim Frazier,1990-11-01T00:00:00,,USA,6-1,170,Guard,Active,1610612749,2014,2018,Undrafted,Undrafted,Undrafted
+1628982,Melvin,Frazier Jr.,Melvin Frazier Jr.,1996-08-30T00:00:00,Tulane,USA,6-6,200,Guard-Forward,Active,1610612753,2018,2018,2018,2,35
+202690,Jimmer,Fredette,Jimmer Fredette,1989-02-25T00:00:00,Brigham Young,USA,6-2,195,Guard,Active,1610612758,2011,2018,2011,1,10
+101112,Channing,Frye,Channing Frye,1983-05-17T00:00:00,Arizona,USA,7-0,255,Forward-Center,Active,1610612739,2005,2018,2005,1,8
+1628365,Markelle,Fultz,Markelle Fultz,1998-05-29T00:00:00,Washington,USA,6-4,200,Guard,Active,1610612753,2017,2018,2017,1,1
+1629117,Wenyen,Gabriel,Wenyen Gabriel,1997-03-26T00:00:00,,Sudan,6-9,205,Forward,Active,1610612758,2018,2018,Undrafted,Undrafted,Undrafted
+201568,Danilo,Gallinari,Danilo Gallinari,1988-08-08T00:00:00,"Sant'Angelo Lodigiano, Italy",Italy,6-10,225,Forward,Active,1610612746,2008,2018,2008,1,6
+204038,Langston,Galloway,Langston Galloway,1991-12-09T00:00:00,Saint Joseph's,USA,6-2,200,Guard,Active,1610612765,2014,2018,Undrafted,Undrafted,Undrafted
+201188,Marc,Gasol,Marc Gasol,1985-01-29T00:00:00,"Barcelona, Spain",Spain,7-1,255,Center,Active,1610612761,2008,2018,2007,2,48
+2200,Pau,Gasol,Pau Gasol,1980-07-06T00:00:00,"Barcelona, Spain",Spain,7-0,250,Center-Forward,Active,1610612749,2001,2018,2001,1,3
+200752,Rudy,Gay,Rudy Gay,1986-08-17T00:00:00,Connecticut,USA,6-8,230,Forward,Active,1610612759,2006,2018,2006,1,8
+202331,Paul,George,Paul George,1990-05-02T00:00:00,Fresno State,USA,6-9,220,Forward,Active,1610612760,2010,2018,2010,1,10
+201959,Taj,Gibson,Taj Gibson,1985-06-24T00:00:00,Southern California,USA,6-9,232,Forward,Active,1610612750,2009,2018,2009,1,26
+1628385,Harry,Giles III,Harry Giles III,1998-04-22T00:00:00,Duke,USA,6-10,240,Forward-Center,Active,1610612758,2017,2018,2017,1,20
+1628983,Shai,Gilgeous-Alexander,Shai Gilgeous-Alexander,1998-07-12T00:00:00,Kentucky,Canada,6-6,181,Guard,Active,1610612746,2018,2018,2018,1,11
+203497,Rudy,Gobert,Rudy Gobert,1992-06-26T00:00:00,France,France,7-1,245,Center,Active,1610612762,2013,2018,2013,1,27
+1629164,Brandon,Goodwin,Brandon Goodwin,1995-10-02T00:00:00,,USA,6-2,180,Guard,Active,1610612743,2018,2018,Undrafted,Undrafted,Undrafted
+203932,Aaron,Gordon,Aaron Gordon,1995-09-16T00:00:00,Arizona,USA,6-9,220,Forward,Active,1610612753,2014,2018,2014,1,4
+201569,Eric,Gordon,Eric Gordon,1988-12-25T00:00:00,Indiana,USA,6-4,215,Guard,Active,1610612745,2008,2018,2008,1,7
+1628984,Devonte',Graham,Devonte' Graham,1995-02-22T00:00:00,Kansas,USA,6-2,185,Guard,Active,1610612766,2018,2018,2018,2,34
+1626203,Treveon,Graham,Treveon Graham,1993-10-28T00:00:00,Virginia Commonwealth,USA,6-5,225,Forward,Active,1610612751,2016,2018,Undrafted,Undrafted,Undrafted
+203924,Jerami,Grant,Jerami Grant,1994-03-12T00:00:00,Syracuse,USA,6-9,220,Forward,Active,1610612760,2014,2018,2014,2,39
+1626170,Jerian,Grant,Jerian Grant,1992-10-09T00:00:00,Notre Dame,USA,6-4,205,Guard,Active,1610612753,2015,2018,2015,1,19
+1629055,Donte,Grantham,Donte Grantham,1995-03-19T00:00:00,Clemson,USA,6-8,215,Forward,Active,1610612760,2018,2018,Undrafted,Undrafted,Undrafted
+201980,Danny,Green,Danny Green,1987-06-22T00:00:00,North Carolina,USA,6-6,215,Guard-Forward,Active,1610612761,2009,2018,2009,2,46
+203110,Draymond,Green,Draymond Green,1990-03-04T00:00:00,Michigan State,USA,6-7,230,Forward,Active,1610612744,2012,2018,2012,2,35
+101123,Gerald,Green,Gerald Green,1986-01-26T00:00:00,Gulf Shores Aca. (TX),USA,6-7,205,Guard-Forward,Active,1610612745,2005,2018,2005,1,18
+203210,JaMychal,Green,JaMychal Green,1990-06-21T00:00:00,Alabama,USA,6-9,227,Forward,Active,1610612746,2014,2018,Undrafted,Undrafted,Undrafted
+201145,Jeff,Green,Jeff Green,1986-08-28T00:00:00,Georgetown,USA,6-9,235,Forward,Active,1610612764,2007,2018,2007,1,5
+201933,Blake,Griffin,Blake Griffin,1989-03-16T00:00:00,Oklahoma,USA,6-10,250,Forward,Active,1610612765,2009,2018,2009,1,1
+203501,Tim,Hardaway Jr.,Tim Hardaway Jr.,1992-03-16T00:00:00,Michigan,USA,6-6,205,Guard,Active,1610612742,2013,2018,2013,1,24
+201935,James,Harden,James Harden,1989-08-26T00:00:00,Arizona State,USA,6-5,220,Guard,Active,1610612745,2009,2018,2009,1,3
+203090,Maurice,Harkless,Maurice Harkless,1993-05-11T00:00:00,St. John's (NY),USA,6-9,220,Forward,Active,1610612757,2012,2018,2012,1,15
+1626149,Montrezl,Harrell,Montrezl Harrell,1994-01-26T00:00:00,Louisville,USA,6-8,240,Forward-Center,Active,1610612746,2015,2018,2015,2,32
+2734,Devin,Harris,Devin Harris,1983-02-27T00:00:00,Wisconsin,USA,6-3,185,Guard,Active,1610612742,2004,2018,2004,1,5
+203914,Gary,Harris,Gary Harris,1994-09-14T00:00:00,Michigan State,USA,6-4,210,Guard,Active,1610612743,2014,2018,2014,1,19
+203925,Joe,Harris,Joe Harris,1991-09-06T00:00:00,Virginia,USA,6-6,218,Forward-Guard,Active,1610612751,2014,2018,2014,2,33
+202699,Tobias,Harris,Tobias Harris,1992-07-15T00:00:00,Tennessee,USA,6-9,235,Forward,Active,1610612755,2011,2018,2011,1,19
+1627885,Shaquille,Harrison,Shaquille Harrison,1993-10-06T00:00:00,Tulsa,USA,6-4,190,Guard,Active,1610612741,2017,2018,Undrafted,Undrafted,Undrafted
+1628404,Josh,Hart,Josh Hart,1995-03-06T00:00:00,Villanova,USA,6-5,215,Guard,Active,1610612747,2017,2018,2017,1,30
+1628392,Isaiah,Hartenstein,Isaiah Hartenstein,1998-05-05T00:00:00,,Germany,7-0,249,Forward-Center,Active,1610612745,2018,2018,2017,2,43
+2617,Udonis,Haslem,Udonis Haslem,1980-06-09T00:00:00,Florida,USA,6-8,235,Forward,Active,1610612748,2003,2018,Undrafted,Undrafted,Undrafted
+202330,Gordon,Hayward,Gordon Hayward,1990-03-23T00:00:00,Butler,USA,6-8,225,Forward,Active,1610612738,2010,2018,2010,1,9
+203089,John,Henson,John Henson,1990-12-28T00:00:00,North Carolina,USA,6-11,219,Forward,Active,1610612739,2012,2018,2012,1,14
+1627823,Juancho,Hernangomez,Juancho Hernangomez,1995-09-28T00:00:00,,Spain,6-9,230,Forward,Active,1610612743,2016,2018,2016,1,15
+1626195,Willy,Hernangomez,Willy Hernangomez,1994-05-27T00:00:00,Spain,Spain,6-11,240,Center,Active,1610612766,2016,2018,2015,2,35
+1626209,Mario,Hezonja,Mario Hezonja,1995-02-25T00:00:00,Croatia,Croatia,6-8,225,Forward,Active,1610612752,2015,2018,2015,1,5
+1628439,Isaiah,Hicks,Isaiah Hicks,1994-07-24T00:00:00,North Carolina,USA,6-9,230,Forward,Active,1610612752,2017,2018,Undrafted,Undrafted,Undrafted
+1627741,Buddy,Hield,Buddy Hield,1992-12-17T00:00:00,Oklahoma,Bahamas,6-4,214,Guard,Active,1610612758,2016,2018,2016,1,6
+1629312,Haywood,Highsmith,Haywood Highsmith,1996-12-09T00:00:00,,USA,6-7,220,Forward,Active,1610612755,2018,2018,Undrafted,Undrafted,Undrafted
+2403,Nene,Hilario,Nene,1982-09-13T00:00:00,"Sao Carlos, Brazil",Brazil,6-11,250,Center-Forward,Active,1610612745,2002,2018,2002,1,7
+201588,George,Hill,George Hill,1986-05-04T00:00:00,Indiana Purdue-Indianapolis,USA,6-3,188,Guard,Active,1610612749,2008,2018,2008,1,26
+203524,Solomon,Hill,Solomon Hill,1991-03-18T00:00:00,Arizona,USA,6-7,225,Forward,Active,1610612740,2013,2018,2013,1,23
+1628988,Aaron,Holiday,Aaron Holiday,1996-09-30T00:00:00,California-Los Angeles,USA,6-1,185,Guard,Active,1610612754,2018,2018,2018,1,23
+201950,Jrue,Holiday,Jrue Holiday,1990-06-12T00:00:00,UCLA,USA,6-4,205,Guard,Active,1610612740,2009,2018,2009,1,17
+203200,Justin,Holiday,Justin Holiday,1989-04-05T00:00:00,Washington,USA,6-6,181,Forward-Guard,Active,1610612763,2012,2018,Undrafted,Undrafted,Undrafted
+1626178,Rondae,Hollis-Jefferson,Rondae Hollis-Jefferson,1995-01-03T00:00:00,Arizona,USA,6-7,217,Forward,Active,1610612751,2015,2018,2015,1,23
+1626158,Richaun,Holmes,Richaun Holmes,1993-10-15T00:00:00,Bowling Green,USA,6-10,235,Forward-Center,Active,1610612756,2015,2018,2015,2,37
+203918,Rodney,Hood,Rodney Hood,1992-10-20T00:00:00,Duke,USA,6-8,206,Guard,Active,1610612757,2014,2018,2014,1,23
+201143,Al,Horford,Al Horford,1986-06-03T00:00:00,Florida,Dominican Republic,6-10,245,Center-Forward,Active,1610612738,2007,2018,2007,1,3
+1627863,Danuel,House Jr.,Danuel House Jr.,1993-06-07T00:00:00,Texas A&M,USA,6-7,220,Forward-Guard,Active,1610612745,2016,2018,Undrafted,Undrafted,Undrafted
+2730,Dwight,Howard,Dwight Howard,1985-12-08T00:00:00,SW Atlanta Christian Academy (GA),USA,6-11,265,Center,Active,1610612764,2004,2018,2004,1,1
+1628989,Kevin,Huerter,Kevin Huerter,1998-08-27T00:00:00,Maryland,USA,6-7,190,Guard,Active,1610612737,2018,2018,2018,1,19
+1626154,RJ,Hunter,RJ Hunter,1993-10-24T00:00:00,Georgia State,USA,6-5,185,Guard,Active,1610612738,2015,2018,2015,1,28
+1628990,Chandler,Hutchison,Chandler Hutchison,1996-04-26T00:00:00,Boise State,USA,6-7,197,Forward,Active,1610612741,2018,2018,2018,1,22
+201586,Serge,Ibaka,Serge Ibaka,1989-09-18T00:00:00,"Brazzaville, Rep. of Congo",Democratic Republic of the Congo,6-10,235,Center-Forward,Active,1610612761,2009,2018,2008,1,24
+2738,Andre,Iguodala,Andre Iguodala,1984-01-28T00:00:00,Arizona,USA,6-6,215,Guard-Forward,Active,1610612744,2004,2018,2004,1,9
+101141,Ersan,Ilyasova,Ersan Ilyasova,1987-05-15T00:00:00,"Eskisehir, Turkey",Turkey,6-10,235,Forward,Active,1610612749,2006,2018,2005,2,36
+204060,Joe,Ingles,Joe Ingles,1987-10-02T00:00:00,,Australia,6-8,226,Forward,Active,1610612762,2014,2018,Undrafted,Undrafted,Undrafted
+1627742,Brandon,Ingram,Brandon Ingram,1997-09-02T00:00:00,Duke,USA,6-9,190,Forward,Active,1610612747,2016,2018,2016,1,2
+202681,Kyrie,Irving,Kyrie Irving,1992-03-23T00:00:00,Duke,Australia,6-3,193,Guard,Active,1610612738,2011,2018,2011,1,1
+1628371,Jonathan,Isaac,Jonathan Isaac,1997-10-03T00:00:00,Florida State,USA,6-10,210,Forward,Active,1610612753,2017,2018,2017,1,6
+1628411,Wes,Iwundu,Wes Iwundu,1994-12-20T00:00:00,Kansas State,USA,6-7,195,Forward,Active,1610612753,2017,2018,2017,2,33
+1628402,Frank,Jackson,Frank Jackson,1998-05-04T00:00:00,Duke,USA,6-3,205,Guard,Active,1610612740,2017,2018,2017,2,31
+1628367,Josh,Jackson,Josh Jackson,1997-02-10T00:00:00,Kansas,USA,6-8,200,Forward,Active,1610612756,2017,2018,2017,1,4
+1628382,Justin,Jackson,Justin Jackson,1995-03-28T00:00:00,North Carolina,USA,6-8,210,Forward,Active,1610612742,2017,2018,2017,1,15
+202704,Reggie,Jackson,Reggie Jackson,1990-04-16T00:00:00,Boston College,USA,6-3,208,Guard,Active,1610612765,2011,2018,2011,1,24
+1628991,Jaren,Jackson Jr.,Jaren Jackson Jr.,1999-09-15T00:00:00,Michigan State,USA,6-11,242,Forward-Center,Active,1610612763,2018,2018,2018,1,4
+2544,LeBron,James,LeBron James,1984-12-30T00:00:00,St. Vincent-St. Mary HS (OH),USA,6-8,250,Forward,Active,1610612747,2003,2018,2003,1,1
+1628518,Amile,Jefferson,Amile Jefferson,1993-05-07T00:00:00,Duke,USA,6-9,222,Forward,Active,1610612753,2017,2018,Undrafted,Undrafted,Undrafted
+203098,John,Jenkins,John Jenkins,1991-03-06T00:00:00,Vanderbilt,USA,6-4,215,Guard,Active,1610612737,2012,2018,2012,1,23
+201973,Jonas,Jerebko,Jonas Jerebko,1987-03-02T00:00:00,"Kinna, Sweden",Sweden,6-10,231,Forward,Active,1610612744,2009,2018,2009,2,39
+1628993,Alize,Johnson,Alize Johnson,1996-04-22T00:00:00,Missouri State,USA,6-9,212,Forward,Active,1610612754,2018,2018,2018,2,50
+101161,Amir,Johnson,Amir Johnson,1987-05-01T00:00:00,Westchester HS (Los Angeles),USA,6-9,240,Center-Forward,Active,1610612755,2005,2018,2005,2,56
+1629168,BJ,Johnson,BJ Johnson,1995-12-21T00:00:00,,USA,6-7,200,Forward,Active,1610612737,2018,2018,Undrafted,Undrafted,Undrafted
+201949,James,Johnson,James Johnson,1987-02-20T00:00:00,Wake Forest,USA,6-8,240,Forward,Active,1610612748,2009,2018,2009,1,16
+1626169,Stanley,Johnson,Stanley Johnson,1996-05-29T00:00:00,Arizona,USA,6-7,245,Forward,Active,1610612740,2015,2018,2015,1,8
+204020,Tyler,Johnson,Tyler Johnson,1992-05-07T00:00:00,Fresno State,USA,6-4,190,Guard,Active,1610612756,2014,2018,Undrafted,Undrafted,Undrafted
+202325,Wesley,Johnson,Wesley Johnson,1987-07-11T00:00:00,Syracuse,USA,6-7,215,Forward-Guard,Active,1610612764,2010,2018,2010,1,4
+203999,Nikola,Jokic,Nikola Jokic,1995-02-19T00:00:00,Serbia,Serbia,7-0,250,Center,Active,1610612743,2015,2018,2014,2,41
+1627745,Damian,Jones,Damian Jones,1995-06-30T00:00:00,Vanderbilt,USA,7-0,245,Center,Active,1610612744,2016,2018,2016,1,30
+1626145,Tyus,Jones,Tyus Jones,1996-05-10T00:00:00,Duke,USA,6-2,196,Guard,Active,1610612750,2015,2018,2015,1,24
+1627884,Derrick,Jones Jr.,Derrick Jones Jr.,1997-02-15T00:00:00,Nevada-Las Vegas,USA,6-7,200,Forward-Guard,Active,1610612748,2016,2018,Undrafted,Undrafted,Undrafted
+201599,DeAndre,Jordan,DeAndre Jordan,1988-07-21T00:00:00,Texas A&M,USA,6-11,265,Center,Active,1610612752,2008,2018,2008,2,35
+202709,Cory,Joseph,Cory Joseph,1991-08-20T00:00:00,Texas,Canada,6-3,193,Guard,Active,1610612754,2011,2018,2011,1,29
+1626163,Frank,Kaminsky,Frank Kaminsky,1993-04-04T00:00:00,Wisconsin,USA,7-0,242,Forward-Center,Active,1610612766,2015,2018,2015,1,9
+202683,Enes,Kanter,Enes Kanter,1992-05-20T00:00:00,Kentucky,Turkey,6-11,250,Center,Active,1610612757,2011,2018,2011,1,3
+1628379,Luke,Kennard,Luke Kennard,1996-06-24T00:00:00,Duke,USA,6-5,206,Guard,Active,1610612765,2017,2018,2017,1,12
+203077,Michael,Kidd-Gilchrist,Michael Kidd-Gilchrist,1993-09-26T00:00:00,Kentucky,USA,6-7,232,Forward,Active,1610612766,2012,2018,2012,1,2
+1628994,George,King,George King,1994-01-15T00:00:00,Colorado,USA,6-6,220,Forward,Active,1610612756,2018,2018,2018,2,59
+1628467,Maxi,Kleber,Maxi Kleber,1992-01-29T00:00:00,,Germany,6-11,240,Forward,Active,1610612742,2017,2018,Undrafted,Undrafted,Undrafted
+202688,Brandon,Knight,Brandon Knight,1991-12-02T00:00:00,Kentucky,USA,6-3,195,Guard,Active,1610612739,2011,2018,2011,1,8
+1628995,Kevin,Knox,Kevin Knox,1999-08-11T00:00:00,Kentucky,USA,6-9,215,Forward,Active,1610612752,2018,2018,2018,1,9
+1627788,Furkan,Korkmaz,Furkan Korkmaz,1997-07-24T00:00:00,,Turkey,6-7,190,Guard-Forward,Active,1610612755,2017,2018,2016,1,26
+1628436,Luke,Kornet,Luke Kornet,1995-07-15T00:00:00,Vanderbilt,USA,7-1,250,Forward-Center,Active,1610612752,2017,2018,Undrafted,Undrafted,Undrafted
+2594,Kyle,Korver,Kyle Korver,1981-03-17T00:00:00,Creighton,USA,6-7,212,Guard-Forward,Active,1610612762,2003,2018,2003,2,51
+201585,Kosta,Koufos,Kosta Koufos,1989-02-24T00:00:00,Ohio State,USA,7-0,245,Center,Active,1610612758,2008,2018,2008,1,23
+1629066,Rodions,Kurucs,Rodions Kurucs,1998-02-05T00:00:00,,Latvia,6-9,210,Forward,Active,1610612751,2018,2018,2018,2,40
+1628398,Kyle,Kuzma,Kyle Kuzma,1995-07-24T00:00:00,Utah,USA,6-9,220,Forward,Active,1610612747,2017,2018,2017,1,27
+203897,Zach,LaVine,Zach LaVine,1995-03-10T00:00:00,UCLA,USA,6-5,200,Guard,Active,1610612741,2014,2018,2014,1,13
+1627746,Skal,Labissiere,Skal Labissiere,1996-03-18T00:00:00,Kentucky,Haiti,6-11,235,Forward,Active,1610612757,2016,2018,2016,1,28
+203087,Jeremy,Lamb,Jeremy Lamb,1992-05-30T00:00:00,Connecticut,USA,6-5,185,Guard,Active,1610612766,2012,2018,2012,1,12
+1627774,Jake,Layman,Jake Layman,1994-03-07T00:00:00,Maryland,USA,6-9,215,Forward,Active,1610612757,2016,2018,2016,2,47
+1627747,Caris,LeVert,Caris LeVert,1994-08-25T00:00:00,Michigan,USA,6-7,204,Guard,Active,1610612751,2016,2018,2016,1,20
+1628388,TJ,Leaf,TJ Leaf,1997-04-30T00:00:00,California-Los Angeles,USA,6-10,225,Forward,Active,1610612754,2017,2018,2017,1,18
+201584,Courtney,Lee,Courtney Lee,1985-10-03T00:00:00,Western Kentucky,USA,6-5,215,Guard,Active,1610612742,2008,2018,2008,1,22
+1627814,Damion,Lee,Damion Lee,1992-10-21T00:00:00,Louisville,USA,6-6,210,Guard,Active,1610612744,2017,2018,Undrafted,Undrafted,Undrafted
+203458,Alex,Len,Alex Len,1993-06-16T00:00:00,Maryland,Ukraine,7-1,250,Center,Active,1610612737,2013,2018,2013,1,5
+202695,Kawhi,Leonard,Kawhi Leonard,1991-06-29T00:00:00,San Diego State,USA,6-7,230,Forward,Active,1610612761,2011,2018,2011,1,15
+203086,Meyers,Leonard,Meyers Leonard,1992-02-27T00:00:00,Illinois,USA,7-1,255,Forward-Center,Active,1610612757,2012,2018,2012,1,11
+202720,Jon,Leuer,Jon Leuer,1989-05-14T00:00:00,Wisconsin,USA,6-10,228,Forward,Active,1610612765,2011,2018,2011,2,40
+203081,Damian,Lillard,Damian Lillard,1990-07-15T00:00:00,Weber State,USA,6-3,195,Guard,Active,1610612757,2012,2018,2012,1,6
+202391,Jeremy,Lin,Jeremy Lin,1988-08-23T00:00:00,Harvard,USA,6-3,200,Guard,Active,1610612761,2010,2018,Undrafted,Undrafted,Undrafted
+2733,Shaun,Livingston,Shaun Livingston,1985-09-11T00:00:00,Peoria Central HS (IL),USA,6-7,192,Guard,Active,1610612744,2004,2018,2004,1,4
+1626172,Kevon,Looney,Kevon Looney,1996-02-06T00:00:00,UCLA,USA,6-9,220,Center-Forward,Active,1610612744,2015,2018,2015,1,30
+201572,Brook,Lopez,Brook Lopez,1988-04-01T00:00:00,Stanford,USA,7-0,270,Center,Active,1610612749,2008,2018,2008,1,10
+201577,Robin,Lopez,Robin Lopez,1988-04-01T00:00:00,Stanford,USA,7-0,275,Center,Active,1610612741,2008,2018,2008,1,15
+201567,Kevin,Love,Kevin Love,1988-09-07T00:00:00,UCLA,USA,6-10,251,Forward-Center,Active,1610612739,2008,2018,2008,1,5
+200768,Kyle,Lowry,Kyle Lowry,1986-03-25T00:00:00,Villanova,USA,6-1,196,Guard,Active,1610612761,2006,2018,2006,1,24
+1628070,Jordan,Loyd,Jordan Loyd,1993-07-27T00:00:00,Indianapolis,USA,6-4,210,Guard,Active,1610612761,2018,2018,Undrafted,Undrafted,Undrafted
+203564,Kalin,Lucas,Kalin Lucas,1989-05-24T00:00:00,Michigan State,USA,6-1,195,Guard,Active,1610612763,2014,2018,Undrafted,Undrafted,Undrafted
+1627789,Timothe,Luwawu-Cabarrot,Timothe Luwawu-Cabarrot,1995-05-09T00:00:00,,France,6-6,210,Guard-Forward,Active,1610612741,2016,2018,2016,1,24
+1628399,Tyler,Lydon,Tyler Lydon,1996-04-09T00:00:00,Syracuse,USA,6-10,225,Forward,Active,1610612743,2017,2018,2017,1,24
+1626168,Trey,Lyles,Trey Lyles,1995-11-05T00:00:00,Kentucky,USA,6-10,234,Forward,Active,1610612743,2015,2018,2015,1,12
+203159,Scott,Machado,Scott Machado,1990-06-08T00:00:00,Iona,USA,6-1,205,Guard,Active,1610612745,2012,2018,Undrafted,Undrafted,Undrafted
+202714,Shelvin,Mack,Shelvin Mack,1990-04-22T00:00:00,Butler,USA,6-3,203,Guard,Active,1610612766,2011,2018,2011,2,34
+1629133,Daryl,Macon,Daryl Macon,1995-11-29T00:00:00,Arkansas,USA,6-3,185,Guard,Active,1610612742,2018,2018,Undrafted,Undrafted,Undrafted
+1629122,J.P.,Macura,J.P. Macura,1995-06-05T00:00:00,Xavier (Ohio),USA,6-5,205,Guard,Active,1610612766,2018,2018,Undrafted,Undrafted,Undrafted
+101133,Ian,Mahinmi,Ian Mahinmi,1986-11-05T00:00:00,"Rouen, France",France,6-11,262,Center,Active,1610612764,2007,2018,2005,1,28
+1627748,Thon,Maker,Thon Maker,1997-02-25T00:00:00,,South Sudan,7-1,221,Forward,Active,1610612765,2016,2018,2016,1,10
+1626246,Boban,Marjanovic,Boban Marjanovic,1988-08-15T00:00:00,,Serbia,7-3,290,Center,Active,1610612755,2015,2018,Undrafted,Undrafted,Undrafted
+1628374,Lauri,Markkanen,Lauri Markkanen,1997-05-22T00:00:00,Arizona,Finland,7-0,240,Forward,Active,1610612741,2017,2018,2017,1,7
+1626185,Jarell,Martin,Jarell Martin,1994-05-24T00:00:00,Louisiana State,USA,6-10,239,Forward,Active,1610612753,2015,2018,2015,1,25
+1628412,Frank,Mason,Frank Mason,1994-04-03T00:00:00,Kansas,USA,5-11,190,Guard,Active,1610612758,2017,2018,2017,2,34
+1628999,Yante,Maten,Yante Maten,1996-08-14T00:00:00,Georgia,USA,6-8,240,Forward,Active,1610612748,2018,2018,Undrafted,Undrafted,Undrafted
+202083,Wesley,Matthews,Wesley Matthews,1986-10-14T00:00:00,Marquette,USA,6-5,220,Guard-Forward,Active,1610612754,2009,2018,Undrafted,Undrafted,Undrafted
+201601,Luc,Mbah a Moute,Luc Mbah a Moute,1986-09-09T00:00:00,UCLA,Cameroon,6-8,230,Forward,Active,1610612746,2008,2018,2008,2,37
+1627775,Patrick,McCaw,Patrick McCaw,1995-10-25T00:00:00,Nevada-Las Vegas,USA,6-7,185,Guard,Active,1610612761,2016,2018,2016,2,38
+203468,CJ,McCollum,CJ McCollum,1991-09-19T00:00:00,Lehigh,USA,6-3,190,Guard,Active,1610612757,2013,2018,2013,1,10
+204456,T.J.,McConnell,T.J. McConnell,1992-03-25T00:00:00,Arizona,USA,6-2,190,Guard,Active,1610612755,2015,2018,Undrafted,Undrafted,Undrafted
+203926,Doug,McDermott,Doug McDermott,1992-01-03T00:00:00,Creighton,USA,6-8,225,Forward,Active,1610612754,2014,2018,2014,1,11
+201580,JaVale,McGee,JaVale McGee,1988-01-19T00:00:00,Nevada,USA,7-0,270,Center,Active,1610612747,2008,2018,2008,1,18
+203585,Rodney,McGruder,Rodney McGruder,1991-07-29T00:00:00,Kansas State,USA,6-4,200,Forward-Guard,Active,1610612748,2016,2018,Undrafted,Undrafted,Undrafted
+1628035,Alfonzo,McKinnie,Alfonzo McKinnie,1992-09-17T00:00:00,Wisc.-Green Bay,USA,6-8,215,Forward,Active,1610612744,2017,2018,Undrafted,Undrafted,Undrafted
+203895,Jordan,McRae,Jordan McRae,1991-03-28T00:00:00,Tennessee,USA,6-5,179,Guard,Active,1610612764,2015,2018,2014,2,58
+201975,Jodie,Meeks,Jodie Meeks,1987-08-21T00:00:00,Kentucky,USA,6-4,210,Guard,Active,1610612755,2009,2018,2009,2,41
+1626257,Salah,Mejri,Salah Mejri,1986-06-15T00:00:00,,Tunisia,7-2,235,Center,Active,1610612742,2015,2018,Undrafted,Undrafted,Undrafted
+1629001,De'Anthony,Melton,De'Anthony Melton,1998-05-28T00:00:00,Southern California,USA,6-4,200,Guard,Active,1610612756,2018,2018,2018,2,46
+1629002,Chimezie,Metu,Chimezie Metu,1997-03-22T00:00:00,Southern California,USA,6-10,225,Forward,Active,1610612759,2018,2018,2018,2,49
+203114,Khris,Middleton,Khris Middleton,1991-08-12T00:00:00,Texas A&M,USA,6-8,222,Forward,Active,1610612749,2012,2018,2012,2,39
+101139,CJ,Miles,CJ Miles,1987-03-18T00:00:00,Skyline HS (TX),USA,6-6,220,Forward-Guard,Active,1610612763,2005,2018,2005,2,34
+203121,Darius,Miller,Darius Miller,1990-03-21T00:00:00,Kentucky,USA,6-8,225,Forward,Active,1610612740,2012,2018,2012,2,46
+1626259,Malcolm,Miller,Malcolm Miller,1993-03-06T00:00:00,Holy Cross,USA,6-7,210,Forward,Active,1610612761,2017,2018,Undrafted,Undrafted,Undrafted
+201988,Patty,Mills,Patty Mills,1988-08-11T00:00:00,Saint Mary's (CA),Australia,6-0,180,Guard,Active,1610612759,2009,2018,2009,2,55
+200794,Paul,Millsap,Paul Millsap,1985-02-10T00:00:00,Louisiana Tech,USA,6-8,246,Forward,Active,1610612743,2006,2018,2006,2,47
+1629003,Shake,Milton,Shake Milton,1996-09-26T00:00:00,Southern Methodist,USA,6-6,207,Guard,Active,1610612755,2018,2018,2018,2,54
+202703,Nikola,Mirotic,Nikola Mirotic,1991-02-11T00:00:00,,Montenegro,6-10,250,Forward,Active,1610612749,2014,2018,2011,1,23
+1628378,Donovan,Mitchell,Donovan Mitchell,1996-09-07T00:00:00,Louisville,USA,6-3,215,Guard,Active,1610612762,2017,2018,2017,1,13
+1628513,Naz,Mitrou-Long,Naz Mitrou-Long,1993-08-03T00:00:00,Iowa State,Canada,6-4,218,Guard,Active,1610612762,2017,2018,Undrafted,Undrafted,Undrafted
+1628370,Malik,Monk,Malik Monk,1998-02-04T00:00:00,Kentucky,USA,6-3,200,Guard,Active,1610612766,2017,2018,2017,1,11
+202328,Greg,Monroe,Greg Monroe,1990-06-04T00:00:00,Georgetown,USA,6-11,265,Center,Active,1610612738,2010,2018,2010,1,7
+1628500,Ben,Moore,Ben Moore,1995-05-13T00:00:00,Southern Methodist,USA,6-8,220,Forward,Active,1610612759,2017,2018,Undrafted,Undrafted,Undrafted
+202734,E'Twaun,Moore,E'Twaun Moore,1989-02-25T00:00:00,Purdue,USA,6-4,191,Guard,Active,1610612740,2011,2018,2011,2,55
+203961,Eric,Moreland,Eric Moreland,1991-12-24T00:00:00,Oregon State,USA,6-10,238,Forward-Center,Active,1610612761,2014,2018,Undrafted,Undrafted,Undrafted
+202694,Marcus,Morris,Marcus Morris,1989-09-02T00:00:00,Kansas,USA,6-9,235,Forward,Active,1610612738,2011,2018,2011,1,14
+202693,Markieff,Morris,Markieff Morris,1989-09-02T00:00:00,Kansas,USA,6-10,245,Forward,Active,1610612760,2011,2018,2011,1,13
+1628420,Monte,Morris,Monte Morris,1995-06-27T00:00:00,Iowa State,USA,6-3,175,Guard,Active,1610612743,2017,2018,2017,2,51
+1628405,Johnathan,Motley,Johnathan Motley,1995-05-04T00:00:00,Baylor,USA,6-10,230,Forward,Active,1610612746,2017,2018,Undrafted,Undrafted,Undrafted
+202389,Timofey,Mozgov,Timofey Mozgov,1986-07-16T00:00:00,"St. Petersburg, Russia",Russia,7-1,275,Center,Active,1610612753,2010,2018,Undrafted,Undrafted,Undrafted
+1626144,Emmanuel,Mudiay,Emmanuel Mudiay,1996-03-05T00:00:00,,Democratic Republic of the Congo,6-5,200,Guard,Active,1610612752,2015,2018,2015,1,7
+1627749,Dejounte,Murray,Dejounte Murray,1996-09-19T00:00:00,Washington,USA,6-5,170,Guard,Active,1610612759,2016,2018,2016,1,29
+1627750,Jamal,Murray,Jamal Murray,1997-02-23T00:00:00,Kentucky,Canada,6-4,207,Guard,Active,1610612743,2016,2018,2016,1,7
+1629058,Dzanan,Musa,Dzanan Musa,1999-05-08T00:00:00,,Bosnia and Herzegovina,6-9,208,Guard-Forward,Active,1610612751,2018,2018,2018,1,29
+203488,Mike,Muscala,Mike Muscala,1991-07-01T00:00:00,Bucknell,USA,6-11,240,Forward-Center,Active,1610612747,2013,2018,2013,2,44
+1629004,Svi,Mykhailiuk,Svi Mykhailiuk,1997-06-10T00:00:00,Kansas,Ukraine,6-8,205,Guard,Active,1610612765,2018,2018,2018,2,47
+1627846,Abdel,Nader,Abdel Nader,1993-09-25T00:00:00,Iowa State,Egypt,6-6,225,Forward,Active,1610612760,2017,2018,2016,2,58
+1626204,Larry,Nance Jr.,Larry Nance Jr.,1993-01-01T00:00:00,Wyoming,USA,6-9,230,Forward,Active,1610612739,2015,2018,2015,1,27
+203894,Shabazz,Napier,Shabazz Napier,1991-07-14T00:00:00,Connecticut,USA,6-1,180,Guard,Active,1610612751,2014,2018,2014,1,24
+203526,Raul,Neto,Raul Neto,1992-05-19T00:00:00,,Brazil,6-1,179,Guard,Active,1610612762,2015,2018,2013,2,47
+1627777,Georges,Niang,Georges Niang,1993-06-17T00:00:00,Iowa State,USA,6-8,230,Forward,Active,1610612762,2016,2018,2016,2,50
+201149,Joakim,Noah,Joakim Noah,1985-02-25T00:00:00,Florida,USA,6-11,230,Center,Active,1610612763,2007,2018,2007,1,9
+203457,Nerlens,Noel,Nerlens Noel,1994-04-10T00:00:00,Kentucky,USA,6-11,220,Forward-Center,Active,1610612760,2013,2018,2013,1,6
+1717,Dirk,Nowitzki,Dirk Nowitzki,1978-06-19T00:00:00,"Wurzburg, Germany",Germany,7-0,245,Forward,Active,1610612742,1998,2018,1998,1,9
+1628373,Frank,Ntilikina,Frank Ntilikina,1998-07-28T00:00:00,,France,6-6,200,Guard,Active,1610612752,2017,2018,2017,1,8
+203994,Jusuf,Nurkic,Jusuf Nurkic,1994-08-23T00:00:00,,Bosnia and Herzegovina,7-0,275,Center,Active,1610612757,2014,2018,2014,1,16
+1628021,David,Nwaba,David Nwaba,1993-01-14T00:00:00,Cal Poly-S.L.O.,USA,6-4,219,Guard,Active,1610612739,2016,2018,Undrafted,Undrafted,Undrafted
+1626220,Royce,O'Neale,Royce O'Neale,1993-06-05T00:00:00,Baylor,USA,6-6,226,Forward,Active,1610612762,2017,2018,Undrafted,Undrafted,Undrafted
+203124,Kyle,O'Quinn,Kyle O'Quinn,1990-03-26T00:00:00,Norfolk State,USA,6-10,250,Center,Active,1610612754,2012,2018,2012,2,49
+1628400,Semi,Ojeleye,Semi Ojeleye,1994-12-05T00:00:00,Southern Methodist,USA,6-7,241,Forward,Active,1610612738,2017,2018,2017,2,37
+1626143,Jahlil,Okafor,Jahlil Okafor,1995-12-15T00:00:00,Duke,USA,6-11,275,Center,Active,1610612740,2015,2018,2015,1,3
+1629059,Elie,Okobo,Elie Okobo,1997-10-23T00:00:00,,France,6-3,190,Guard,Active,1610612756,2018,2018,2018,2,31
+1629006,Josh,Okogie,Josh Okogie,1998-09-01T00:00:00,Georgia Tech,Nigeria,6-4,212,Guard,Active,1610612750,2018,2018,2018,1,20
+203506,Victor,Oladipo,Victor Oladipo,1992-05-04T00:00:00,Indiana,USA,6-4,210,Guard,Active,1610612754,2013,2018,2013,1,2
+203482,Kelly,Olynyk,Kelly Olynyk,1991-04-19T00:00:00,Gonzaga,Canada,7-0,240,Forward,Active,1610612748,2013,2018,2013,1,13
+1626224,Cedi,Osman,Cedi Osman,1995-04-08T00:00:00,Anadolu Efes,Turkey,6-8,215,Forward,Active,1610612739,2017,2018,2015,2,31
+1626162,Kelly,Oubre Jr.,Kelly Oubre Jr.,1995-12-09T00:00:00,Kansas,USA,6-7,205,Forward,Active,1610612756,2015,2018,2015,1,15
+2585,Zaza,Pachulia,Zaza Pachulia,1984-02-10T00:00:00,"Tbilisi, Georgia",Georgia,6-11,270,Center,Active,1610612765,2003,2018,2003,2,42
+203953,Jabari,Parker,Jabari Parker,1995-03-15T00:00:00,Duke,USA,6-8,245,Forward,Active,1610612764,2014,2018,2014,1,2
+2225,Tony,Parker,Tony Parker,1982-05-17T00:00:00,"Paris, France",France,6-2,185,Guard,Active,1610612766,2001,2018,2001,1,28
+202718,Chandler,Parsons,Chandler Parsons,1988-10-25T00:00:00,Florida,USA,6-10,230,Forward,Active,1610612763,2011,2018,2011,2,38
+202335,Patrick,Patterson,Patrick Patterson,1989-03-14T00:00:00,Kentucky,USA,6-9,230,Forward,Active,1610612760,2010,2018,2010,1,14
+1628383,Justin,Patton,Justin Patton,1997-06-14T00:00:00,Creighton,USA,7-0,241,Center,Active,1610612755,2017,2018,2017,1,16
+101108,Chris,Paul,Chris Paul,1985-05-06T00:00:00,Wake Forest,USA,6-0,175,Guard,Active,1610612745,2005,2018,2005,1,4
+203901,Elfrid,Payton,Elfrid Payton,1994-02-22T00:00:00,Louisiana-Lafayette,USA,6-4,185,Guard,Active,1610612740,2014,2018,2014,1,10
+1629033,Theo,Pinson,Theo Pinson,1995-11-05T00:00:00,,USA,6-6,218,Guard-Forward,Active,1610612751,2018,2018,Undrafted,Undrafted,Undrafted
+203486,Mason,Plumlee,Mason Plumlee,1990-03-05T00:00:00,Duke,USA,6-11,235,Forward-Center,Active,1610612743,2013,2018,2013,1,22
+203101,Miles,Plumlee,Miles Plumlee,1988-09-01T00:00:00,Duke,USA,6-11,249,Center,Active,1610612737,2012,2018,2012,1,26
+1627751,Jakob,Poeltl,Jakob Poeltl,1995-10-15T00:00:00,Utah,Austria,7-0,230,Center,Active,1610612759,2016,2018,2016,1,9
+202347,Quincy,Pondexter,Quincy Pondexter,1988-03-10T00:00:00,Washington,USA,6-7,230,Forward,Active,1610612759,2010,2018,2010,1,26
+1629008,Michael,Porter Jr.,Michael Porter Jr.,1998-06-29T00:00:00,Missouri,USA,6-10,210,Forward,Active,1610612743,2018,2018,2018,1,14
+203490,Otto,Porter Jr.,Otto Porter Jr.,1993-06-03T00:00:00,Georgetown,USA,6-8,198,Forward,Active,1610612741,2013,2018,2013,1,3
+1626171,Bobby,Portis,Bobby Portis,1995-02-10T00:00:00,Arkansas,USA,6-11,250,Forward,Active,1610612764,2015,2018,2015,1,22
+204001,Kristaps,Porzingis,Kristaps Porzingis,1995-08-02T00:00:00,,Latvia,7-3,240,Forward-Center,Active,1610612742,2015,2018,2015,1,4
+203939,Dwight,Powell,Dwight Powell,1991-07-20T00:00:00,Stanford,Canada,6-11,240,Forward-Center,Active,1610612742,2014,2018,2014,2,45
+1626181,Norman,Powell,Norman Powell,1993-05-25T00:00:00,UCLA,USA,6-4,215,Forward-Guard,Active,1610612761,2015,2018,2015,2,46
+1627816,Alex,Poythress,Alex Poythress,1993-09-06T00:00:00,Kentucky,USA,6-9,235,Forward,Active,1610612737,2016,2018,Undrafted,Undrafted,Undrafted
+1627752,Taurean,Prince,Taurean Prince,1994-03-22T00:00:00,Baylor,USA,6-8,220,Forward,Active,1610612737,2016,2018,2016,1,12
+1628397,Ivan,Rabb,Ivan Rabb,1997-02-04T00:00:00,California,USA,6-10,220,Forward,Active,1610612763,2017,2018,2017,2,35
+1626184,Chasson,Randle,Chasson Randle,1993-02-05T00:00:00,Stanford,USA,6-2,185,Guard,Active,1610612764,2016,2018,Undrafted,Undrafted,Undrafted
+203944,Julius,Randle,Julius Randle,1994-11-29T00:00:00,Kentucky,USA,6-9,250,Center-Forward,Active,1610612740,2014,2018,2014,1,7
+200755,JJ,Redick,JJ Redick,1984-06-24T00:00:00,Duke,USA,6-4,200,Guard,Active,1610612755,2006,2018,2006,1,11
+1628432,Davon,Reed,Davon Reed,1995-06-11T00:00:00,Miami (FL),USA,6-5,208,Guard,Active,1610612754,2017,2018,2017,2,32
+1629244,Cameron,Reynolds,Cameron Reynolds,1995-02-07T00:00:00,,USA,6-8,225,Guard,Active,1610612750,2018,2018,Undrafted,Undrafted,Undrafted
+1626196,Josh,Richardson,Josh Richardson,1993-09-15T00:00:00,Tennessee,USA,6-6,200,Guard-Forward,Active,1610612748,2015,2018,2015,2,40
+203085,Austin,Rivers,Austin Rivers,1992-08-01T00:00:00,Duke,USA,6-4,200,Guard,Active,1610612745,2012,2018,2012,1,10
+203460,Andre,Roberson,Andre Roberson,1991-12-04T00:00:00,Colorado,USA,6-7,210,Guard-Forward,Active,1610612760,2013,2018,2013,1,26
+1628421,Devin,Robinson,Devin Robinson,1995-03-07T00:00:00,Florida,USA,6-8,200,Forward,Active,1610612764,2017,2018,Undrafted,Undrafted,Undrafted
+1629130,Duncan,Robinson,Duncan Robinson,1994-04-22T00:00:00,Michigan,USA,6-8,210,Forward,Active,1610612748,2018,2018,Undrafted,Undrafted,Undrafted
+1629010,Jerome,Robinson,Jerome Robinson,1997-02-22T00:00:00,Boston College,USA,6-5,190,Guard,Active,1610612746,2018,2018,2018,1,13
+1629011,Mitchell,Robinson,Mitchell Robinson,1998-04-01T00:00:00,,USA,7-1,240,Center,Active,1610612752,2018,2018,2018,2,36
+203922,Glenn,Robinson III,Glenn Robinson III,1994-01-08T00:00:00,Michigan,USA,6-6,222,Guard-Forward,Active,1610612765,2014,2018,2014,2,40
+200765,Rajon,Rondo,Rajon Rondo,1986-02-22T00:00:00,Kentucky,USA,6-1,186,Guard,Active,1610612747,2006,2018,2006,1,21
+201565,Derrick,Rose,Derrick Rose,1988-10-04T00:00:00,Memphis,USA,6-3,200,Guard,Active,1610612750,2008,2018,2008,1,1
+203082,Terrence,Ross,Terrence Ross,1991-02-05T00:00:00,Washington,USA,6-7,206,Guard-Forward,Active,1610612753,2012,2018,2012,1,8
+1626179,Terry,Rozier,Terry Rozier,1994-03-17T00:00:00,Louisville,USA,6-1,190,Guard,Active,1610612738,2015,2018,2015,1,16
+201937,Ricky,Rubio,Ricky Rubio,1990-10-21T00:00:00,"El Masnou, Spain",Spain,6-4,190,Guard,Active,1610612762,2011,2018,2009,1,5
+1626156,D'Angelo,Russell,D'Angelo Russell,1996-02-23T00:00:00,Ohio State,USA,6-5,198,Guard,Active,1610612751,2015,2018,2015,1,2
+1627734,Domantas,Sabonis,Domantas Sabonis,1996-05-03T00:00:00,Gonzaga,Lithuania,6-11,240,Forward,Active,1610612754,2016,2018,2016,1,11
+1629102,Brandon,Sampson,Brandon Sampson,1997-05-01T00:00:00,,USA,6-5,184,Guard,Active,1610612741,2018,2018,Undrafted,Undrafted,Undrafted
+203967,Dario,Saric,Dario Saric,1994-04-08T00:00:00,,Croatia,6-10,223,Forward,Active,1610612750,2016,2018,2014,1,12
+203107,Tomas,Satoransky,Tomas Satoransky,1991-10-30T00:00:00,,Czech Republic,6-7,210,Guard-Forward,Active,1610612764,2016,2018,2012,2,32
+203471,Dennis,Schroder,Dennis Schroder,1993-09-15T00:00:00,Germany,Germany,6-1,172,Guard,Active,1610612760,2013,2018,2013,1,17
+203118,Mike,Scott,Mike Scott,1988-07-16T00:00:00,Virginia,USA,6-8,237,Forward,Active,1610612755,2012,2018,2012,2,43
+200757,Thabo,Sefolosha,Thabo Sefolosha,1984-05-02T00:00:00,"Vevey, Switzerland",Switzerland,6-7,220,Forward,Active,1610612762,2006,2018,2006,1,13
+1627782,Wayne,Selden,Wayne Selden,1994-09-30T00:00:00,Kansas,USA,6-5,230,Guard-Forward,Active,1610612741,2016,2018,Undrafted,Undrafted,Undrafted
+1629012,Collin,Sexton,Collin Sexton,1999-01-04T00:00:00,Alabama,USA,6-2,190,Guard,Active,1610612739,2018,2018,2018,1,8
+1629013,Landry,Shamet,Landry Shamet,1997-03-13T00:00:00,Wichita State,USA,6-5,188,Guard,Active,1610612746,2018,2018,2018,1,26
+202697,Iman,Shumpert,Iman Shumpert,1990-06-26T00:00:00,Georgia Tech,USA,6-5,215,Guard,Active,1610612745,2011,2018,2011,1,17
+1627783,Pascal,Siakam,Pascal Siakam,1994-04-02T00:00:00,New Mexico State,Cameroon,6-9,230,Forward,Active,1610612761,2016,2018,2016,1,27
+1627732,Ben,Simmons,Ben Simmons,1996-07-20T00:00:00,Louisiana State,Australia,6-10,230,Guard-Forward,Active,1610612755,2016,2018,2016,1,1
+203613,Jonathon,Simmons,Jonathon Simmons,1989-09-14T00:00:00,Houston,USA,6-6,195,Forward,Active,1610612755,2015,2018,Undrafted,Undrafted,Undrafted
+1629014,Anfernee,Simons,Anfernee Simons,1999-06-08T00:00:00,IMG Academy,USA,6-4,185,Guard,Active,1610612757,2018,2018,2018,1,24
+203935,Marcus,Smart,Marcus Smart,1994-03-06T00:00:00,Oklahoma State,USA,6-4,220,Guard,Active,1610612738,2014,2018,2014,1,6
+202397,Ish,Smith,Ish Smith,1988-07-05T00:00:00,Wake Forest,USA,6-0,175,Guard,Active,1610612765,2010,2018,Undrafted,Undrafted,Undrafted
+2747,JR,Smith,JR Smith,1985-09-09T00:00:00,St. Benedict's Prep (NJ),USA,6-6,225,Guard-Forward,Active,1610612739,2004,2018,2004,1,18
+1629015,Zhaire,Smith,Zhaire Smith,1999-06-04T00:00:00,Texas Tech,USA,6-4,199,Guard,Active,1610612755,2018,2018,2018,1,16
+1628372,Dennis,Smith Jr.,Dennis Smith Jr.,1997-11-25T00:00:00,North Carolina State,USA,6-3,195,Guard,Active,1610612752,2017,2018,2017,1,9
+203503,Tony,Snell,Tony Snell,1991-11-10T00:00:00,New Mexico,USA,6-7,213,Guard,Active,1610612749,2013,2018,2013,1,20
+1629034,Ray,Spalding,Ray Spalding,1997-03-11T00:00:00,Louisville,USA,6-10,215,Forward,Active,1610612756,2018,2018,2018,2,56
+1629016,Omari,Spellman,Omari Spellman,1997-07-21T00:00:00,Villanova,USA,6-9,245,Forward,Active,1610612737,2018,2018,2018,1,30
+203917,Nik,Stauskas,Nik Stauskas,1993-10-07T00:00:00,Michigan,Canada,6-6,205,Guard,Active,1610612739,2014,2018,2014,1,8
+202362,Lance,Stephenson,Lance Stephenson,1990-09-05T00:00:00,Cincinnati,USA,6-6,230,Guard,Active,1610612747,2010,2018,2010,2,40
+1628410,Edmond,Sumner,Edmond Sumner,1995-12-31T00:00:00,Xavier,USA,6-6,176,Guard,Active,1610612754,2017,2018,2017,2,52
+1628403,Caleb,Swanigan,Caleb Swanigan,1997-04-18T00:00:00,Purdue,USA,6-9,250,Forward,Active,1610612758,2017,2018,2017,1,26
+1628369,Jayson,Tatum,Jayson Tatum,1998-03-03T00:00:00,Duke,USA,6-8,208,Forward,Active,1610612738,2017,2018,2017,1,3
+201952,Jeff,Teague,Jeff Teague,1988-06-10T00:00:00,Wake Forest,USA,6-2,195,Guard,Active,1610612750,2009,2018,2009,1,19
+202066,Garrett,Temple,Garrett Temple,1986-05-08T00:00:00,Louisiana State,USA,6-6,195,Guard-Forward,Active,1610612746,2009,2018,Undrafted,Undrafted,Undrafted
+1629123,Jared,Terrell,Jared Terrell,1995-02-10T00:00:00,Rhode Island,USA,6-3,227,Guard,Active,1610612750,2018,2018,Undrafted,Undrafted,Undrafted
+1628464,Daniel,Theis,Daniel Theis,1992-04-04T00:00:00,,Germany,6-8,243,Forward,Active,1610612738,2017,2018,Undrafted,Undrafted,Undrafted
+202738,Isaiah,Thomas,Isaiah Thomas,1989-02-07T00:00:00,Washington,USA,5-9,185,Guard,Active,1610612743,2011,2018,2011,2,60
+1629017,Khyri,Thomas,Khyri Thomas,1996-05-08T00:00:00,Creighton,USA,6-3,210,Guard,Active,1610612765,2018,2018,2018,2,38
+202498,Lance,Thomas,Lance Thomas,1988-04-24T00:00:00,Duke,USA,6-8,240,Forward,Active,1610612752,2011,2018,Undrafted,Undrafted,Undrafted
+202691,Klay,Thompson,Klay Thompson,1990-02-08T00:00:00,Washington State,USA,6-7,215,Guard,Active,1610612744,2011,2018,2011,1,11
+202684,Tristan,Thompson,Tristan Thompson,1991-03-13T00:00:00,Texas,Canada,6-10,238,Center-Forward,Active,1610612739,2011,2018,2011,1,4
+1628414,Sindarius,Thornwell,Sindarius Thornwell,1994-11-15T00:00:00,South Carolina,USA,6-5,215,Guard,Active,1610612746,2017,2018,2017,2,48
+201229,Anthony,Tolliver,Anthony Tolliver,1985-06-01T00:00:00,Creighton,USA,6-8,250,Forward,Active,1610612750,2008,2018,Undrafted,Undrafted,Undrafted
+1626157,Karl-Anthony,Towns,Karl-Anthony Towns,1995-11-15T00:00:00,Kentucky,USA,7-0,248,Center,Active,1610612750,2015,2018,2015,1,1
+1629018,Gary,Trent Jr.,Gary Trent Jr.,1999-01-18T00:00:00,,USA,6-6,205,Guard,Active,1610612757,2018,2018,Undrafted,Undrafted,Undrafted
+1629019,Allonzo,Trier,Allonzo Trier,1996-01-17T00:00:00,University of Arizona,USA,6-5,200,Guard,Active,1610612752,2018,2018,Undrafted,Undrafted,Undrafted
+200782,PJ,Tucker,PJ Tucker,1985-05-05T00:00:00,Texas,USA,6-6,245,Forward,Active,1610612745,2006,2018,2006,2,35
+202323,Evan,Turner,Evan Turner,1988-10-27T00:00:00,Ohio State,USA,6-7,220,Guard-Forward,Active,1610612757,2010,2018,2010,1,2
+1626167,Myles,Turner,Myles Turner,1996-03-24T00:00:00,Texas,USA,6-11,250,Center-Forward,Active,1610612754,2015,2018,2015,1,11
+202327,Ekpe,Udoh,Ekpe Udoh,1987-05-20T00:00:00,Baylor,USA,6-10,245,Center-Forward,Active,1610612762,2010,2018,2010,1,6
+202685,Jonas,Valanciunas,Jonas Valanciunas,1992-05-06T00:00:00,"Utena, Lithuania",Lithuania,7-0,265,Center,Active,1610612763,2012,2018,2011,1,5
+1627756,Denzel,Valentine,Denzel Valentine,1993-11-16T00:00:00,Michigan State,USA,6-6,210,Guard,Active,1610612741,2016,2018,2016,1,14
+1627832,Fred,VanVleet,Fred VanVleet,1994-02-25T00:00:00,Wichita State,USA,6-0,195,Guard,Active,1610612761,2016,2018,Undrafted,Undrafted,Undrafted
+1629020,Jarred,Vanderbilt,Jarred Vanderbilt,1999-04-03T00:00:00,Kentucky,USA,6-9,214,Forward,Active,1610612743,2018,2018,2018,2,41
+203943,Noah,Vonleh,Noah Vonleh,1995-08-24T00:00:00,Indiana,USA,6-9,250,Forward,Active,1610612752,2014,2018,2014,1,9
+202696,Nikola,Vucevic,Nikola Vucevic,1990-10-24T00:00:00,Southern California,Montenegro,7-0,260,Center,Active,1610612753,2011,2018,2011,1,16
+2548,Dwyane,Wade,Dwyane Wade,1982-01-17T00:00:00,Marquette,USA,6-4,220,Guard,Active,1610612748,2003,2018,2003,1,5
+1629021,Moritz,Wagner,Moritz Wagner,1997-04-26T00:00:00,Michigan,Germany,6-11,245,Center,Active,1610612747,2018,2018,2018,1,25
+203079,Dion,Waiters,Dion Waiters,1991-12-10T00:00:00,Syracuse,USA,6-4,215,Guard,Active,1610612748,2012,2018,2012,1,4
+202689,Kemba,Walker,Kemba Walker,1990-05-08T00:00:00,Connecticut,USA,6-1,184,Guard,Active,1610612766,2011,2018,2011,1,9
+1629022,Lonnie,Walker IV,Lonnie Walker IV,1998-12-14T00:00:00,Miami (FL),USA,6-5,205,Guard,Active,1610612759,2018,2018,2018,1,18
+202322,John,Wall,John Wall,1990-09-06T00:00:00,Kentucky,USA,6-4,210,Guard,Active,1610612764,2010,2018,2010,1,1
+1627820,Tyrone,Wallace,Tyrone Wallace,1994-06-10T00:00:00,California,USA,6-5,198,Guard,Active,1610612746,2017,2018,2016,2,60
+202954,Brad,Wanamaker,Brad Wanamaker,1989-07-25T00:00:00,Pittsburgh,USA,6-4,210,Guard,Active,1610612738,2018,2018,Undrafted,Undrafted,Undrafted
+203933,T.J.,Warren,T.J. Warren,1993-09-05T00:00:00,North Carolina State,USA,6-8,215,Forward,Active,1610612756,2014,2018,2014,1,14
+1627395,Julian,Washburn,Julian Washburn,1991-12-18T00:00:00,Texas-El Paso,USA,6-8,209,Forward-Guard,Active,1610612763,2018,2018,Undrafted,Undrafted,Undrafted
+1629139,Yuta,Watanabe,Yuta Watanabe,1994-10-13T00:00:00,George Washington,Japan,6-9,205,Guard,Active,1610612763,2018,2018,Undrafted,Undrafted,Undrafted
+1629118,Thomas,Welsh,Thomas Welsh,1996-02-03T00:00:00,California-Los Angeles,USA,7-0,255,Center,Active,1610612743,2018,2018,2018,2,58
+201566,Russell,Westbrook,Russell Westbrook,1988-11-12T00:00:00,UCLA,USA,6-3,200,Guard,Active,1610612760,2008,2018,2008,1,4
+1628401,Derrick,White,Derrick White,1994-07-02T00:00:00,Colorado,USA,6-4,190,Guard,Active,1610612759,2017,2018,2017,1,29
+1627785,Isaiah,Whitehead,Isaiah Whitehead,1995-03-08T00:00:00,Seton Hall,USA,6-4,213,Guard,Active,1610612751,2016,2018,2016,2,42
+202355,Hassan,Whiteside,Hassan Whiteside,1989-06-13T00:00:00,Marshall,USA,7-0,265,Center,Active,1610612748,2010,2018,2010,2,33
+203952,Andrew,Wiggins,Andrew Wiggins,1995-02-23T00:00:00,Kansas,Canada,6-8,194,Forward-Guard,Active,1610612750,2014,2018,2014,1,1
+1626210,Alan,Williams,Alan Williams,1993-01-28T00:00:00,California-Santa Barbara,USA,6-8,265,Forward-Center,Active,1610612756,2015,2018,Undrafted,Undrafted,Undrafted
+203710,C.J.,Williams,C.J. Williams,1990-02-06T00:00:00,North Carolina State,USA,6-5,226,Guard,Active,1610612750,2017,2018,Undrafted,Undrafted,Undrafted
+1629140,Johnathan,Williams,Johnathan Williams,1995-05-22T00:00:00,Gonzaga,USA,6-9,228,Forward,Active,1610612747,2018,2018,Undrafted,Undrafted,Undrafted
+1629026,Kenrich,Williams,Kenrich Williams,1994-12-02T00:00:00,,USA,6-7,210,Guard-Forward,Active,1610612740,2018,2018,Undrafted,Undrafted,Undrafted
+101150,Lou,Williams,Lou Williams,1986-10-27T00:00:00,South Gwinnett HS (GA),USA,6-1,175,Guard,Active,1610612746,2005,2018,2005,2,45
+101107,Marvin,Williams,Marvin Williams,1986-06-19T00:00:00,North Carolina,USA,6-9,237,Forward,Active,1610612766,2005,2018,2005,1,2
+1627786,Troy,Williams,Troy Williams,1994-12-30T00:00:00,Indiana,USA,6-7,218,Forward,Active,1610612758,2016,2018,Undrafted,Undrafted,Undrafted
+1629057,Robert,Williams III,Robert Williams III,1997-10-17T00:00:00,Texas A&M,USA,6-10,240,Center-Forward,Active,1610612738,2018,2018,2018,1,27
+1628391,D.J.,Wilson,D.J. Wilson,1996-02-19T00:00:00,Michigan,USA,6-10,231,Forward,Active,1610612749,2017,2018,2017,1,17
+1626159,Justise,Winslow,Justise Winslow,1996-03-26T00:00:00,Duke,USA,6-7,225,Forward,Active,1610612748,2015,2018,2015,1,10
+1626174,Christian,Wood,Christian Wood,1995-09-27T00:00:00,Nevada-Las Vegas,USA,6-10,214,Forward,Active,1610612740,2015,2018,Undrafted,Undrafted,Undrafted
+1626153,Delon,Wright,Delon Wright,1992-04-26T00:00:00,Utah,USA,6-5,183,Guard,Active,1610612763,2015,2018,2015,1,20
+1627824,Guerschon,Yabusele,Guerschon Yabusele,1995-12-17T00:00:00,,France,6-8,260,Forward,Active,1610612738,2016,2018,2016,1,16
+201152,Thaddeus,Young,Thaddeus Young,1988-06-21T00:00:00,Georgia Tech,USA,6-8,221,Forward,Active,1610612754,2007,2018,2007,1,12
+1629027,Trae,Young,Trae Young,1998-09-19T00:00:00,Oklahoma,USA,6-2,180,Guard,Active,1610612737,2018,2018,2018,1,5
+203469,Cody,Zeller,Cody Zeller,1992-10-05T00:00:00,Indiana,USA,7-0,240,Center,Active,1610612766,2013,2018,2013,1,4
+1627790,Ante,Zizic,Ante Zizic,1997-01-04T00:00:00,,Croatia,6-11,254,Center,Active,1610612739,2017,2018,2016,1,23
+1627826,Ivica,Zubac,Ivica Zubac,1997-03-18T00:00:00,,Croatia,7-1,240,Center,Active,1610612746,2016,2018,2016,2,32

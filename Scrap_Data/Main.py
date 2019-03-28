@@ -15,9 +15,10 @@ class Main(object):
     # self.get_all_team_game_data_between_year(2017, 2017)
     # a = team.TeamDetails(TEAMS["BOS"]["id"]).social_sites()
     # a.to_csv("test.csv", index=False)
-    a = team.TeamSeasons(TEAMS["BOS"]["id"]).info()
-    a.to_csv("test.csv", index=False)
 
+    id = TEAMS["BOS"]["id"]
+    a = team.TeamSeasons(id).info()
+    a.to_csv("test.csv", index=False)
 
 
   def get_all_team_game_data_between_year(self, startYear, endYear):

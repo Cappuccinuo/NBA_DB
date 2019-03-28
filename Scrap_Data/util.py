@@ -2,8 +2,10 @@ import pandas as pd
 from nba_py.constants import TEAMS
 from nba_py import team
 from nba_py import game
+from nba_py import player
 import time
 from nba_py.player import PlayerList
+from resources.teams import teamToIndex
 
 def load_team_game_data_between_years(teamName, startYear, endYear):
   gameData = pd.DataFrame()
@@ -35,10 +37,47 @@ def load_team_game_data_at_year(teamName, year, visited):
   return gameData, playerData
 
 def load_all_player():
+  header = ['PERSON_ID', 'FIRST_NAME', 'LAST_NAME', 'DISPLAY_FIRST_LAST',
+            'BIRTHDATE', 'SCHOOL', 'COUNTRY', 'HEIGHT', 'WEIGHT',
+            'POSITION', 'ROSTERSTATUS', 'TEAM_ID', 'FROM_YEAR',
+            'TO_YEAR', 'DRAFT_YEAR', 'DRAFT_ROUND', 'DRAFT_NUMBER']
+  resDF = pd.DataFrame()
   players = PlayerList().info()
-  players.to_csv("data/player/players.csv", index=False)
+  person_id_list = players['PERSON_ID']
+  for id in person_id_list:
+    print(id)
+    player_info = player.PlayerSummary(id).info()
+    player_info = player_info[header]
+    resDF = resDF.append(player_info)
+    time.sleep(1)
+  resDF = resDF[resDF.TEAM_ID != 0]
+  resDF.to_csv("data/player/players.csv", index=False)
 
 def get_season(year):
   CURRENT_SEASON = str(year) + "-" + str(year + 1)[2:]
   return CURRENT_SEASON
 
+def load_team_social_sites():
+  resDF = pd.DataFrame()
+
+  for teamName in teamToIndex:
+    print(teamName)
+    teamId = TEAMS[teamName]["id"]
+    socialDF = team.TeamDetails(teamId).social_sites()
+    socialDF['team_id'] = teamId
+    resDF = resDF.append(socialDF)
+    time.sleep(2)
+
+  resDF.to_csv("data/team/team-social-sites.csv", index=False)
+
+def load_team_background():
+  resDF = pd.DataFrame()
+
+  for teamName in teamToIndex:
+    print(teamName)
+    teamId = TEAMS[teamName]["id"]
+    backgroundDF = team.TeamDetails(teamId).background()
+    resDF = resDF.append(backgroundDF)
+    time.sleep(2)
+
+  resDF.to_csv("data/team/team-background.csv", index=False)
