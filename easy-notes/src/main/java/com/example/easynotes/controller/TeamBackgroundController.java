@@ -38,7 +38,7 @@ public class TeamBackgroundController {
         TeamBackground tb = teamBackgroundRepository.findById(teamId).orElseThrow(() -> new
                 TeamBackgroundNotFoundException(teamId));
 
-        tb.setAbbrevation(teamDetails.getAbbrevation());
+        tb.setAbbreviation(teamDetails.getAbbreviation());
         tb.setAffiliation(teamDetails.getAffiliation());
         tb.setArena(teamDetails.getArena());
         tb.setArena_capacity(teamDetails.getArena_capacity());

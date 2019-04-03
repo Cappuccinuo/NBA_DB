@@ -15,7 +15,7 @@ public class TeamBackground {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @NotBlank
     private String team_id;
-    private String abbrevation;
+    private String abbreviation;
     private String nickname;
     private String year_founded;
     private String city;
@@ -30,12 +30,12 @@ public class TeamBackground {
         super();
     }
 
-    public TeamBackground(String id, String abbrevation, String nickname, String year_founded,
+    public TeamBackground(String id, String abbreviation, String nickname, String year_founded,
                            String city, String arena, String arena_capacity, String owner,
                           String general_manager, String head_coach, String affiliation) {
         super();
         this.team_id = id;
-        this.abbrevation = abbrevation;
+        this.abbreviation = abbreviation;
         this.nickname = nickname;
         this.year_founded = year_founded;
         this.city = city;
@@ -54,11 +54,11 @@ public class TeamBackground {
         this.team_id = team_id;
     }
 
-    public String getAbbrevation() {
-        return this.abbrevation;
+    public String getAbbreviation() {
+        return this.abbreviation;
     }
-    public void setAbbrevation(String abbrevation) {
-        this.abbrevation = abbrevation;
+    public void setAbbreviation(String abbreviation) {
+        this.abbreviation = abbreviation;
     }
 
     public String getNickname() {
