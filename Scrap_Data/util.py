@@ -81,3 +81,19 @@ def load_team_background():
     time.sleep(2)
 
   resDF.to_csv("data/team/team-background.csv", index=False)
+
+def load_team_season():
+  header = ['TEAM_ID', 'YEAR', 'WINS', 'LOSSES', 'WIN_PCT', 'CONF_RANK',
+            'FGM', 'FGA', 'FG_PCT', 'FG3M', 'FG3A', 'FG3_PCT',
+            'FTM', 'FTA', 'FT_PCT', 'OREB', 'DREB', 'REB',
+            'AST', 'PF', 'STL', 'TOV', 'BLK', 'PTS']
+
+  resDF = pd.DataFrame()
+  for teamName in teamToIndex:
+    print(teamName)
+    teamId = TEAMS[teamName]["id"]
+    seasonInfo = team.TeamSeasons(teamId).info()
+    seasonInfo = seasonInfo[header]
+    resDF = resDF.append(seasonInfo)
+    time.sleep(2)
+  resDF.to_csv("data/team/team-season.csv", index=False)

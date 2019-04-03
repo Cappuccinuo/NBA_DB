@@ -46,3 +46,37 @@ CREATE TABLE `team_background` (
     `affiliation` varchar(255),
     PRIMARY KEY (`team_id`)
 );
+
+DROP TABLE IF EXISTS `team_season`;
+CREATE TABLE `team_season` (
+	`team_id` varchar(255) NOT NULL, 
+    `season` varchar(255) NOT NULL,
+    `win` int,
+    `loss` int,
+    `win_percentage` float,
+    `conf_rank` int,
+    `fgm` float,
+    `fga` float,
+    `fg_pct` float,
+    `fg3m` float,
+    `fg3a` float,
+    `fg3_pct` float,
+    `ftm` float,
+    `fta` float,
+    `ft_pct` float,
+    `o_reb` float,
+    `d_reb` float,
+    `reb` float,
+    `ast` float,
+    `pf` float,
+    `stl` float,
+    `tov` float,
+    `blk` float,
+    `pts` float,
+    PRIMARY KEY (`team_id`, `season`)
+);
+
+
+
+
+
