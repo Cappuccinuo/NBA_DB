@@ -9,32 +9,64 @@ from resources.teams import teamToIndex
 
 def load_team_game_data_between_years(teamName, startYear, endYear):
   gameData = pd.DataFrame()
-  playerData = pd.DataFrame()
-  visited = set()
+  # playerData = pd.DataFrame()
+  # visited = set()
   for i in range(startYear, endYear + 1):
     print("current year: " + str(i))
-    gD, pD = load_team_game_data_at_year(teamName, i, visited)
+    gD = load_team_game_data_at_year(teamName, i)
     gameData = gameData.append(gD)
-    playerData = playerData.append(pD)
-    time.sleep(30)
-  return gameData, playerData
+    # playerData = playerData.append(pD)
+    time.sleep(3)
+  return gameData
+    # , playerData
 
-def load_team_game_data_at_year(teamName, year, visited):
+def load_team_game_data_at_year(teamName, year):
+  teamId = TEAMS[teamName]['id']
+  season = get_season(year)
+  header = ['Team_ID', 'Game_ID', 'GAME_DATE', 'MATCHUP', 'WL', 'MIN', 'FGM',
+            'FGA', 'FG_PCT', 'FG3M',
+            'FG3A', 'FG3_PCT', 'FTM', 'FTA', 'FT_PCT',
+            'OREB', 'DREB', 'REB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS']
+  gameData = team.TeamGameLogs(teamId, season).info()
+  gameData = gameData[header]
+  gameData['Season'] = season
+
+  return gameData
+
+def load_player_game_data_at_year(teamName, year):
   teamId = TEAMS[teamName]['id']
   season = get_season(year)
   gameData = team.TeamGameLogs(teamId, season).info()
-
   playerData = pd.DataFrame()
+  header = ['GAME_ID', 'TEAM_ID', 'PLAYER_ID', 'START_POSITION',
+            'MIN', 'FGM', 'FGA', 'FG_PCT', 'FG3M', 'FG3A', 'FG3_PCT',
+            'FTM', 'FTA', 'FT_PCT', 'OREB', 'DREB', 'REB', 'AST', 'STL',
+            'BLK', 'TO', 'PF', 'PTS', 'PLUS_MINUS']
+  visited = set()
   i = 1
   for g in gameData["Game_ID"]:
     print(i)
     i += 1
     if (g in visited):
       continue
-    playerData = playerData.append(game.Boxscore(g).player_stats())
+    visited.add(g)
+    temp = game.Boxscore(g).player_stats()
+    temp = temp[header]
+    playerData = playerData.append(temp)
+
     time.sleep(5)
 
-  return gameData, playerData
+  playerData.to_csv("data/game/" + season + "-players.csv", index=False)
+
+def load_all_team_season(year):
+  resDF = pd.DataFrame()
+  season = get_season(year)
+  for teamName in teamToIndex:
+    print(teamName)
+    temp = load_team_game_data_at_year(teamName, year)
+    resDF = resDF.append(temp)
+    time.sleep(3)
+  resDF.to_csv("data/game/" + season + "-teams.csv", index=False)
 
 def load_all_player():
   header = ['PERSON_ID', 'FIRST_NAME', 'LAST_NAME', 'DISPLAY_FIRST_LAST',

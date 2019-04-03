@@ -106,3 +106,63 @@ CREATE TABLE `player_season` (
 );
 
 
+DROP TABLE IF EXISTS `team_game`;
+CREATE TABLE `team_game` (
+	`team_id` varchar(255) NOT NULL,
+    `game_id` varchar(255) NOT NULL,
+	`game_date` varchar(255),
+    `matchup` varchar(255),
+    `wl` varchar(255),
+    `min` int,
+    `fgm` float,
+    `fga` float,
+    `fg_pct` float,
+    `fg3m` float,
+    `fg3a` float,
+    `fg3_pct` float,
+    `ftm` float,
+    `fta` float,
+    `ft_pct` float,
+    `o_reb` float,
+    `d_reb` float,
+    `reb` float,
+    `ast` float,
+    `stl` float,
+    `blk` float,
+    `tov` float,
+    `pf` float,
+    `pts` float,
+    `season` varchar(255),
+    PRIMARY KEY (`team_id`, `game_id`)
+);
+
+DROP TABLE IF EXISTS `player_game`;
+CREATE TABLE `player_game` (
+	`game_id` varchar(255) NOT NULL,
+	`team_id` varchar(255) NOT NULL,
+    `player_id` varchar(255) NOT NULL,
+    `start_position` varchar(255) default null,
+    `min` varchar(255)  default null,
+    `fgm` float  default null,
+    `fga` float  default null,
+    `fg_pct` float default null,
+    `fg3m` float default null,
+    `fg3a` float default null,
+    `fg3_pct` float default null,
+    `ftm` float default null,
+    `fta` float default null,
+    `ft_pct` float default null,
+    `o_reb` float default null,
+    `d_reb` float default null,
+    `reb` float default null,
+    `ast` float default null,
+    `stl` float default null,
+    `blk` float default null,
+    `tov` float default null,
+    `pf` float default null,
+    `pts` float default null,
+    `plus_minus` float default null,
+    PRIMARY KEY (`team_id`, `game_id`, `player_id`)
+);
+
+select * from player;
