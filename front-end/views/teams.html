@@ -1,5 +1,4 @@
-<main class="container">
-    <div class="row">
+<div class="container">
         
         <h3>The following teams exist in the system:</h3>
 
@@ -7,36 +6,6 @@
         <div ui-grid="gridOptions" ui-grid-selection></div>
     
         <button type="button" class="btn btn-default btn-sm btn-success" ng-click="openModal()" ng-hide="true">Create New Team</button>
-    
-<!------------new author modal------------>
 
-<modal id="authorModal">
-    <div class="modal" id="authorModalBody">
-        <div class="modal-content">
-            <h2>Please complete all fields:</h2>
-           
-            <form name="modalForm" novalidate>
-                
-                <label for="name">Enter Name: 
-                <input ng-model="newAuthorName" type="text" name="title" required>
-                </label>
-                
-                <label for="age">Enter Age: 
-                <input ng-model="newAuthorAge" type="number" name="age" required>
-                </label>
-                <br>
-                
-                <span>
-                <button type="submit" ng-click="addNewItem()" ng-disabled="!modalForm.$valid" class="btn btn-success">Save</button>
-                <button ng-click="closeModal()" class="btn btn-warning">Cancel</button>
-                </span>
-                
-              </form>
-        </div>
-    </div>
-    <div class="modal-background"></div>
-</modal>
-
-    </div>
-</main>
+</div>
 

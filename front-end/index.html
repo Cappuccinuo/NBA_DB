@@ -18,17 +18,13 @@
     </head>
     
     <body>
-       <!--login controller works across all views since ui-view is wrapped in this div-->
-       <div data-ng-controller="loginCtrl"> 
-
-           <div class="wrapper">
-               <!--nav inserted, stays in this position across views-->
-               <nav ng-include="'views/nav.html'"></nav>
-               
-                <!--where the views are displayed-->
-               <div ui-view></div>
-           </div>
-       </div>
+        <div class="wrapper">
+            <!--nav inserted, stays in this position across views-->
+            <nav ng-include="'views/nav.html'"></nav>
+            
+            <!--where the views are displayed-->
+            <div ui-view></div>
+        </div>
        
         <!-- Angular CDN -->
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
