@@ -165,4 +165,4 @@ CREATE TABLE `player_game` (
     PRIMARY KEY (`team_id`, `game_id`, `player_id`)
 );
 
-select * from player;
+select * from team_background;
