@@ -97,3 +97,20 @@ def load_team_season():
     resDF = resDF.append(seasonInfo)
     time.sleep(2)
   resDF.to_csv("data/team/team-season.csv", index=False)
+
+def load_player_season():
+  header = ['PLAYER_ID', 'SEASON_ID', 'TEAM_ID', 'MIN', 'FGM', 'FGA', 'FG_PCT', 'FG3M',
+  'FG3A', 'FG3_PCT', 'FTM', 'FTA', 'FT_PCT', 'OREB', 'DREB', 'REB', 'AST',
+  'STL', 'BLK', 'TOV', 'PF', 'PTS']
+  resDF = pd.DataFrame()
+  players = PlayerList().info()
+  person_id_list = players['PERSON_ID']
+
+  for id in person_id_list:
+    print(id)
+    player_info = player.PlayerProfile(id).regular_season_totals()
+    player_info = player_info[header]
+    resDF = resDF.append(player_info)
+    time.sleep(3)
+
+  resDF.to_csv("data/player/players-season.csv", index=False)

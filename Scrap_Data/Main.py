@@ -16,7 +16,7 @@ class Main(object):
     # a = team.TeamDetails(TEAMS["BOS"]["id"]).social_sites()
     # a.to_csv("test.csv", index=False)
 
-    util.load_team_season()
+    util.load_player_season()
 
 
   def get_all_team_game_data_between_year(self, startYear, endYear):

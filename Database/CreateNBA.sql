@@ -78,5 +78,31 @@ CREATE TABLE `team_season` (
 
 
 
+DROP TABLE IF EXISTS `player_season`;
+CREATE TABLE `player_season` (
+	`player_id` varchar(255) NOT NULL, 
+    `season` varchar(255) NOT NULL,
+    `team_id` varchar(255) NOT NULL,
+    `min` float,
+    `fgm` float,
+    `fga` float,
+    `fg_pct` float,
+    `fg3m` float,
+    `fg3a` float,
+    `fg3_pct` float,
+    `ftm` float,
+    `fta` float,
+    `ft_pct` float,
+    `o_reb` float,
+    `d_reb` float,
+    `reb` float,
+    `ast` float,
+    `stl` float,
+    `blk` float,
+    `tov` float,
+    `pf` float,
+    `pts` float,
+    PRIMARY KEY (`player_id`, `season`,`team_id`)
+);
 
 
