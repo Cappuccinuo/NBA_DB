@@ -23,14 +23,6 @@ CREATE TABLE `player` (
 	PRIMARY KEY (`person_id`, `team_id`)
 );
 
-DROP TABLE IF EXISTS `team_social_sites`;
-CREATE TABLE `team_social_sites` (
-	`account_type` varchar(255),
-    `website` varchar(255),
-    `team_id` varchar(255) NOT NULL,
-	PRIMARY KEY (`team_id`, `account_type`)
-);
-
 DROP TABLE IF EXISTS `team_background`;
 CREATE TABLE `team_background` (
 	`team_id` varchar(255) NOT NULL,
@@ -44,6 +36,9 @@ CREATE TABLE `team_background` (
     `general_manager` varchar(255),
     `head_coach` varchar(255),
     `affiliation` varchar(255),
+    `facebook` varchar(255),
+    `instagram` varchar(255),
+    `twitter` varchar(255),
     PRIMARY KEY (`team_id`)
 );
 

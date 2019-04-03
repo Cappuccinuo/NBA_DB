@@ -12,16 +12,37 @@ from nba_py.player import PlayerList
 
 class Main(object):
   def main(self):
-    # self.get_all_team_game_data_between_year(2017, 2017)
-    # a = team.TeamDetails(TEAMS["BOS"]["id"]).social_sites()
-    # a.to_csv("test.csv", index=False)
+    # util.load_player_game_data_at_year("BOS", 2017)
+    # teamId = TEAMS["BOS"]["id"]
+    # socialDF = team.TeamDetails(teamId).social_sites()
+    # backgroundDF = team.TeamDetails(teamId).background()
+    # resDF = pd.DataFrame()
+    # resDF = resDF.append(backgroundDF, sort=False)
+    # resDF.ix[0, 'facebook'] = "haha"
+    # teamId = TEAMS["ATL"]["id"]
+    # socialDF = team.TeamDetails(teamId).social_sites()
+    # backgroundDF = team.TeamDetails(teamId).background()
+    # resDF = pd.concat([resDF, backgroundDF], ignore_index=True, sort=False)
+    # resDF.ix[1, 'facebook'] = "hahaha"
+    # # resDF.append(backgroundDF)
+    # # f = socialDF.loc[socialDF['ACCOUNTTYPE'] == 'Facebook']['WEBSITE_LINK'][0]
+    # # i = socialDF.loc[socialDF['ACCOUNTTYPE'] == 'Instagram']['WEBSITE_LINK']
+    # # t = socialDF.loc[socialDF['ACCOUNTTYPE'] == 'Twitter']['WEBSITE_LINK']
+    # # print(i.iloc[0])
+    # print(resDF)
 
-    # util.load_player_season()
+    util.load_team_background()
 
-    # a = util.load_team_game_data_at_year("BOS", 2017)
-    # print(a)
-    # a.to_csv("test.csv", index=False)
-    util.load_player_game_data_at_year("BOS", 2017)
+
+
+    # resDF['Facebook'] = \
+    #   socialDF.loc[socialDF['ACCOUNTTYPE'] == 'Facebook']['WEBSITE_LINK']
+    # resDF['Instagram'] = \
+    #   socialDF.loc[socialDF['ACCOUNTTYPE'] == 'Instagram']['WEBSITE_LINK']
+    # resDF['Twitter'] = \
+    #   socialDF.loc[socialDF['ACCOUNTTYPE'] == 'Twitter']['WEBSITE_LINK']
+    # print(resDF)
+    # print(backgroundDF)
 
 
   def get_all_team_game_data_between_year(self, startYear, endYear):

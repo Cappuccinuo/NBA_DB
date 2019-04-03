@@ -9,16 +9,13 @@ from resources.teams import teamToIndex
 
 def load_team_game_data_between_years(teamName, startYear, endYear):
   gameData = pd.DataFrame()
-  # playerData = pd.DataFrame()
-  # visited = set()
+
   for i in range(startYear, endYear + 1):
     print("current year: " + str(i))
     gD = load_team_game_data_at_year(teamName, i)
     gameData = gameData.append(gD)
-    # playerData = playerData.append(pD)
     time.sleep(3)
   return gameData
-    # , playerData
 
 def load_team_game_data_at_year(teamName, year):
   teamId = TEAMS[teamName]['id']
@@ -89,27 +86,28 @@ def get_season(year):
   CURRENT_SEASON = str(year) + "-" + str(year + 1)[2:]
   return CURRENT_SEASON
 
-def load_team_social_sites():
-  resDF = pd.DataFrame()
-
-  for teamName in teamToIndex:
-    print(teamName)
-    teamId = TEAMS[teamName]["id"]
-    socialDF = team.TeamDetails(teamId).social_sites()
-    socialDF['team_id'] = teamId
-    resDF = resDF.append(socialDF)
-    time.sleep(2)
-
-  resDF.to_csv("data/team/team-social-sites.csv", index=False)
-
 def load_team_background():
   resDF = pd.DataFrame()
-
+  i = 0
   for teamName in teamToIndex:
     print(teamName)
     teamId = TEAMS[teamName]["id"]
     backgroundDF = team.TeamDetails(teamId).background()
-    resDF = resDF.append(backgroundDF)
+    socialDF = team.TeamDetails(teamId).social_sites()
+    print(socialDF)
+    resDF = pd.concat([resDF, backgroundDF], ignore_index=True, sort=False)
+    facebook = socialDF.loc[socialDF['ACCOUNTTYPE'] == 'Facebook']['WEBSITE_LINK'].iloc[0]
+    instagram = socialDF.loc[socialDF['ACCOUNTTYPE'] == 'Instagram']['WEBSITE_LINK'].iloc[0]
+    twitter = socialDF.loc[socialDF['ACCOUNTTYPE'] == 'Twitter']['WEBSITE_LINK'].iloc[0]
+    resDF.at[i, 'Facebook'] = facebook
+    resDF.at[i, 'Instagram'] = instagram
+    resDF.at[i, 'Twitter'] = twitter
+    i = i + 1
+
+    # resDF['Instagram'] = \
+    #
+    # resDF['Twitter'] = \
+    #   socialDF.loc[socialDF['ACCOUNTTYPE'] == 'Twitter']['WEBSITE_LINK'].iloc[0]
     time.sleep(2)
 
   resDF.to_csv("data/team/team-background.csv", index=False)
