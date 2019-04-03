@@ -47,80 +47,80 @@ public class TeamBackground {
         this.affiliation = affiliation;
     }
 
-    private String getTeam_id() {
+    public String getTeam_id() {
         return this.team_id;
     }
-    private void setTeam_id(String team_id) {
+    public void setTeam_id(String team_id) {
         this.team_id = team_id;
     }
 
-    private String getAbbrevation() {
+    public String getAbbrevation() {
         return this.abbrevation;
     }
-    private void setAbbrevation(String abbrevation) {
+    public void setAbbrevation(String abbrevation) {
         this.abbrevation = abbrevation;
     }
 
-    private String getNickname() {
+    public String getNickname() {
         return this.nickname;
     }
-    private void setNickname(String nickname) {
+    public void setNickname(String nickname) {
         this.nickname = nickname;
     }
 
-    private String getYear_founded() {
+    public String getYear_founded() {
         return this.year_founded;
     }
-    private void setYear_founded(String year_founded) {
+    public void setYear_founded(String year_founded) {
         this.year_founded = year_founded;
     }
 
-    private String getCity() {
+    public String getCity() {
         return this.city;
     }
-    private void setCity(String city) {
+    public void setCity(String city) {
         this.city = city;
     }
 
-    private String getArena() {
+    public String getArena() {
         return this.arena;
     }
-    private void setArena(String arena) {
+    public void setArena(String arena) {
         this.arena = arena;
     }
 
-    private String getArena_capacity() {
+    public String getArena_capacity() {
         return this.arena_capacity;
     }
-    private void setArena_capacity(String arena_capacity) {
+    public void setArena_capacity(String arena_capacity) {
         this.arena_capacity = arena_capacity;
     }
 
-    private String getOwner() {
+    public String getOwner() {
         return this.owner;
     }
-    private void setOwner(String owner) {
+    public void setOwner(String owner) {
         this.owner = owner;
     }
 
-    private String getGeneral_manager() {
+    public String getGeneral_manager() {
         return this.general_manager;
     }
-    private void setGeneral_manager(String general_manager) {
+    public void setGeneral_manager(String general_manager) {
         this.general_manager = general_manager;
     }
 
-    private String getHead_coach() {
+    public String getHead_coach() {
         return this.head_coach;
     }
-    private void setHead_coach(String head_coach) {
+    public void setHead_coach(String head_coach) {
         this.head_coach = head_coach;
     }
 
-    private String getAffiliation() {
+    public String getAffiliation() {
         return this.affiliation;
     }
-    private void setAffiliation(String affiliation) {
+    public void setAffiliation(String affiliation) {
         this.affiliation = affiliation;
     }
 }
