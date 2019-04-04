@@ -16,24 +16,24 @@ public class TeamBackgroundController {
     TeamBackgroundRepository teamBackgroundRepository;
 
     @GetMapping("/teambg")
-    public List<TeamBackground> getAllNotes() {
+    public List<TeamBackground> getAllTeamBGs() {
         return teamBackgroundRepository.findAll();
     }
 
     @PostMapping("/teambg")
-    public TeamBackground createNote(@RequestBody TeamBackground tb) {
+    public TeamBackground createTeamBG(@RequestBody TeamBackground tb) {
         return teamBackgroundRepository.save(tb);
     }
 
     @GetMapping("/teambg/{id}")
-    public TeamBackground getNoteById(@PathVariable(value = "id") String teamId)
+    public TeamBackground getTeamBGById(@PathVariable(value = "id") String teamId)
             throws TeamBackgroundNotFoundException {
         return teamBackgroundRepository.findById(teamId).orElseThrow(() -> new
                 TeamBackgroundNotFoundException(teamId));
     }
 
     @PutMapping("/teambg/{id}")
-    public TeamBackground updateNote(@PathVariable(value = "id") String teamId,
+    public TeamBackground updateTeamBG(@PathVariable(value = "id") String teamId,
                            @RequestBody TeamBackground teamDetails) throws TeamBackgroundNotFoundException {
         TeamBackground tb = teamBackgroundRepository.findById(teamId).orElseThrow(() -> new
                 TeamBackgroundNotFoundException(teamId));
