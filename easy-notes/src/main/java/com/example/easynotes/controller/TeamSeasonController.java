@@ -44,7 +44,7 @@ public class TeamSeasonController {
     }
 
     @DeleteMapping("/teamseason/{team_id}&{season}")
-    public ResponseEntity<?> deleteTeamSeason(@PathVariable(value = "team_id") String team_id, @PathVariable(value = "season") String season,)
+    public ResponseEntity<?> deleteTeamSeason(@PathVariable(value = "team_id") String team_id, @PathVariable(value = "season") String season)
             throws TeamSeasonNotFoundException {
         TeamSeason teamSeason = teamSeasonRepository.findById(new TeamSeasonIdentity(team_id, season)).orElseThrow(() -> new
                 TeamSeasonNotFoundException(new TeamSeasonIdentity(team_id, season)));
