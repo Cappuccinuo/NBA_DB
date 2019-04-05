@@ -1,3 +1,4 @@
-app.controller('teamsDetailCtrl', ['$scope', 'httpService', function($scope, httpService) {
-    
+app.controller('teamsDetailCtrl', ['$scope', '$stateParams', function($scope, $stateParams) {
+    console.log($stateParams);
+    $scope.data = $stateParams.data;
 }]);

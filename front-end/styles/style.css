@@ -57,3 +57,10 @@ nav p {
     margin: 0 5px 0 0;
 }
 
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 22px;
+    text-align: center;
+    text-decoration: none;
+}

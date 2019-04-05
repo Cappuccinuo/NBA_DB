@@ -1,1 +1,28 @@
-<h2> Test </h2>
+<div class="container">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h4> Welcome to the page of {{ data.nickname }}! </h4>
+        </div>
+        <div class="panel-body">
+            <div class="col-md-3">
+                <button type="button" ui-sref= "tdetail.tseason" class="btn btn-lg btn-info btn-block">Team Season</button>
+            </div>
+            <div class="col-md-3">
+                <button type="button" ui-sref= "tdetail.tgame" class="btn btn-lg btn-info btn-block">Recent Games</button>
+            </div>
+            <div class="col-md-3">
+                <button type="button" ui-sref= "tdetail.tplayer" class="btn btn-lg btn-info btn-block">Players</button>
+            </div>
+            <div class="col-md-3">
+                <button type="button" ui-sref= "tdetail.tbackground" class="btn btn-lg btn-info btn-block">Team Background</button>
+            </div>
+        </div>
+    </div>
+    
+    <div ui-view></div>
+
+    <a href="http://www.facbook.com" class="fa fa-facebook" style="font-size:20px;"></a>
+    <a href="#" class="fa fa-twitter" style="font-size:20px;"></a>
+    <a href="#" class="fa fa-instagram" style="font-size:20px;"></a>
+</div>
+
