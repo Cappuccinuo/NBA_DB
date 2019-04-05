@@ -27,14 +27,14 @@ public class PlayerSeasonController {
     }
 
     @GetMapping("/playerseason/{player_id}&{team_id}&{season}")
-    public PlayerSeason getPlayerSeasonById(@PathVariable(value = "team_id") String player_id, @PathVariable(value = "team_id") String team_id, @PathVariable(value = "season") String season)
+    public PlayerSeason getPlayerSeasonById(@PathVariable(value = "player_id") String player_id, @PathVariable(value = "team_id") String team_id, @PathVariable(value = "season") String season)
             throws PlayerSeasonNotFoundException {
         return playerSeasonRepository.findById(new PlayerSeasonIdentity(player_id, team_id, season)).orElseThrow(() -> new
                 PlayerSeasonNotFoundException(new PlayerSeasonIdentity(player_id, team_id, season)));
     }
 
     @PutMapping("/playerseason/{player_id}&{team_id}&{season}")
-    public PlayerSeason updatePlayerSeason(@PathVariable(value = "team_id") String player_id, @PathVariable(value = "team_id") String team_id, @PathVariable(value = "season") String season,
+    public PlayerSeason updatePlayerSeason(@PathVariable(value = "player_id") String player_id, @PathVariable(value = "team_id") String team_id, @PathVariable(value = "season") String season,
                                        @RequestBody PlayerSeason playerSeasonDetails) throws PlayerSeasonNotFoundException {
         PlayerSeason playerSeason = playerSeasonRepository.findById(new PlayerSeasonIdentity(player_id, team_id, season)).orElseThrow(() -> new
                 PlayerSeasonNotFoundException(new PlayerSeasonIdentity(player_id, team_id, season)));
@@ -44,7 +44,7 @@ public class PlayerSeasonController {
     }
 
     @DeleteMapping("/playerseason/{player_id}&{team_id}&{season}")
-    public ResponseEntity<?> deletePlayerSeason(@PathVariable(value = "team_id") String player_id, @PathVariable(value = "team_id") String team_id, @PathVariable(value = "season") String season)
+    public ResponseEntity<?> deletePlayerSeason(@PathVariable(value = "player_id") String player_id, @PathVariable(value = "team_id") String team_id, @PathVariable(value = "season") String season)
             throws PlayerSeasonNotFoundException {
         PlayerSeason playerSeason = playerSeasonRepository.findById(new PlayerSeasonIdentity(player_id, team_id, season)).orElseThrow(() -> new
                 PlayerSeasonNotFoundException(new PlayerSeasonIdentity(player_id, team_id, season)));
