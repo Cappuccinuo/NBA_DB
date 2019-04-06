@@ -23,6 +23,11 @@ public class PlayerController {
         return playerRepository.findAll();
     }
 
+    @GetMapping("/teambg/{id}/players")
+    public List<Player> getAllTeamPlayers(@PathVariable(value = "id") String teamId) {
+        return playerRepository.getAllTeamPlayer(teamId);
+    }
+
     @PostMapping("/player")
     public Player createPlayer(@RequestBody Player player) {
         return playerRepository.save(player);

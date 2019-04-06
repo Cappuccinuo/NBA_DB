@@ -1,7 +1,9 @@
 package com.example.easynotes.controller;
 
 import com.example.easynotes.exception.TeamBackgroundNotFoundException;
+import com.example.easynotes.model.Player;
 import com.example.easynotes.model.TeamBackground;
+import com.example.easynotes.repository.PlayerRepository;
 import com.example.easynotes.repository.TeamBackgroundRepository;
 import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;

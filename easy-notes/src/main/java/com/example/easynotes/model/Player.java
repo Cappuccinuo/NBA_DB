@@ -62,6 +62,14 @@ public class Player {
         this.draft_number = draft_number;
     }
 
+    public Date getBirthdate() {
+        return birthdate;
+    }
+
+    public void setBirthdate(Date birthdate) {
+        this.birthdate = birthdate;
+    }
+
     public String getPerson_id() {
         return this.person_id;
     }
