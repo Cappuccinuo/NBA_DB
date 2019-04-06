@@ -25,6 +25,9 @@ public class TeamBackground {
     private String general_manager;
     private String head_coach;
     private String affiliation;
+    private String facebook;
+    private String instagram;
+    private String twitter;
 
     public TeamBackground() {
         super();
@@ -32,7 +35,8 @@ public class TeamBackground {
 
     public TeamBackground(String id, String abbreviation, String nickname, String year_founded,
                            String city, String arena, String arena_capacity, String owner,
-                          String general_manager, String head_coach, String affiliation) {
+                          String general_manager, String head_coach, String affiliation,
+                          String facebook, String instagram, String twitter) {
         super();
         this.team_id = id;
         this.abbreviation = abbreviation;
@@ -45,6 +49,33 @@ public class TeamBackground {
         this.general_manager = general_manager;
         this.head_coach = head_coach;
         this.affiliation = affiliation;
+        this.facebook = facebook;
+        this.instagram = instagram;
+        this.twitter = twitter;
+    }
+
+    public String getFacebook() {
+        return facebook;
+    }
+
+    public void setFacebook(String facebook) {
+        this.facebook = facebook;
+    }
+
+    public String getInstagram() {
+        return instagram;
+    }
+
+    public void setInstagram(String instagram) {
+        this.instagram = instagram;
+    }
+
+    public String getTwitter() {
+        return twitter;
+    }
+
+    public void setTwitter(String twitter) {
+        this.twitter = twitter;
     }
 
     public String getTeam_id() {
