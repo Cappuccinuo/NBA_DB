@@ -7,7 +7,7 @@ CREATE TABLE `player` (
     `first_name` varchar(255),
     `last_name` varchar(255),
     `name` varchar(255),
-    `birthdate` DATE,
+    `birthdate` varchar(255),
     `school` varchar(255),
     `country` varchar(255),
     `height` varchar(255),
@@ -160,7 +160,9 @@ CREATE TABLE `player_game` (
     PRIMARY KEY (`team_id`, `game_id`, `player_id`)
 );
 
-SELECT * FROM team_game t WHERE t.team_id = '1610612738' ORDER BY STR_TO_DATE(t.game_date, "%b %d, %Y")  DESC;
+SELECT * FROM team_game t WHERE t.team_id = '1610612738' ORDER BY STR_TO_DATE(t.game_date, "%b %d, %Y")  DESC LIMIT 2;
 
 SELECT STR_TO_DATE(t.game_date, "%b %d, %Y") FROM team_game t;
 SELECT game_date from team_game;
+
+SELECT * FROM player p WHERE p.team_id = "1610612738"birthdate;

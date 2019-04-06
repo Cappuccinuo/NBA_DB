@@ -46,6 +46,7 @@ public class PlayerController {
         Player player = playerRepository.findById(personId).orElseThrow(() -> new
                 PlayerNotFoundException(personId));
 
+        player.setBirthdate(playerDetails.getBirthdate());
         player.setCountry(playerDetails.getCountry());
         player.setDraft_number(playerDetails.getDraft_number());
         player.setDraft_round(playerDetails.getDraft_round());

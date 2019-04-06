@@ -5,7 +5,7 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
-import java.sql.Date;
+import java.util.Date;
 
 @Entity
 @Table(name = "player")
@@ -19,7 +19,7 @@ public class Player {
     private String first_name;
     private String last_name;
     private String name;
-    private Date birthdate;
+    private String birthdate;
     private String school;
     private String country;
     private String height;
@@ -38,7 +38,7 @@ public class Player {
     }
 
     public Player(String id, String first_name, String last_name, String name,
-                  Date birthdate, String school, String country, String height,
+                  String birthdate, String school, String country, String height,
                   String weight, String position, String rosterstatus,
                   String team_id, String from_year, String to_year,
                   String draft_year, String draft_round, String draft_number) {
@@ -62,11 +62,11 @@ public class Player {
         this.draft_number = draft_number;
     }
 
-    public Date getBirthdate() {
+    public String getBirthdate() {
         return birthdate;
     }
 
-    public void setBirthdate(Date birthdate) {
+    public void setBirthdate(String birthdate) {
         this.birthdate = birthdate;
     }
 
