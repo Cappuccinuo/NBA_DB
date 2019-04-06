@@ -4,11 +4,16 @@ import com.example.easynotes.identity.TeamGameIdentity;
 import com.example.easynotes.model.TeamGame;
 import com.example.easynotes.repository.TeamGameRepository;
 import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 @CrossOrigin
 @RestController
@@ -18,24 +23,41 @@ public class TeamGameController {
     @Autowired
     TeamGameRepository teamGameRepository;
 
+    @ApiOperation(value= "Get all games in database")
     @GetMapping("/teamgame")
     public List<TeamGame> getAllTeamGame() {
         return teamGameRepository.findAll();
     }
 
+    @ApiOperation(value= "Get all games played by giving team")
+    @GetMapping("/teamgame/{team_id}")
+    public List<TeamGame> getAllTeamGame(@PathVariable(value="team_id") String team_id) {
+        return teamGameRepository.getAllTeamGame(team_id);
+    }
+
+    @ApiOperation(value= "Get the latest first num game of giving team")
+    @GetMapping("/teamgame/{team_id}/latest{num}")
+    public List<TeamGame> getNumTeamGame(@PathVariable(value="team_id") String team_id,
+                                         @PathVariable(value="num") String num) {
+        return teamGameRepository.getNumTeamGame(team_id, new PageRequest(0, Integer.parseInt(num)));
+    }
+
+    @ApiOperation(value= "Create a new game")
     @PostMapping("/teamgame")
     public TeamGame createTeamGame(@RequestBody TeamGame teamGame) {
         return teamGameRepository.save(teamGame);
     }
 
-    @GetMapping("/teamgame/{team_id}&{game_id}")
+    @ApiOperation(value= "Get specific game played by a team")
+    @GetMapping("/teamgame/{team_id}/{game_id}")
     public TeamGame getTeamGameById(@PathVariable(value = "team_id") String team_id, @PathVariable(value = "game_id") String game_id)
             throws TeamGameNotFoundException {
         return teamGameRepository.findById(new TeamGameIdentity(team_id, game_id)).orElseThrow(() -> new
                 TeamGameNotFoundException(new TeamGameIdentity(team_id, game_id)));
     }
 
-    @PutMapping("/teamgame/{team_id}&{game_id}")
+    @ApiOperation(value= "Update specific game played by a team")
+    @PutMapping("/teamgame/{team_id}/{game_id}")
     public TeamGame updateTeamGame(@PathVariable(value = "team_id") String team_id, @PathVariable(value = "game_id") String game_id,
                                        @RequestBody TeamGame teamGameDetails) throws TeamGameNotFoundException {
         TeamGame teamGame = teamGameRepository.findById(new TeamGameIdentity(team_id, game_id)).orElseThrow(() -> new
@@ -68,7 +90,8 @@ public class TeamGameController {
         return updatedTeamGame;
     }
 
-    @DeleteMapping("/teamgame/{team_id}&{game_id}")
+    @ApiOperation(value= "Delete specific game played by a team")
+    @DeleteMapping("/teamgame/{team_id}/{game_id}")
     public ResponseEntity<?> deleteTeamGame(@PathVariable(value = "team_id") String team_id, @PathVariable(value = "game_id") String game_id)
             throws TeamGameNotFoundException {
         TeamGame teamGame = teamGameRepository.findById(new TeamGameIdentity(team_id, game_id)).orElseThrow(() -> new
