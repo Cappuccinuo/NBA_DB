@@ -3,6 +3,7 @@ package com.example.easynotes.controller;
 import com.example.easynotes.exception.PlayerNotFoundException;
 import com.example.easynotes.model.Player;
 import com.example.easynotes.repository.PlayerRepository;
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -12,6 +13,7 @@ import java.util.List;
 @CrossOrigin
 @RestController
 @RequestMapping("/api")
+@Api(value="player", description="All information about player.")
 public class PlayerController {
     @Autowired
     PlayerRepository playerRepository;

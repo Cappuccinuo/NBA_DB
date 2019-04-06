@@ -4,6 +4,7 @@ import com.example.easynotes.exception.PlayerSeasonNotFoundException;
 import com.example.easynotes.identity.PlayerSeasonIdentity;
 import com.example.easynotes.model.PlayerSeason;
 import com.example.easynotes.repository.PlayerSeasonRepository;
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -13,6 +14,7 @@ import java.util.List;
 @CrossOrigin
 @RestController
 @RequestMapping("/api")
+@Api(value="player season", description="Stats of a player during entire season.")
 public class PlayerSeasonController {
     @Autowired
     PlayerSeasonRepository playerSeasonRepository;

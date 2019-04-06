@@ -3,6 +3,7 @@ import com.example.easynotes.exception.TeamGameNotFoundException;
 import com.example.easynotes.identity.TeamGameIdentity;
 import com.example.easynotes.model.TeamGame;
 import com.example.easynotes.repository.TeamGameRepository;
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -12,6 +13,7 @@ import java.util.List;
 @CrossOrigin
 @RestController
 @RequestMapping("/api")
+@Api(value="team game", description="Stats of a team in one game.")
 public class TeamGameController {
     @Autowired
     TeamGameRepository teamGameRepository;

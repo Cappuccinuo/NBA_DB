@@ -3,6 +3,7 @@ package com.example.easynotes.controller;
 import com.example.easynotes.exception.TeamBackgroundNotFoundException;
 import com.example.easynotes.model.TeamBackground;
 import com.example.easynotes.repository.TeamBackgroundRepository;
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -12,6 +13,7 @@ import java.util.List;
 @CrossOrigin
 @RestController
 @RequestMapping("/api")
+@Api(value="teamBackground", description="All information of a team.")
 public class TeamBackgroundController {
     @Autowired
     TeamBackgroundRepository teamBackgroundRepository;

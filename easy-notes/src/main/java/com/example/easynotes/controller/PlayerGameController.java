@@ -4,6 +4,7 @@ import com.example.easynotes.exception.PlayerGameNotFoundException;
 import com.example.easynotes.identity.PlayerGameIdentity;
 import com.example.easynotes.model.PlayerGame;
 import com.example.easynotes.repository.PlayerGameRepository;
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -13,6 +14,7 @@ import java.util.List;
 @CrossOrigin
 @RestController
 @RequestMapping("/api")
+@Api(value="player game", description="Stats of a player in one game.")
 public class PlayerGameController {
     @Autowired
     PlayerGameRepository playerGameRepository;

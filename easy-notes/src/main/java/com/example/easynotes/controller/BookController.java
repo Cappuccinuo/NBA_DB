@@ -3,6 +3,7 @@ package com.example.easynotes.controller;
 import com.example.easynotes.exception.BookNotFoundException;
 import com.example.easynotes.model.Book;
 import com.example.easynotes.repository.BookRepository;
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -11,6 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api")
+@Api(value="book", description="Just a test api.")
 public class BookController {
     @Autowired
     BookRepository bookRepository;
