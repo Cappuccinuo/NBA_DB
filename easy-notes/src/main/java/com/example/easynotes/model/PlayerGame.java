@@ -15,7 +15,7 @@ public class PlayerGame {
     @EmbeddedId
     private PlayerGameIdentity playerGameIdentity;
     private String start_position;
-    private float min;
+    private String min;
     private float fgm;
     private float fga;
     private float fg_pct;
@@ -41,7 +41,7 @@ public class PlayerGame {
     }
 
     public PlayerGame(PlayerGameIdentity playerGameIdentity, String start_position,
-                        float min, float fgm,
+                        String min, float fgm,
                         float fga, float fg_pct, float fg3m, float fg3a,
                         float fg3_pct, float ftm, float fta, float ft_pct,
                         float o_reb, float d_reb, float reb, float ast,
@@ -95,11 +95,11 @@ public class PlayerGame {
         this.plus_minus = plus_minus;
     }
 
-    public float getMin() {
+    public String getMin() {
         return min;
     }
 
-    public void setMin(float min) {
+    public void setMin(String min) {
         this.min = min;
     }
 
