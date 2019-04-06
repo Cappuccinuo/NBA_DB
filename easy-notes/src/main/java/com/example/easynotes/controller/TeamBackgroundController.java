@@ -48,6 +48,9 @@ public class TeamBackgroundController {
         tb.setNickname(teamDetails.getNickname());
         tb.setOwner(teamDetails.getOwner());
         tb.setYear_founded(teamDetails.getYear_founded());
+        tb.setFacebook(teamDetails.getFacebook());
+        tb.setInstagram(teamDetails.getInstagram());
+        tb.setTwitter(teamDetails.getTwitter());
         TeamBackground updatedTB = teamBackgroundRepository.save(tb);
 
         return updatedTB;
