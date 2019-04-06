@@ -3,9 +3,12 @@ app.service('httpService', function ($http) {
         return $http.get("http://localhost:8080/api/teambg");
     }
 
+    function getTeamSeason(id, season) {
+        return $http.get("http://localhost:8080/api/teamseason/" + id + "&" + season);
+    }
+
     return {
-
-        getTeamsInfo : getTeamsInfo
-
+        getTeamsInfo: getTeamsInfo,
+        getTeamSeason: getTeamSeason
     };
 });
