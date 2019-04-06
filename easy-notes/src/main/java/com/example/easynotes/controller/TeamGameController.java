@@ -39,6 +39,29 @@ public class TeamGameController {
                 TeamGameNotFoundException(new TeamGameIdentity(team_id, game_id)));
 
         TeamGame updatedTeamGame = teamGameRepository.save(teamGame);
+        updatedTeamGame.setAst(teamGameDetails.getAst());
+        updatedTeamGame.setBlk(teamGameDetails.getBlk());
+        updatedTeamGame.setD_reb(teamGameDetails.getD_reb());
+        updatedTeamGame.setO_reb(teamGameDetails.getO_reb());
+        updatedTeamGame.setReb(teamGameDetails.getReb());
+        updatedTeamGame.setFg3a(teamGameDetails.getFg3a());
+        updatedTeamGame.setFg3m(teamGameDetails.getFg3m());
+        updatedTeamGame.setFg3_pct(teamGameDetails.getFg3_pct());
+        updatedTeamGame.setFga(teamGameDetails.getFga());
+        updatedTeamGame.setFgm(teamGameDetails.getFgm());
+        updatedTeamGame.setFg_pct(teamGameDetails.getFg_pct());
+        updatedTeamGame.setFta(teamGameDetails.getFta());
+        updatedTeamGame.setFtm(teamGameDetails.getFtm());
+        updatedTeamGame.setFt_pct(teamGameDetails.getFt_pct());
+        updatedTeamGame.setMin(teamGameDetails.getMin());
+        updatedTeamGame.setTov(teamGameDetails.getTov());
+        updatedTeamGame.setStl(teamGameDetails.getStl());
+        updatedTeamGame.setPts(teamGameDetails.getPts());
+        updatedTeamGame.setPf(teamGameDetails.getPf());
+        updatedTeamGame.setGame_date(teamGameDetails.getGame_date());
+        updatedTeamGame.setMatchup(teamGameDetails.getMatchup());
+        updatedTeamGame.setWl(teamGameDetails.getWl());
+        updatedTeamGame.setSeason(teamGameDetails.getSeason());
         return updatedTeamGame;
     }
 

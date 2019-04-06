@@ -40,6 +40,25 @@ public class PlayerSeasonController {
                 PlayerSeasonNotFoundException(new PlayerSeasonIdentity(player_id, team_id, season)));
 
         PlayerSeason updatedPlayerSeason = playerSeasonRepository.save(playerSeason);
+        updatedPlayerSeason.setAst(playerSeasonDetails.getAst());
+        updatedPlayerSeason.setBlk(playerSeasonDetails.getBlk());
+        updatedPlayerSeason.setD_reb(playerSeasonDetails.getD_reb());
+        updatedPlayerSeason.setO_reb(playerSeasonDetails.getO_reb());
+        updatedPlayerSeason.setReb(playerSeasonDetails.getReb());
+        updatedPlayerSeason.setFg3a(playerSeasonDetails.getFg3a());
+        updatedPlayerSeason.setFg3m(playerSeasonDetails.getFg3m());
+        updatedPlayerSeason.setFg3_pct(playerSeasonDetails.getFg3_pct());
+        updatedPlayerSeason.setFga(playerSeasonDetails.getFga());
+        updatedPlayerSeason.setFgm(playerSeasonDetails.getFgm());
+        updatedPlayerSeason.setFg_pct(playerSeasonDetails.getFg_pct());
+        updatedPlayerSeason.setFta(playerSeasonDetails.getFta());
+        updatedPlayerSeason.setFtm(playerSeasonDetails.getFtm());
+        updatedPlayerSeason.setFt_pct(playerSeasonDetails.getFt_pct());
+        updatedPlayerSeason.setMin(playerSeasonDetails.getMin());
+        updatedPlayerSeason.setTov(playerSeasonDetails.getTov());
+        updatedPlayerSeason.setStl(playerSeasonDetails.getStl());
+        updatedPlayerSeason.setPts(playerSeasonDetails.getPts());
+        updatedPlayerSeason.setPf(playerSeasonDetails.getPf());
         return updatedPlayerSeason;
     }
 
