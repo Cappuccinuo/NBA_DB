@@ -3,7 +3,7 @@
 /*global $scope*/
 
 
-var app = angular.module('myApp', ['ui.router', 'ui.grid', 'ui.grid.edit', 'ui.grid.rowEdit', 'ui.grid.cellNav', 'ui.grid.saveState']);
+var app = angular.module('myApp', ['ui.router', 'ui.grid', 'ui.grid.edit', 'ui.grid.rowEdit', 'ui.grid.cellNav', 'ui.grid.saveState', 'ui.bootstrap','dialogs']);
 
 
 app.config(function($stateProvider, $urlRouterProvider) {

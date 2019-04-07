@@ -3,6 +3,10 @@ app.service('httpService', function ($http) {
         return $http.get("http://localhost:8080/api/teambg");
     }
 
+    function updateTeamsInfo (id, data) {
+        return $http.put("http://localhost:8080/api/teambg/" + id, data);
+    }
+
     function getTeamSeason(id, season) {
         return $http.get("http://localhost:8080/api/teamseason/" + id + "&" + season);
     }
@@ -19,6 +23,7 @@ app.service('httpService', function ($http) {
         getTeamsInfo: getTeamsInfo,
         getTeamSeason: getTeamSeason,
         getTeamGame: getTeamGame,
-        getTeamPlayer: getTeamPlayer
+        getTeamPlayer: getTeamPlayer,
+        updateTeamsInfo: updateTeamsInfo
     };
 });
