@@ -3,7 +3,7 @@ app.controller('teamsSeasonCtrl', ['$scope', '$stateParams', 'httpService', func
 
     $scope.season = "2017-18";
     httpService.getTeamSeason($stateParams.id, $scope.season).then(function(response) {
-        console.log(response.data);
+        console.log(response);
         $scope.data = response.data;
     }).catch(function (result) {
       console.log(result);

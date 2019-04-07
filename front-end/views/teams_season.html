@@ -1,5 +1,214 @@
-<div class="panel panel-primary">
-    <div class="panel-body">
-        <h2> Test Season </h2>
+<div class="panel panel-info">
+        <div class="panel-heading">
+            <h4> Team Statistics for Season {{season}}</h4>
+        </div>
+        <div class="panel-body">
+            <div class="row" style="padding-top: 10px;">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="win" class="col-md-4 control-label">Win:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="Win" ng-model="data.win" readonly>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="loss" class="col-md-4 control-label">Loss:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="loss" ng-model="data.loss" readonly>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row" style="padding-top: 25px;">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="win_percentage" class="col-md-4 control-label">Win Percentage:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="win_percentage" ng-model="data.win_percentage" readonly>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="conf_rank" class="col-md-4 control-label">Conference Rank:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="conf_rank" ng-model="data.conf_rank" readonly>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row" style="padding-top: 25px;">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="fgm" class="col-md-4 control-label">Filed Goals Made:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="fgm" ng-model="data.fgm" readonly>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="fga" class="col-md-4 control-label">Filed Goals Attempted:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="fga" ng-model="data.fga" readonly>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row" style="padding-top: 25px;">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="fg_pct" class="col-md-4 control-label">Field Goals Percentage:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="fg_pct" ng-model="data.fg_pct" readonly>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="fg3m" class="col-md-4 control-label">Three Point Made:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="fg3m" ng-model="data.fg3m" readonly>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row" style="padding-top: 25px;">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="fg3a" class="col-md-4 control-label">Three Point Attempted:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="fg3a" ng-model="data.fg3a" readonly>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="fg3_pct" class="col-md-4 control-label">Three Point Percentage:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="fg3_pct" ng-model="data.fg3_pct" readonly>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 25px;">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="ftm" class="col-md-4 control-label">Free Throws Made:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="ftm" ng-model="data.ftm" readonly>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="fta" class="col-md-4 control-label">Free Throws Attempted:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="fta" ng-model="data.fta" readonly>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="row" style="padding-top: 25px;">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="ft_pct" class="col-md-4 control-label">Free Throws Percentage:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="ft_pct" ng-model="data.ft_pct" readonly>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="o_reb" class="col-md-4 control-label">Offensive Rebounds:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="o_reb" ng-model="data.o_reb" readonly>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="row" style="padding-top: 25px;">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="d_reb" class="col-md-4 control-label">Defensive Rebounds:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="d_reb" ng-model="data.d_reb" readonly>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="reb" class="col-md-4 control-label">Rebounds:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="reb" ng-model="data.reb" readonly>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="row" style="padding-top: 25px;">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="ast" class="col-md-4 control-label">Assists:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="ast" ng-model="data.ast" readonly>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="pf" class="col-md-4 control-label">Personal Fouls:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="pf" ng-model="data.pf" readonly>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="row" style="padding-top: 25px;">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="stl" class="col-md-4 control-label">Steals:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="stl" ng-model="data.stl" readonly>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="tov" class="col-md-4 control-label">Turnovers:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="tov" ng-model="data.tov" readonly>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="padding-top: 25px;">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="blk" class="col-md-4 control-label">Blocks:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="blk" ng-model="data.blk" readonly>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="pts" class="col-md-4 control-label">Points:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="pts" ng-model="data.pts" readonly>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>

@@ -1,101 +1,110 @@
 <div class="panel panel-info">
     <div class="panel-heading">
-            <h4> Team Background </h4>
+        <h4> Team Background </h4>
     </div>
     <div class="panel-body">
-        <div class="row" style="padding-top: 10px;">
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="abbreviation" class="col-md-4 control-label">Abbreviation:</label>
-                    <div class="col-md-8">
-                        <input type="text" class="form-control" placeholder="Abbreviation" ng-model="data.abbreviation">
+        <form name="teamForm" ng-submit="updateTeamBg()">
+            <div class="row" style="padding-top: 10px;">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="abbreviation" class="col-md-4 control-label">Abbreviation:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="Abbreviation" ng-model="data.abbreviation">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="nickname" class="col-md-4 control-label">Nickname:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="Nickname" ng-model="data.nickname">
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="nickname" class="col-md-4 control-label">Nickname:</label>
-                    <div class="col-md-8">
-                        <input type="text" class="form-control" placeholder="Nickname" ng-model="data.nickname">
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <div class="row" style="padding-top: 25px;">
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="year_founded" class="col-md-4 control-label">Founded Year:</label>
-                    <div class="col-md-8">
-                        <input type="text" class="form-control" placeholder="Founded Year" ng-model="data.year_founded">
+            <div class="row" style="padding-top: 25px;">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="year_founded" class="col-md-4 control-label">Founded Year:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="Founded Year" ng-model="data.year_founded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="city" class="col-md-4 control-label">City:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="City" ng-model="data.city">
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="city" class="col-md-4 control-label">City:</label>
-                    <div class="col-md-8">
-                        <input type="text" class="form-control" placeholder="City" ng-model="data.city">
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <div class="row" style="padding-top: 25px;">
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="arena" class="col-md-4 control-label">Arena:</label>
-                    <div class="col-md-8">
-                        <input type="text" class="form-control" placeholder="Arena" ng-model="data.arena">
+            <div class="row" style="padding-top: 25px;">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="arena" class="col-md-4 control-label">Arena:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="Arena" ng-model="data.arena">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="arena_capacity" class="col-md-4 control-label">Arena Capacity:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="Arena Capacity" ng-model="data.arena_capacity">
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="arena_capacity" class="col-md-4 control-label">Arena Capacity:</label>
-                    <div class="col-md-8">
-                        <input type="text" class="form-control" placeholder="Arena Capacity" ng-model="data.arena_capacity">
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <div class="row" style="padding-top: 25px;">
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="owner" class="col-md-4 control-label">Owner:</label>
-                    <div class="col-md-8">
-                        <input type="text" class="form-control" placeholder="Owner" ng-model="data.owner">
+            <div class="row" style="padding-top: 25px;">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="owner" class="col-md-4 control-label">Owner:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="Owner" ng-model="data.owner">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="general_manager" class="col-md-4 control-label">General Manager:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="General Manager" ng-model="data.general_manager">
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="general_manager" class="col-md-4 control-label">General Manager:</label>
-                    <div class="col-md-8">
-                        <input type="text" class="form-control" placeholder="General Manager" ng-model="data.general_manager">
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <div class="row" style="padding-top: 25px;">
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="head_coach" class="col-md-4 control-label">Head Coach:</label>
-                    <div class="col-md-8">
-                        <input type="text" class="form-control" placeholder="Head Coach" ng-model="data.head_coach">
+            <div class="row" style="padding-top: 25px;">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="head_coach" class="col-md-4 control-label">Head Coach:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="Head Coach" ng-model="data.head_coach">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="affiliation" class="col-md-4 control-label">Affiliation:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="Affiliation" ng-model="data.affiliation">
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="affiliation" class="col-md-4 control-label">Affiliation:</label>
-                    <div class="col-md-8">
-                        <input type="text" class="form-control" placeholder="Affiliation" ng-model="data.affiliation">
+            <div class="row" style="padding-top: 25px; padding-left: 15px;">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-info" ng-disabled="teamForm.$pristine">Update</button>
                     </div>
                 </div>
             </div>
-        </div>
+        </form>
     </div>
 </div>
