@@ -4,6 +4,7 @@ import com.example.easynotes.exception.PlayerNotFoundException;
 import com.example.easynotes.model.Player;
 import com.example.easynotes.repository.PlayerRepository;
 import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -38,6 +39,13 @@ public class PlayerController {
             throws PlayerNotFoundException {
         return playerRepository.findById(personId).orElseThrow(() -> new
                 PlayerNotFoundException(personId));
+    }
+
+    @ApiOperation(value = "Search player/players with given name(Fuzzy Search)", response = List.class)
+    @GetMapping("/player/filter/{name}")
+    public List<Player> getPlayerGivenName(@PathVariable(value = "name") String name)
+            throws PlayerNotFoundException {
+        return playerRepository.getPlayerGivenName(name);
     }
 
     @PutMapping("/player/{id}")
