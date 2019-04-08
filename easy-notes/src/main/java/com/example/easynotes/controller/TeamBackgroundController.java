@@ -19,6 +19,8 @@ import java.util.List;
 public class TeamBackgroundController {
     @Autowired
     TeamBackgroundRepository teamBackgroundRepository;
+    @Autowired
+    PlayerRepository playerRepository;
 
     @GetMapping("/teambg")
     public List<TeamBackground> getAllTeamBGs() {
@@ -28,6 +30,11 @@ public class TeamBackgroundController {
     @PostMapping("/teambg")
     public TeamBackground createTeamBG(@RequestBody TeamBackground tb) {
         return teamBackgroundRepository.save(tb);
+    }
+
+    @GetMapping("/teambg/{id}/players")
+    public List<Player> getAllTeamPlayers(@PathVariable(value = "id") String teamId) {
+        return playerRepository.getAllTeamPlayer(teamId);
     }
 
     @GetMapping("/teambg/{id}")

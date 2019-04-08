@@ -2,10 +2,12 @@ package com.example.easynotes.controller;
 
 import com.example.easynotes.exception.PlayerNotFoundException;
 import com.example.easynotes.model.Player;
+import com.example.easynotes.model.PlayerGame;
 import com.example.easynotes.repository.PlayerRepository;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -22,11 +24,6 @@ public class PlayerController {
     @GetMapping("/player")
     public List<Player> getAllPlayers() {
         return playerRepository.findAll();
-    }
-
-    @GetMapping("/teambg/{id}/players")
-    public List<Player> getAllTeamPlayers(@PathVariable(value = "id") String teamId) {
-        return playerRepository.getAllTeamPlayer(teamId);
     }
 
     @PostMapping("/player")
