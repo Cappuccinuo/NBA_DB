@@ -9,6 +9,7 @@ import javax.persistence.Query;
 import javax.transaction.Transactional;
 import java.util.List;
 
+//http://www.knowledgewalls.com/j2ee/books/hibernate-30-examples/how-to-use-namednativequery-and-namedquery-of-jpa-with-spring-and-hibernate-framework
 @Repository
 @Transactional
 public class GameInfoDao {
