@@ -3,12 +3,17 @@ package com.example.easynotes.controller;
 import com.example.easynotes.exception.PlayerSeasonNotFoundException;
 import com.example.easynotes.identity.PlayerSeasonIdentity;
 import com.example.easynotes.model.PlayerSeason;
+import com.example.easynotes.model.PlayerSeasonInfo;
+import com.example.easynotes.model.TeamBackground;
 import com.example.easynotes.repository.PlayerSeasonRepository;
+import com.example.easynotes.repository.TeamBackgroundRepository;
 import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.LinkedList;
 import java.util.List;
 
 @CrossOrigin
@@ -18,6 +23,8 @@ import java.util.List;
 public class PlayerSeasonController {
     @Autowired
     PlayerSeasonRepository playerSeasonRepository;
+    @Autowired
+    TeamBackgroundRepository teamBackgroundRepository;
 
     @GetMapping("/playerseason")
     public List<PlayerSeason> getAllPlayerSeason() {
@@ -27,6 +34,23 @@ public class PlayerSeasonController {
     @PostMapping("/playerseason")
     public PlayerSeason createPlayerSeason(@RequestBody PlayerSeason playerSeason) {
         return playerSeasonRepository.save(playerSeason);
+    }
+
+    @ApiOperation(value = "Get player's season stats given player_id and season", response = PlayerSeasonInfo.class)
+    @GetMapping("playerseason/{player_id}/{season}")
+    public List<PlayerSeasonInfo> getPlayerSeasonBySeason(@PathVariable(value = "player_id") String player_id,
+                                                          @PathVariable(value = "season") String season) {
+        List<PlayerSeason> playerSeasons = playerSeasonRepository.getPlayerBySeason(player_id, season);
+        List<PlayerSeasonInfo> playerSeasonInfos = new LinkedList<>();
+        for (PlayerSeason playerSeason : playerSeasons) {
+            String team_id = playerSeason.getPlayerSeasonIdentity().getTeam_id();
+            if (team_id.equals("0")) {
+                continue;
+            }
+            TeamBackground teamBackground = teamBackgroundRepository.findById(team_id).get();
+            playerSeasonInfos.add(new PlayerSeasonInfo(teamBackground.getAbbreviation(), playerSeason));
+        }
+        return playerSeasonInfos;
     }
 
     @GetMapping("/playerseason/{player_id}&{team_id}&{season}")
