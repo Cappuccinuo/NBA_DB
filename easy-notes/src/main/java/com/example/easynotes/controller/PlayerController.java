@@ -1,5 +1,6 @@
 package com.example.easynotes.controller;
 
+import com.example.easynotes.exception.PlayerAlreadyExistException;
 import com.example.easynotes.exception.PlayerNotFoundException;
 import com.example.easynotes.model.Player;
 import com.example.easynotes.model.PlayerGame;
@@ -27,8 +28,13 @@ public class PlayerController {
     }
 
     @PostMapping("/player")
-    public Player createPlayer(@RequestBody Player player) {
-        return playerRepository.save(player);
+    public Player createPlayer(@RequestBody Player playerDetails) throws PlayerAlreadyExistException {
+        if (playerRepository.findById(playerDetails.getPerson_id()).isPresent()) {
+            throw new PlayerAlreadyExistException(playerDetails.getPerson_id());
+        }
+        else {
+            return playerRepository.save(playerDetails);
+        }
     }
 
     @GetMapping("/player/{id}")
@@ -50,7 +56,7 @@ public class PlayerController {
                            @RequestBody Player playerDetails) throws PlayerNotFoundException {
         Player player = playerRepository.findById(personId).orElseThrow(() -> new
                 PlayerNotFoundException(personId));
-
+        //player.setPerson_id(playerDetails.getPerson_id());
         player.setBirthdate(playerDetails.getBirthdate());
         player.setCountry(playerDetails.getCountry());
         player.setDraft_number(playerDetails.getDraft_number());

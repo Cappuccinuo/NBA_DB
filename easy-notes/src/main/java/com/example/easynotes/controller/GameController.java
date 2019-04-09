@@ -1,7 +1,6 @@
 package com.example.easynotes.controller;
 import com.example.easynotes.dao.GameInfoDao;
 import com.example.easynotes.model.GameInfo;
-import com.example.easynotes.repository.TeamGameRepository;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,8 +13,6 @@ import java.util.*;
 @RequestMapping("/api")
 @Api(value="game", description="Stats of game")
 public class GameController {
-    @Autowired
-    TeamGameRepository teamGameRepository;
     @Autowired
     GameInfoDao gameInfoDao;
 

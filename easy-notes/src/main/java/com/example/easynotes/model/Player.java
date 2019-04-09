@@ -13,7 +13,7 @@ import java.util.Date;
 
 public class Player {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+//    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @NotBlank
     private String person_id;
     private String first_name;
