@@ -7,7 +7,7 @@ CREATE TABLE `player` (
     `first_name` varchar(255),
     `last_name` varchar(255),
     `name` varchar(255),
-    `birthdate` varchar(255),
+    `birthdate` DATE,
     `school` varchar(255),
     `country` varchar(255),
     `height` varchar(255),
@@ -159,10 +159,25 @@ CREATE TABLE `player_game` (
     `plus_minus` float default null,
     PRIMARY KEY (`team_id`, `game_id`, `player_id`)
 );
-
+SELECT * FROM team_game WHERE game_id = '0021700146';
 SELECT * FROM team_game t WHERE t.team_id = '1610612738' ORDER BY STR_TO_DATE(t.game_date, "%b %d, %Y")  DESC LIMIT 2;
 
 SELECT STR_TO_DATE(t.game_date, "%b %d, %Y") FROM team_game t;
-SELECT game_date from team_game;
+SELECT * from team_game WHERE game_date = "OCT 18, 2017";
+SELECT * from player_season;
 
-SELECT * FROM player p WHERE p.team_id = "1610612738"birthdate;
+SELECT p1.abbreviation as away_team, p2.abbreviation as home_team, p1.pts as away_score, p2.pts as home_score, p1.team_id as away_team_id, p2.team_id as home_team_id, p1.game_id as game_id
+FROM 
+(SELECT t1.*, tb1.abbreviation FROM team_game t1 JOIN team_background tb1 ON t1.team_id = tb1.team_id) p1 
+JOIN 
+(SELECT t2.*, tb2.abbreviation FROM team_game t2 JOIN team_background tb2 ON t2.team_id = tb2.team_id) p2 
+ON p1.game_id = p2.game_id AND p1.team_id != p2.team_id AND p1.matchup LIKE '%@%'
+WHERE p1.game_date = "OCT 19, 2017" AND p2.game_date = "OCT 19, 2017";
+
+
+SELECT p.* FROM ((SELECT * FROM player_game WHERE player_id = '1627098') p JOIN team_game t ON p.game_id = t.game_id AND p.team_id = t.team_id) ORDER BY STR_TO_DATE(t.game_date, "%b %d, %Y")  DESC;
+SELECT * FROM player_game WHERE player_id = '1627098';
+
+
+SELECT * FROM player p WHERE p.team_id = "1610612738";
+SELECT * FROM player p WHERE p.name LIKE 'Ja%'
