@@ -1,0 +1,130 @@
+<div class="panel panel-info">
+    <div class="panel-heading">
+        <h4> Player Information </h4>
+    </div>
+    <div class="panel-body">
+        <form name="teamForm" ng-submit="updatePlayerBg()">
+            <div class="row" style="padding-top: 10px;">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="birthdate" class="col-md-4 control-label">Birthday:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="birthdate" ng-model="data.birthdate">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="school" class="col-md-4 control-label">School:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="school" ng-model="data.school">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="padding-top: 25px;">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="country" class="col-md-4 control-label">Country:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="country" ng-model="data.country">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="height" class="col-md-4 control-label">Height (ft-in):</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="height" ng-model="data.height">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="padding-top: 25px;">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="weight" class="col-md-4 control-label">Weight (lb):</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="weight" ng-model="data.weight">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="position" class="col-md-4 control-label">Position:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="position" ng-model="data.position">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="padding-top: 25px;">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="rosterstatus" class="col-md-4 control-label">Roster Status:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="rosterstatus" ng-model="data.rosterstatus">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="from_year" class="col-md-4 control-label">From Year:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="from_year" ng-model="data.from_year">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="padding-top: 25px;">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="to_year" class="col-md-4 control-label">To Year:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="to_year" ng-model="data.to_year">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="draft_year" class="col-md-4 control-label">Draft Year:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="draft_year" ng-model="data.draft_year">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="padding-top: 25px;">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="draft_round" class="col-md-4 control-label">Draft Round:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="draft_round" ng-model="data.draft_round">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="draft_number" class="col-md-4 control-label">Draft Number:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="draft_number" ng-model="data.draft_number">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="padding-top: 25px; padding-left: 15px;">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-info" ng-disabled="teamForm.$pristine">Update</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

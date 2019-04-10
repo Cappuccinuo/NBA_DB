@@ -19,11 +19,46 @@ app.service('httpService', function ($http) {
         return $http.get("http://localhost:8080/api/teambg/" + id + "/players");
     }
 
+    function findPlayer(name) {
+        return $http.get("http://localhost:8080/api/player/filter/" + name);
+    }
+
+    function getPlayerSeason(pid, tid, season) {
+        return $http.get("http://localhost:8080/api/playerseason/" + pid + "&" + tid + "&" + season);
+    }
+
+    function getPlayerGame(id, num) {
+        return $http.get("http://localhost:8080/api/playergame/" + id + "/latest" + num);
+    }
+
+    function updatePlayerInfo (id, data) {
+        return $http.put("http://localhost:8080/api/player/" + id, data);
+    }
+
+    function createPlayer (data) {
+        return $http.post("http://localhost:8080/api/player", data);
+    }
+
+    function deletePlayerInfo (id) {
+        return $http.delete("http://localhost:8080/api/player/" + id);
+    }
+
+    function checkPlayerId(id) {
+        return $http.get("http://localhost:8080/api/player/" + id);
+    }
+
     return {
         getTeamsInfo: getTeamsInfo,
         getTeamSeason: getTeamSeason,
         getTeamGame: getTeamGame,
         getTeamPlayer: getTeamPlayer,
-        updateTeamsInfo: updateTeamsInfo
+        updateTeamsInfo: updateTeamsInfo,
+        findPlayer: findPlayer,
+        getPlayerSeason: getPlayerSeason,
+        getPlayerGame: getPlayerGame,
+        updatePlayerInfo: updatePlayerInfo,
+        createPlayer: createPlayer,
+        deletePlayerInfo: deletePlayerInfo,
+        checkPlayerId: checkPlayerId
     };
 });

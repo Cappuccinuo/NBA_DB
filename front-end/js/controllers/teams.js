@@ -17,7 +17,6 @@ app.controller('teamsCtrl', ['$scope', 'httpService', '$state', function($scope,
       $scope.gridApi = gridApi;
       gridApi.selection.on.rowSelectionChanged($scope, function (row) {
         $state.transitionTo("tdetail", {id: row.entity.team_id, data: row.entity});
-        console.log("after");
       });
     },
   

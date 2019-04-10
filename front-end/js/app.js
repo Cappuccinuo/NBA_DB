@@ -3,7 +3,7 @@
 /*global $scope*/
 
 
-var app = angular.module('myApp', ['ui.router', 'ui.grid', 'ui.grid.edit', 'ui.grid.rowEdit', 'ui.grid.cellNav', 'ui.grid.saveState', 'ui.bootstrap','dialogs']);
+var app = angular.module('myApp', ['ui.router', 'ui.grid', 'ui.grid.edit', 'ui.grid.rowEdit', 'ui.grid.cellNav', 'ui.grid.saveState', 'ui.bootstrap','dialogs', 'ngSanitize', 'ui.select']);
 
 
 app.config(function($stateProvider, $urlRouterProvider) {
@@ -15,10 +15,36 @@ app.config(function($stateProvider, $urlRouterProvider) {
         templateUrl : "views/home.html",
         controller : "homeCtrl"
     })
-    .state("books", {
-        url : "/books",
-        templateUrl : "views/books.html",
-        controller : "booksCtrl"
+    .state("players", {
+        url : "/players",
+        templateUrl : "views/players.html",
+        controller : "playersCtrl"
+    })
+    .state("pdetail", {
+        url : "/players/:id",
+        templateUrl : "views/players_detail.html",
+        controller : "playersDetailCtrl",
+        params: {data: null}
+    })
+    .state("pdetail.pseason", {
+        url : "/pseason",
+        templateUrl : "views/players_season.html",
+        controller : "playersSeasonCtrl"
+    })
+    .state("pdetail.pgame", {
+        url : "/pgame",
+        templateUrl : "views/players_game.html",
+        controller : "playersGameCtrl"
+    })
+    .state("pdetail.pbackground", {
+        url : "/pbackground",
+        templateUrl : "views/players_background.html",
+        controller : "playersBackgroundCtrl"
+    })
+    .state("pcreate", {
+        url : "/pcreate",
+        templateUrl : "views/player_new.html",
+        controller : "playerNewCtrl"
     })
     .state("teams", {
         url : "/teams",
@@ -32,22 +58,22 @@ app.config(function($stateProvider, $urlRouterProvider) {
         params: {data: null}
     })
     .state("tdetail.tseason", {
-        url : "/season",
+        url : "/tseason",
         templateUrl : "views/teams_season.html",
         controller : "teamsSeasonCtrl"
     })
     .state("tdetail.tgame", {
-        url : "/game",
+        url : "/tgame",
         templateUrl : "views/teams_game.html",
         controller : "teamsGameCtrl"
     })
     .state("tdetail.tplayer", {
-        url : "/player",
+        url : "/tplayer",
         templateUrl : "views/teams_player.html",
         controller : "teamsPlayerCtrl"
     })
     .state("tdetail.tbackground", {
-        url : "/background",
+        url : "/tbackground",
         templateUrl : "views/teams_background.html",
         controller : "teamsBackgroundCtrl"
     })

@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h4> Welcome to the page of {{ data.name }}! </h4>
+        </div>
+        <div class="panel-body">
+            <div class="col-md-3">
+                <button type="button" ui-sref= "pdetail.pseason" class="btn btn-lg btn-info btn-block">Player Season</button>
+            </div>
+            <div class="col-md-3">
+                <button type="button" ui-sref= "pdetail.pgame" class="btn btn-lg btn-info btn-block">Recent Games</button>
+            </div>
+            <div class="col-md-3">
+                <button type="button" ui-sref= "pdetail.pbackground" class="btn btn-lg btn-info btn-block">Player Information</button>
+            </div>
+            <div class="col-md-3">
+                <button type="button" ng-click= "deletePlayer()" class="btn btn-lg btn-info btn-block">Delete Player</button>
+            </div>
+        </div>
+    </div>
+    
+    <div ui-view></div>
+</div>
+

@@ -15,6 +15,7 @@ app.controller('teamsPlayerCtrl', ['$scope', '$stateParams', 'httpService', 'uiG
         columnDefs: [
           { field: 'first_name', displayName: 'First Name', width: 100, cellTooltip: true},
           { field: 'last_name', displayName: 'Last Name', width: 100, cellTooltip: true},
+          { field: 'birthdate', displayName: 'Birthday', width: 100, cellTooltip: true},
           { field: 'school', displayName: 'School', width: 100, cellTooltip: true},
           { field: 'country', displayName: 'Country', width: 100, cellTooltip: true},
           { field: 'height', displayName: 'Height (ft-in)', width: 110},
