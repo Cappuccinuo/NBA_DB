@@ -12,38 +12,60 @@ from nba_py.player import PlayerList
 
 class Main(object):
   def main(self):
-    # util.load_player_game_data_at_year("BOS", 2017)
-    # teamId = TEAMS["BOS"]["id"]
-    # socialDF = team.TeamDetails(teamId).social_sites()
-    # backgroundDF = team.TeamDetails(teamId).background()
-    # resDF = pd.DataFrame()
-    # resDF = resDF.append(backgroundDF, sort=False)
-    # resDF.ix[0, 'facebook'] = "haha"
-    # teamId = TEAMS["ATL"]["id"]
-    # socialDF = team.TeamDetails(teamId).social_sites()
-    # backgroundDF = team.TeamDetails(teamId).background()
-    # resDF = pd.concat([resDF, backgroundDF], ignore_index=True, sort=False)
-    # resDF.ix[1, 'facebook'] = "hahaha"
-    # # resDF.append(backgroundDF)
-    # # f = socialDF.loc[socialDF['ACCOUNTTYPE'] == 'Facebook']['WEBSITE_LINK'][0]
-    # # i = socialDF.loc[socialDF['ACCOUNTTYPE'] == 'Instagram']['WEBSITE_LINK']
-    # # t = socialDF.loc[socialDF['ACCOUNTTYPE'] == 'Twitter']['WEBSITE_LINK']
-    # # print(i.iloc[0])
-    # print(resDF)
+    self.truncate_player_game_id()
 
-    util.load_team_background()
+  def truncate_player_game_id(self):
+    playerPD = pd.read_csv("data/game/2017-18-players.csv")
+    playerPD[['GAME_ID']] = playerPD.apply(lambda row: self.apply_truncate(row), axis=1)
+    playerPD.to_csv("data/game/2017-18-players.csv", index=False)
 
+  def apply_truncate(self, row):
+    game_id = row['GAME_ID']
+    return str(game_id)
 
+  def get_player_team_mapping(self):
+    playerPD = pd.read_csv("data/player/players.csv")
+    header = ['PERSON_ID', 'TEAM_ID']
+    playerTeamPD = playerPD[header]
+    playerTeamPD.to_csv("data/player/players-teams.csv", index=False)
+    playerPD = playerPD.drop(columns=['TEAM_ID'])
+    playerPD.to_csv("data/player/players-info.csv", index=False)
 
-    # resDF['Facebook'] = \
-    #   socialDF.loc[socialDF['ACCOUNTTYPE'] == 'Facebook']['WEBSITE_LINK']
-    # resDF['Instagram'] = \
-    #   socialDF.loc[socialDF['ACCOUNTTYPE'] == 'Instagram']['WEBSITE_LINK']
-    # resDF['Twitter'] = \
-    #   socialDF.loc[socialDF['ACCOUNTTYPE'] == 'Twitter']['WEBSITE_LINK']
-    # print(resDF)
-    # print(backgroundDF)
+  def get_team_conference(self):
+    teamPD = pd.read_csv("data/team/team-background.csv")
+    teamPD = teamPD.reindex(columns = teamPD.columns.tolist() + ['conf'])
+    teamPD[['conf']] = teamPD.apply(lambda row: self.label_conference(row), axis=1)
+    teamPD.to_csv("data/team/team-background.csv", index=False)
 
+  def label_conference(self, row):
+    abbr = row['ABBREVIATION']
+    confInfo = TEAMS[abbr]['conference']
+    return confInfo
+
+  def extract_game_info(self):
+    temp = pd.read_csv("data/game/2017-18-teams.csv")
+    header = ['Game_ID', 'GAME_DATE', 'Season', 'MATCHUP']
+    newPD = temp[header]
+    # https://stackoverflow.com/questions/16327055/how-to-add-an-empty-column-to-a-dataframe
+    newPD = newPD.reindex(columns = newPD.columns.tolist() + ['away_team_id', 'home_team_id'])
+    # https://stackoverflow.com/questions/26886653/pandas-create-new-column-based-on-values-from-other-columns
+    # https://stackoverflow.com/questions/50410625/add-multiple-columns-to-pandas-dataframe
+    newPD[['away_team_id', 'home_team_id']] = \
+      newPD.apply(lambda row: self.label_column(row), axis=1)
+    newPD = newPD.drop(columns=['MATCHUP']).drop_duplicates()
+    newPD.to_csv("data/game/2017-18-game_info.csv", index=False)
+
+    # temp.drop(columns=['GAME_DATE', 'MATCHUP', 'Season'])
+    # temp.to_csv("data/game/2017-18-teams.csv")
+
+  def label_column(self, row):
+    matchup = row['MATCHUP']
+    split = str.split(matchup, " ")
+    # away_team_id, home_team_id
+    if (split[1] == '@'):
+      return pd.Series([TEAMS[split[0]]['id'], TEAMS[split[2]]['id']])
+    else:
+      return pd.Series([TEAMS[split[2]]['id'], TEAMS[split[0]]['id']])
 
   def get_all_team_game_data_between_year(self, startYear, endYear):
     gameData = pd.DataFrame()
