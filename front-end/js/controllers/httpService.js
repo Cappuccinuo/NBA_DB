@@ -47,6 +47,10 @@ app.service('httpService', function ($http) {
         return $http.get("http://localhost:8080/api/player/" + id);
     }
 
+    function getGamesByDate (date) {
+        return $http.get("http://localhost:8080/api/game/" + date);
+    }
+
     return {
         getTeamsInfo: getTeamsInfo,
         getTeamSeason: getTeamSeason,
@@ -59,6 +63,7 @@ app.service('httpService', function ($http) {
         updatePlayerInfo: updatePlayerInfo,
         createPlayer: createPlayer,
         deletePlayerInfo: deletePlayerInfo,
-        checkPlayerId: checkPlayerId
+        checkPlayerId: checkPlayerId,
+        getGamesByDate: getGamesByDate
     };
 });

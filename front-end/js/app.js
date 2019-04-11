@@ -77,6 +77,17 @@ app.config(function($stateProvider, $urlRouterProvider) {
         templateUrl : "views/teams_background.html",
         controller : "teamsBackgroundCtrl"
     })
+    .state("games", {
+        url : "/games",
+        templateUrl : "views/games.html",
+        controller : "gamesCtrl"
+    })
+    .state("gdetail", {
+        url : "/games/:id",
+        templateUrl : "views/games_detail.html",
+        controller : "gamesDetailCtrl",
+        params: {data: null}
+    })
     .state("nav", {
         templateUrl : "views/nav.html",
         controller : "navCtrl"

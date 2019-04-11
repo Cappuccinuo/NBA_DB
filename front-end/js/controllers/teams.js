@@ -1,6 +1,3 @@
-/* global app */
-/* global angular */
-
 app.controller('teamsCtrl', ['$scope', 'httpService', '$state', function($scope, httpService, $state) {
   //team grid setup
   $scope.gridOptions = {
@@ -44,26 +41,6 @@ app.controller('teamsCtrl', ['$scope', 'httpService', '$state', function($scope,
       console.log(result);
       //alert(result);
   });
-  
-  //saving in the new author modal
-  $scope.addNewItem = function() {
-    var n = $scope.authorData.length + 1;
-    $scope.authorData.push( { id: n, name: $scope.newAuthorName, age: $scope.newAuthorAge});
-    modal.css('display', 'none');
-    };
-    
-   // get the modal
-    var modal = angular.element( document.querySelector( '#authorModalBody' ) );
-
-    // when the user clicks on the create new author button, open the modal 
-    $scope.openModal = function() {
-        modal.css('display', 'block');
-    };
-    
-    //clicking cancel once modal is open, or closing the modal after saving
-    $scope.closeModal = function() {
-        modal.css('display', 'none');
-    };
     
 }]);
 
