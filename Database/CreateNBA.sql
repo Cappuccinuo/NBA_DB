@@ -174,8 +174,8 @@ CREATE TABLE `player_game` (
 DROP TABLE IF EXISTS `player_team`;
 CREATE TABLE `player_team` (
 	`player_id` varchar(255) NOT NULL,
-    `team_id` varchar(255) NOT NULL,
-    PRIMARY KEY (`player_id`, `team_id`),
+    `team_id` varchar(255),
+    PRIMARY KEY (`player_id`),
     CONSTRAINT `player_id_constraint_3` FOREIGN KEY (`player_id`) REFERENCES `player` (`person_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-    CONSTRAINT `team_id_constraint_5` FOREIGN KEY (`team_id`) REFERENCES `team_background` (`team_id`) ON DELETE CASCADE ON UPDATE CASCADE
+    CONSTRAINT `team_id_constraint_5` FOREIGN KEY (`team_id`) REFERENCES `team_background` (`team_id`) ON DELETE SET NULL ON UPDATE CASCADE
 );

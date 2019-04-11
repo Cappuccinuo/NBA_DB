@@ -11,7 +11,7 @@ import java.util.List;
 @Repository
 public interface PlayerRepository extends JpaRepository<Player, String> {
     @Query(value =
-            "SELECT * FROM player p WHERE p.team_id = :team_id", nativeQuery = true)
+            "CALL get_players_of_team(:team_id)", nativeQuery = true)
     List<Player> getAllTeamPlayer(@Param("team_id") String team_id);
 
     //https://stackoverflow.com/questions/25362540/like-query-in-spring-jparepository

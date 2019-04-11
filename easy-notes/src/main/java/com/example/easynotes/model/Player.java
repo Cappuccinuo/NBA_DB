@@ -13,7 +13,6 @@ import java.util.Date;
 
 public class Player {
     @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @NotBlank
     private String person_id;
     private String first_name;
@@ -26,7 +25,6 @@ public class Player {
     private String weight;
     private String position;
     private String rosterstatus;
-    private String team_id;
     private String from_year;
     private String to_year;
     private String draft_year;
@@ -40,7 +38,7 @@ public class Player {
     public Player(String id, String first_name, String last_name, String name,
                   String birthdate, String school, String country, String height,
                   String weight, String position, String rosterstatus,
-                  String team_id, String from_year, String to_year,
+                  String from_year, String to_year,
                   String draft_year, String draft_round, String draft_number) {
         super();
         this.person_id = id;
@@ -54,7 +52,6 @@ public class Player {
         this.weight = weight;
         this.position = position;
         this.rosterstatus = rosterstatus;
-        this.team_id = team_id;
         this.from_year = from_year;
         this.to_year = to_year;
         this.draft_year = draft_year;
@@ -138,13 +135,6 @@ public class Player {
     }
     public void setRosterstatus(String rosterstatus) {
         this.rosterstatus = rosterstatus;
-    }
-
-    public String getTeam_id() {
-        return this.team_id;
-    }
-    public void setTeam_id(String team_id) {
-        this.team_id = team_id;
     }
 
     public String getFrom_year() {

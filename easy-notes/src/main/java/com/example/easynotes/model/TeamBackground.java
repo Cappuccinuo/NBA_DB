@@ -12,7 +12,6 @@ import javax.validation.constraints.NotBlank;
 
 public class TeamBackground {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @NotBlank
     private String team_id;
     private String abbreviation;
@@ -28,6 +27,7 @@ public class TeamBackground {
     private String facebook;
     private String instagram;
     private String twitter;
+    private String conf;
 
     public TeamBackground() {
         super();
@@ -36,7 +36,7 @@ public class TeamBackground {
     public TeamBackground(String id, String abbreviation, String nickname, String year_founded,
                            String city, String arena, String arena_capacity, String owner,
                           String general_manager, String head_coach, String affiliation,
-                          String facebook, String instagram, String twitter) {
+                          String facebook, String instagram, String twitter, String conf) {
         super();
         this.team_id = id;
         this.abbreviation = abbreviation;
@@ -52,6 +52,15 @@ public class TeamBackground {
         this.facebook = facebook;
         this.instagram = instagram;
         this.twitter = twitter;
+        this.conf = conf;
+    }
+
+    public String getConf() {
+        return conf;
+    }
+
+    public void setConf(String conf) {
+        this.conf = conf;
     }
 
     public String getFacebook() {

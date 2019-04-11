@@ -12,7 +12,9 @@ from nba_py.player import PlayerList
 
 class Main(object):
   def main(self):
-    self.truncate_player_game_id()
+    # self.truncate_player_game_id()
+    a = players = PlayerList().info()
+    a.to_csv('test.csv', index=False)
 
   def truncate_player_game_id(self):
     playerPD = pd.read_csv("data/game/2017-18-players.csv")

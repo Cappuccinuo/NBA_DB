@@ -11,5 +11,7 @@ import java.util.List;
 
 @Repository
 public interface TeamBackgroundRepository extends JpaRepository<TeamBackground, String> {
-
+    @Query(value =
+            "CALL get_team_of_player(:player_id)", nativeQuery = true)
+    TeamBackground getTeamOfPlayer(@Param("player_id") String player_id);
 }

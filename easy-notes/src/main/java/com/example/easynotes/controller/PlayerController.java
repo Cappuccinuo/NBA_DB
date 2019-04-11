@@ -3,12 +3,10 @@ package com.example.easynotes.controller;
 import com.example.easynotes.exception.PlayerAlreadyExistException;
 import com.example.easynotes.exception.PlayerNotFoundException;
 import com.example.easynotes.model.Player;
-import com.example.easynotes.model.PlayerGame;
 import com.example.easynotes.repository.PlayerRepository;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.PageRequest;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -56,7 +54,6 @@ public class PlayerController {
                            @RequestBody Player playerDetails) throws PlayerNotFoundException {
         Player player = playerRepository.findById(personId).orElseThrow(() -> new
                 PlayerNotFoundException(personId));
-        //player.setPerson_id(playerDetails.getPerson_id());
         player.setBirthdate(playerDetails.getBirthdate());
         player.setCountry(playerDetails.getCountry());
         player.setDraft_number(playerDetails.getDraft_number());
@@ -67,7 +64,6 @@ public class PlayerController {
         player.setName(playerDetails.getName());
         player.setFrom_year(playerDetails.getFrom_year());
         player.setTo_year(playerDetails.getTo_year());
-        player.setTeam_id(playerDetails.getTeam_id());
         player.setHeight(playerDetails.getHeight());
         player.setWeight(playerDetails.getWeight());
         player.setRosterstatus(playerDetails.getRosterstatus());

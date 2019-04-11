@@ -32,11 +32,6 @@ public class TeamBackgroundController {
         return teamBackgroundRepository.save(tb);
     }
 
-    @GetMapping("/teambg/{id}/players")
-    public List<Player> getAllTeamPlayers(@PathVariable(value = "id") String teamId) {
-        return playerRepository.getAllTeamPlayer(teamId);
-    }
-
     @GetMapping("/teambg/{id}")
     public TeamBackground getTeamBGById(@PathVariable(value = "id") String teamId)
             throws TeamBackgroundNotFoundException {
@@ -63,6 +58,7 @@ public class TeamBackgroundController {
         tb.setFacebook(teamDetails.getFacebook());
         tb.setInstagram(teamDetails.getInstagram());
         tb.setTwitter(teamDetails.getTwitter());
+        tb.setConf(teamDetails.getConf());
         TeamBackground updatedTB = teamBackgroundRepository.save(tb);
 
         return updatedTB;
