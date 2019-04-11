@@ -344,6 +344,42 @@ UNLOCK TABLES;
 --
 -- Dumping routines for database 'NBA'
 --
+/*!50003 DROP PROCEDURE IF EXISTS `get_games_given_id` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_0900_ai_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `get_games_given_id`(IN game_id varchar(255))
+BEGIN
+	SELECT 		tb1.abbreviation as away_team, 
+						tb2.abbreviation as home_team, 
+                        tg1.pts as away_score, 
+                        tg2.pts as home_score, 
+                        tb1.team_id as away_team_id, 
+                        tb2.team_id as home_team_id, 
+                        tb1.city as away_team_city,
+                        tb2.city as home_team_city,
+                        tb1.nickname as away_team_nickname,
+                        tb2.nickname as home_team_nickname,
+                        g.game_date as date,
+                        g.game_id as game_id 
+	FROM 		game_info g
+	JOIN 			team_background tb1 ON g.away_team_id = tb1.team_id
+	JOIN 			team_background tb2 ON g.home_team_id = tb2.team_id
+	JOIN 			team_game tg1 ON g.game_id = tg1.game_id AND tg1.team_id = tb1.team_id
+	JOIN 			team_game tg2 ON g.game_id = tg2.game_id AND tg2.team_id = tb2.team_id
+    WHERE 		g.game_id = game_id;
+END ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
 /*!50003 DROP PROCEDURE IF EXISTS `get_games_on_date` */;
 /*!50003 SET @saved_cs_client      = @@character_set_client */ ;
 /*!50003 SET @saved_cs_results     = @@character_set_results */ ;
@@ -424,6 +460,53 @@ DELIMITER ;
 /*!50003 SET character_set_client  = @saved_cs_client */ ;
 /*!50003 SET character_set_results = @saved_cs_results */ ;
 /*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `get_player_games_given_team_and_game` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_0900_ai_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `get_player_games_given_team_and_game`(IN team_id varchar(255), IN game_id varchar(255))
+BEGIN
+SELECT 		p.*
+FROM 		player_game p
+WHERE		p.team_id = team_id AND p.game_id = game_id;
+END ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `get_player_game_desc` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_0900_ai_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `get_player_game_desc`(IN player_id varchar(255), IN num int)
+BEGIN
+SELECT 		pg.* 
+FROM 		player_game pg
+JOIN 			game_info g
+ON 				pg.game_id = g.game_id 
+AND 			(pg.team_id = g.away_team_id OR pg.team_id = g.home_team_id)
+WHERE 		pg.player_id = player_id 
+ORDER BY STR_TO_DATE(g.game_date, "%b %d, %Y") DESC
+LIMIT			num;
+END ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
 /*!50003 DROP PROCEDURE IF EXISTS `get_team_game_desc` */;
 /*!50003 SET @saved_cs_client      = @@character_set_client */ ;
 /*!50003 SET @saved_cs_results     = @@character_set_results */ ;
@@ -434,7 +517,7 @@ DELIMITER ;
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
 DELIMITER ;;
-CREATE DEFINER=`root`@`localhost` PROCEDURE `get_team_game_desc`(IN team_id varchar(255))
+CREATE DEFINER=`root`@`localhost` PROCEDURE `get_team_game_desc`(IN team_id varchar(255), IN num int)
 BEGIN
 SELECT 		t.*
 FROM 		team_game t
@@ -442,7 +525,8 @@ JOIN			game_info g
 ON 				t.team_id = g.away_team_id
 OR				t.team_id = g.home_team_id
 WHERE		t.team_id = team_id
-ORDER BY str_to_date(g.game_date, "%b %d, %Y") DESC;
+ORDER BY str_to_date(g.game_date, "%b %d, %Y") DESC
+LIMIT 			num;
 END ;;
 DELIMITER ;
 /*!50003 SET sql_mode              = @saved_sql_mode */ ;
@@ -482,4 +566,4 @@ DELIMITER ;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-04-10 22:34:41
+-- Dump completed on 2019-04-10 23:23:58
