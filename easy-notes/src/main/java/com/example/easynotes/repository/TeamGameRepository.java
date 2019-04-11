@@ -20,6 +20,6 @@ public interface TeamGameRepository extends JpaRepository<TeamGame, TeamGameIden
     @Query(value = "SELECT * FROM team_game t WHERE t.team_id = :team_id", nativeQuery = true)
     List<TeamGame> getAllTeamGame(@Param("team_id") String team_id);
 
-    @Query(value = "SELECT * FROM team_game t WHERE t.team_id = :team_id ORDER BY STR_TO_DATE(t.game_date, \"%b %d, %Y\") DESC", nativeQuery = true)
+    @Query(value = "CALL get_team_game_desc(:team_id)", nativeQuery = true)
     List<TeamGame> getNumTeamGame(@Param("team_id") String team_id, Pageable pageSize);
 }

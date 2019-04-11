@@ -15,13 +15,18 @@ public class GameInfo {
     private Float home_score;
     private String away_team_id;
     private String home_team_id;
+    private String away_team_city;
+    private String home_team_city;
+    private String away_team_nickname;
+    private String home_team_nickname;
     private String game_id;
 
     public GameInfo() {
         super();
     }
 
-    public GameInfo(String away_team, String home_team, Float away_score, Float home_score, String away_team_id, String home_team_id, String game_id) {
+    public GameInfo(String away_team, String home_team, Float away_score, Float home_score, String away_team_id, String home_team_id,
+                    String away_team_city, String home_team_city, String away_team_nickname, String home_team_nickname, String game_id) {
         super();
         this.away_team = away_team;
         this.home_team = home_team;
@@ -29,7 +34,43 @@ public class GameInfo {
         this.home_score = home_score;
         this.away_team_id = away_team_id;
         this.home_team_id = home_team_id;
+        this.away_team_city = away_team_city;
+        this.home_team_city = home_team_city;
+        this.away_team_nickname = away_team_nickname;
+        this.home_team_nickname = home_team_nickname;
         this.game_id = game_id;
+    }
+
+    public String getAway_team_city() {
+        return away_team_city;
+    }
+
+    public void setAway_team_city(String away_team_city) {
+        this.away_team_city = away_team_city;
+    }
+
+    public String getAway_team_nickname() {
+        return away_team_nickname;
+    }
+
+    public void setAway_team_nickname(String away_team_nickname) {
+        this.away_team_nickname = away_team_nickname;
+    }
+
+    public String getHome_team_city() {
+        return home_team_city;
+    }
+
+    public void setHome_team_city(String home_team_city) {
+        this.home_team_city = home_team_city;
+    }
+
+    public String getHome_team_nickname() {
+        return home_team_nickname;
+    }
+
+    public void setHome_team_nickname(String home_team_nickname) {
+        this.home_team_nickname = home_team_nickname;
     }
 
     public Float getAway_score() {

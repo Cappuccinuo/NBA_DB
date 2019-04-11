@@ -83,10 +83,6 @@ public class TeamGameController {
         updatedTeamGame.setStl(teamGameDetails.getStl());
         updatedTeamGame.setPts(teamGameDetails.getPts());
         updatedTeamGame.setPf(teamGameDetails.getPf());
-        updatedTeamGame.setGame_date(teamGameDetails.getGame_date());
-        updatedTeamGame.setMatchup(teamGameDetails.getMatchup());
-        updatedTeamGame.setWl(teamGameDetails.getWl());
-        updatedTeamGame.setSeason(teamGameDetails.getSeason());
         return updatedTeamGame;
     }
 

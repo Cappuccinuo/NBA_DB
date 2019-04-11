@@ -45,23 +45,23 @@ public class PlayerGameController {
                 PlayerGameNotFoundException(new PlayerGameIdentity(player_id, team_id, game_id)));
     }
 
-    @ApiOperation(value= "Get the latest first num game of giving player", response = PlayerGameInfo.class)
-    @GetMapping("/playergame/{player_id}/latest{num}")
-    public List<PlayerGameInfo> getNumPlayerGame(@PathVariable(value="player_id") String player_id,
-                                                 @PathVariable(value="num") String num) {
-        List<PlayerGame> playerGames = playerGameRepository.getNumTeamGame(player_id, new PageRequest(0, Integer.parseInt(num)));
-        List<PlayerGameInfo> playerGameInfos = new LinkedList<>();
-        for (PlayerGame playerGame : playerGames) {
-            String game_id = playerGame.getPlayerGameIdentity().getGame_id();
-            String team_id = playerGame.getPlayerGameIdentity().getTeam_id();
-            TeamGame teamGame = teamGameRepository.findById(new TeamGameIdentity(team_id, game_id)).get();
-            if (teamGame == null) {
-                continue;
-            }
-            playerGameInfos.add(new PlayerGameInfo(teamGame.getGame_date(), teamGame.getMatchup(), playerGame));
-        }
-        return playerGameInfos;
-    }
+//    @ApiOperation(value= "Get the latest first num game of giving player", response = PlayerGameInfo.class)
+//    @GetMapping("/playergame/{player_id}/latest{num}")
+//    public List<PlayerGameInfo> getNumPlayerGame(@PathVariable(value="player_id") String player_id,
+//                                                 @PathVariable(value="num") String num) {
+//        List<PlayerGame> playerGames = playerGameRepository.getNumTeamGame(player_id, new PageRequest(0, Integer.parseInt(num)));
+//        List<PlayerGameInfo> playerGameInfos = new LinkedList<>();
+//        for (PlayerGame playerGame : playerGames) {
+//            String game_id = playerGame.getPlayerGameIdentity().getGame_id();
+//            String team_id = playerGame.getPlayerGameIdentity().getTeam_id();
+//            TeamGame teamGame = teamGameRepository.findById(new TeamGameIdentity(team_id, game_id)).get();
+//            if (teamGame == null) {
+//                continue;
+//            }
+//            playerGameInfos.add(new PlayerGameInfo(teamGame.getGame_date(), teamGame.getMatchup(), playerGame));
+//        }
+//        return playerGameInfos;
+//    }
 
     @PutMapping("/playergame/{player_id}&{team_id}&{game_id}")
     public PlayerGame updatePlayerGame(@PathVariable(value = "player_id") String player_id, @PathVariable(value = "team_id") String team_id, @PathVariable(value = "game_id") String game_id,

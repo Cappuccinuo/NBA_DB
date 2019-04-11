@@ -24,6 +24,10 @@ import javax.validation.constraints.NotBlank;
                                 @ColumnResult(name="home_score", type = Float.class),
                                 @ColumnResult(name="away_team_id", type = String.class),
                                 @ColumnResult(name="home_team_id", type = String.class),
+                                @ColumnResult(name="away_team_city", type = String.class),
+                                @ColumnResult(name="home_team_city", type = String.class),
+                                @ColumnResult(name="away_team_nickname", type = String.class),
+                                @ColumnResult(name="home_team_nickname", type = String.class),
                                 @ColumnResult(name="game_id", type = String.class)
                         }
                 )
@@ -36,9 +40,6 @@ import javax.validation.constraints.NotBlank;
 public class TeamGame {
     @EmbeddedId
     private TeamGameIdentity teamGameIdentity;
-    private String game_date;
-    private String matchup;
-    private String wl;
     private int min;
     private float fgm;
     private float fga;
@@ -58,26 +59,19 @@ public class TeamGame {
     private float tov;
     private float blk;
     private float pts;
-    private String season;
 
     public TeamGame() {
         super();
     }
 
-    public TeamGame(TeamGameIdentity teamGameIdentity, String game_date, String matchup,
-                      String wl, int min, float fgm,
+    public TeamGame(TeamGameIdentity teamGameIdentity,
+                      int min, float fgm,
                       float fga, float fg_pct, float fg3m, float fg3a,
                       float fg3_pct, float ftm, float fta, float ft_pct,
                       float o_reb, float d_reb, float reb, float ast,
-                      float pf, float stl, float tov, float blk, float pts,
-                      String season) {
+                      float pf, float stl, float tov, float blk, float pts) {
         super();
         this.teamGameIdentity = teamGameIdentity;
-        this.game_date = game_date;
-        this.season = season;
-        this.game_date = game_date;
-        this.matchup = matchup;
-        this.wl = wl;
         this.min = min;
         this.fgm = fgm;
         this.fga = fga;
@@ -112,38 +106,6 @@ public class TeamGame {
 
     public void setMin(int min) {
         this.min = min;
-    }
-
-    public String getGame_date() {
-        return game_date;
-    }
-
-    public void setGame_date(String game_date) {
-        this.game_date = game_date;
-    }
-
-    public String getMatchup() {
-        return matchup;
-    }
-
-    public void setMatchup(String matchup) {
-        this.matchup = matchup;
-    }
-
-    public String getSeason() {
-        return season;
-    }
-
-    public void setSeason(String season) {
-        this.season = season;
-    }
-
-    public String getWl() {
-        return wl;
-    }
-
-    public void setWl(String wl) {
-        this.wl = wl;
     }
 
     public float getFgm() {

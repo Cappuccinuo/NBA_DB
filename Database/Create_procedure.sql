@@ -8,6 +8,10 @@ BEGIN
                         tg2.pts as home_score, 
                         tb1.team_id as away_team_id, 
                         tb2.team_id as home_team_id, 
+                        tb1.city as away_team_city,
+                        tb2.city as home_team_city,
+                        tb1.nickname as away_team_nickname,
+                        tb2.nickname as home_team_nickname,
                         g.game_id as game_id 
 	FROM 		game_info g
 	JOIN 			team_background tb1 ON g.away_team_id = tb1.team_id
@@ -53,5 +57,19 @@ WHERE 		p.name LIKE concat(player_name, '%');
 END //
 DELIMITER ;
 
+DROP PROCEDURE if EXISTS `get_team_game_desc`;
+DELIMITER //
+CREATE procedure get_team_game_desc(IN team_id varchar(255))
+BEGIN
+SELECT 		t.*
+FROM 		team_game t
+JOIN			game_info g
+ON 				t.team_id = g.away_team_id
+OR				t.team_id = g.home_team_id
+WHERE		t.team_id = team_id
+ORDER BY str_to_date(g.game_date, "%b %d, %Y") DESC;
+END //
+DELIMITER ;
 
+CALL get_team_game_desc("1610612737");
 
