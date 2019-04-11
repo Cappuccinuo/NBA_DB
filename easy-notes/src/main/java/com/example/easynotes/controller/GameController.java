@@ -26,6 +26,7 @@ public class GameController {
         return gameInfoDao.getGamesOnDate(date);
     }
 
+    @ApiOperation(value = "player-game data of all players in the specific team for the specific game.")
     @GetMapping("/game/playergames/{team_id}&{game_id}")
     public List<PlayerGame> getAllPlayerGameOfTeamAndGame(@PathVariable(value="team_id") String team_id,
                                                           @PathVariable(value="game_id") String game_id) {
