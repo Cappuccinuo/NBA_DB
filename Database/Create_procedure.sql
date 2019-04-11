@@ -12,6 +12,7 @@ BEGIN
                         tb2.city as home_team_city,
                         tb1.nickname as away_team_nickname,
                         tb2.nickname as home_team_nickname,
+                        g.game_date as date,
                         g.game_id as game_id 
 	FROM 		game_info g
 	JOIN 			team_background tb1 ON g.away_team_id = tb1.team_id

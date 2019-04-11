@@ -28,6 +28,7 @@ import javax.validation.constraints.NotBlank;
                                 @ColumnResult(name="home_team_city", type = String.class),
                                 @ColumnResult(name="away_team_nickname", type = String.class),
                                 @ColumnResult(name="home_team_nickname", type = String.class),
+                                @ColumnResult(name="date", type = String.class),
                                 @ColumnResult(name="game_id", type = String.class)
                         }
                 )

@@ -19,6 +19,7 @@ public class GameInfo {
     private String home_team_city;
     private String away_team_nickname;
     private String home_team_nickname;
+    private String date;
     private String game_id;
 
     public GameInfo() {
@@ -26,7 +27,8 @@ public class GameInfo {
     }
 
     public GameInfo(String away_team, String home_team, Float away_score, Float home_score, String away_team_id, String home_team_id,
-                    String away_team_city, String home_team_city, String away_team_nickname, String home_team_nickname, String game_id) {
+                    String away_team_city, String home_team_city, String away_team_nickname, String home_team_nickname,
+                    String date, String game_id) {
         super();
         this.away_team = away_team;
         this.home_team = home_team;
@@ -38,7 +40,16 @@ public class GameInfo {
         this.home_team_city = home_team_city;
         this.away_team_nickname = away_team_nickname;
         this.home_team_nickname = home_team_nickname;
+        this.date = date;
         this.game_id = game_id;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    public String getDate() {
+        return date;
     }
 
     public String getAway_team_city() {
