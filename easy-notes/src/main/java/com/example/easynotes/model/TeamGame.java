@@ -38,6 +38,11 @@ import javax.validation.constraints.NotBlank;
 @NamedNativeQuery(name = "TeamGame.getGameOnDate",
         query = "CALL get_games_on_date(?)",
         resultSetMapping = "gameInfoMapping")
+
+@NamedNativeQuery(name = "TeamGame.getGameGivenId",
+        query = "CALL get_games_given_id(?)",
+        resultSetMapping = "gameInfoMapping")
+
 public class TeamGame {
     @EmbeddedId
     private TeamGameIdentity teamGameIdentity;

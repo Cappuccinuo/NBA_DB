@@ -1,11 +1,11 @@
 package com.example.easynotes.controller;
 
+import com.example.easynotes.dao.GameInfoDao;
 import com.example.easynotes.exception.PlayerGameNotFoundException;
 import com.example.easynotes.identity.PlayerGameIdentity;
-import com.example.easynotes.identity.TeamGameIdentity;
+import com.example.easynotes.model.GameInfo;
 import com.example.easynotes.model.PlayerGame;
 import com.example.easynotes.model.PlayerGameInfo;
-import com.example.easynotes.model.TeamGame;
 import com.example.easynotes.repository.PlayerGameRepository;
 import com.example.easynotes.repository.TeamGameRepository;
 import io.swagger.annotations.Api;
@@ -27,6 +27,8 @@ public class PlayerGameController {
     PlayerGameRepository playerGameRepository;
     @Autowired
     TeamGameRepository teamGameRepository;
+    @Autowired
+    GameInfoDao gameInfoDao;
 
     @GetMapping("/playergame")
     public List<PlayerGame> getAllPlayerGame() {
@@ -45,23 +47,20 @@ public class PlayerGameController {
                 PlayerGameNotFoundException(new PlayerGameIdentity(player_id, team_id, game_id)));
     }
 
-//    @ApiOperation(value= "Get the latest first num game of giving player", response = PlayerGameInfo.class)
-//    @GetMapping("/playergame/{player_id}/latest{num}")
-//    public List<PlayerGameInfo> getNumPlayerGame(@PathVariable(value="player_id") String player_id,
-//                                                 @PathVariable(value="num") String num) {
-//        List<PlayerGame> playerGames = playerGameRepository.getNumTeamGame(player_id, new PageRequest(0, Integer.parseInt(num)));
-//        List<PlayerGameInfo> playerGameInfos = new LinkedList<>();
-//        for (PlayerGame playerGame : playerGames) {
-//            String game_id = playerGame.getPlayerGameIdentity().getGame_id();
-//            String team_id = playerGame.getPlayerGameIdentity().getTeam_id();
-//            TeamGame teamGame = teamGameRepository.findById(new TeamGameIdentity(team_id, game_id)).get();
-//            if (teamGame == null) {
-//                continue;
-//            }
-//            playerGameInfos.add(new PlayerGameInfo(teamGame.getGame_date(), teamGame.getMatchup(), playerGame));
-//        }
-//        return playerGameInfos;
-//    }
+    @ApiOperation(value= "Get the latest first num game of giving player")
+    @GetMapping("/playergame/{player_id}/latest{num}")
+    public List<PlayerGameInfo> getNumPlayerGame(@PathVariable(value="player_id") String player_id,
+                                                 @PathVariable(value="num") String num) {
+        List<PlayerGame> playerGames = playerGameRepository.getNumPlayerGame(player_id, Integer.parseInt(num));
+
+        List<PlayerGameInfo> playerGameInfos = new LinkedList<>();
+        for (PlayerGame playerGame : playerGames) {
+            String game_id = playerGame.getPlayerGameIdentity().getGame_id();
+            GameInfo gameInfo = gameInfoDao.getGamesGivenId(game_id);
+            playerGameInfos.add(new PlayerGameInfo(gameInfo, playerGame));
+        }
+        return playerGameInfos;
+    }
 
     @PutMapping("/playergame/{player_id}&{team_id}&{game_id}")
     public PlayerGame updatePlayerGame(@PathVariable(value = "player_id") String player_id, @PathVariable(value = "team_id") String team_id, @PathVariable(value = "game_id") String game_id,

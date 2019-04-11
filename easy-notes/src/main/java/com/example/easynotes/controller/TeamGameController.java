@@ -39,7 +39,7 @@ public class TeamGameController {
     @GetMapping("/teamgame/{team_id}/latest{num}")
     public List<TeamGame> getNumTeamGame(@PathVariable(value="team_id") String team_id,
                                          @PathVariable(value="num") String num) {
-        return teamGameRepository.getNumTeamGame(team_id, new PageRequest(0, Integer.parseInt(num)));
+        return teamGameRepository.getNumTeamGame(team_id, Integer.parseInt(num));
     }
 
     @ApiOperation(value= "Create a new game")

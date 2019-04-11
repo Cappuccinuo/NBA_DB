@@ -9,35 +9,25 @@ import java.util.Date;
 
 
 public class PlayerGameInfo {
-    private String date;
-    private String matchup;
+    private GameInfo gameInfo;
     private PlayerGame playerGame;
 
     public PlayerGameInfo() {
         super();
     }
 
-    public PlayerGameInfo(String date, String matchup, PlayerGame playerGame) {
+    public PlayerGameInfo(GameInfo gameInfo, PlayerGame playerGame) {
         super();
-        this.date = date;
-        this.matchup = matchup;
+        this.gameInfo = gameInfo;
         this.playerGame = playerGame;
     }
 
-    public String getMatchup() {
-        return matchup;
+    public GameInfo getGameInfo() {
+        return gameInfo;
     }
 
-    public void setMatchup(String matchup) {
-        this.matchup = matchup;
-    }
-
-    public String getDate() {
-        return date;
-    }
-
-    public void setDate(String date) {
-        this.date = date;
+    public void setGameInfo(GameInfo gameInfo) {
+        this.gameInfo = gameInfo;
     }
 
     public PlayerGame getPlayerGame() {

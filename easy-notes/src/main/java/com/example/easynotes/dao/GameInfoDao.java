@@ -27,4 +27,16 @@ public class GameInfoDao {
             return null;
         }
     }
+
+    public GameInfo getGamesGivenId(String game_id) {
+        try {
+            Query query = em.createNamedQuery("TeamGame.getGameGivenId");
+            query.setParameter(1, game_id);
+            return (GameInfo)query.getSingleResult();
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
 }
