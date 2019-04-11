@@ -72,5 +72,13 @@ ORDER BY str_to_date(g.game_date, "%b %d, %Y") DESC;
 END //
 DELIMITER ;
 
-CALL get_team_game_desc("1610612737");
+DROP PROCEDURE if EXISTS `get_player_games_given_team_and_game`;
+DELIMITER //
+CREATE procedure get_player_games_given_team_and_game(IN team_id varchar(255), IN game_id varchar(255))
+BEGIN
+SELECT 		p.*
+FROM 		player_game p
+WHERE		p.team_id = team_id AND p.game_id = game_id;
+END //
+DELIMITER ;
 
