@@ -32,15 +32,15 @@ public class TeamBackgroundController {
         return teamBackgroundRepository.save(tb);
     }
 
-    @GetMapping("/teambg/{id}")
-    public TeamBackground getTeamBGById(@PathVariable(value = "id") String teamId)
+    @GetMapping("/teambg/{team_id}")
+    public TeamBackground getTeamBGById(@PathVariable(value = "team_id") String teamId)
             throws TeamBackgroundNotFoundException {
         return teamBackgroundRepository.findById(teamId).orElseThrow(() -> new
                 TeamBackgroundNotFoundException(teamId));
     }
 
-    @PutMapping("/teambg/{id}")
-    public TeamBackground updateTeamBG(@PathVariable(value = "id") String teamId,
+    @PutMapping("/teambg/{team_id}")
+    public TeamBackground updateTeamBG(@PathVariable(value = "team_id") String teamId,
                            @RequestBody TeamBackground teamDetails) throws TeamBackgroundNotFoundException {
         TeamBackground tb = teamBackgroundRepository.findById(teamId).orElseThrow(() -> new
                 TeamBackgroundNotFoundException(teamId));
@@ -64,8 +64,8 @@ public class TeamBackgroundController {
         return updatedTB;
     }
 
-    @DeleteMapping("/teambg/{id}")
-    public ResponseEntity<?> deleteTeamBackground(@PathVariable(value = "id") String teamId)
+    @DeleteMapping("/teambg/{team_id}")
+    public ResponseEntity<?> deleteTeamBackground(@PathVariable(value = "team_id") String teamId)
             throws TeamBackgroundNotFoundException {
         TeamBackground tb = teamBackgroundRepository.findById(teamId).orElseThrow(() -> new
                 TeamBackgroundNotFoundException(teamId));

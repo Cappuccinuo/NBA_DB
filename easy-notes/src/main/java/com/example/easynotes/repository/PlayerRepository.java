@@ -16,6 +16,6 @@ public interface PlayerRepository extends JpaRepository<Player, String> {
 
     //https://stackoverflow.com/questions/25362540/like-query-in-spring-jparepository
     @Query(value =
-            "SELECT * FROM player p WHERE p.name LIKE :name%", nativeQuery = true)
+            "CALL get_players_given_name(:name)", nativeQuery = true)
     List<Player> getPlayerGivenName(@Param("name") String name);
 }
