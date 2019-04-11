@@ -1,4 +1,5 @@
 package com.example.easynotes.controller;
+
 import com.example.easynotes.exception.TeamGameNotFoundException;
 import com.example.easynotes.identity.TeamGameIdentity;
 import com.example.easynotes.model.TeamGame;
@@ -6,14 +7,10 @@ import com.example.easynotes.repository.TeamGameRepository;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.jpa.repository.Query;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.*;
+import java.util.List;
 
 @CrossOrigin
 @RestController

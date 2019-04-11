@@ -1,11 +1,12 @@
 package com.example.easynotes.model;
 
 import com.example.easynotes.identity.PlayerSeasonIdentity;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
-import javax.persistence.*;
-import javax.validation.constraints.NotBlank;
+import javax.persistence.EmbeddedId;
+import javax.persistence.Entity;
+import javax.persistence.EntityListeners;
+import javax.persistence.Table;
 
 @Entity
 @Table(name = "player_season")

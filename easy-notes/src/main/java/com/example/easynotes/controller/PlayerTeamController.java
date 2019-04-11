@@ -1,7 +1,9 @@
 package com.example.easynotes.controller;
 
 import com.example.easynotes.exception.PlayerTeamNotFoundException;
-import com.example.easynotes.model.*;
+import com.example.easynotes.model.Player;
+import com.example.easynotes.model.PlayerTeam;
+import com.example.easynotes.model.TeamBackground;
 import com.example.easynotes.repository.PlayerRepository;
 import com.example.easynotes.repository.PlayerTeamRepository;
 import com.example.easynotes.repository.TeamBackgroundRepository;

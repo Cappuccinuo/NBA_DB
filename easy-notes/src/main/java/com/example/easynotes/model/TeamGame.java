@@ -1,11 +1,9 @@
 package com.example.easynotes.model;
 
 import com.example.easynotes.identity.TeamGameIdentity;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
-import javax.validation.constraints.NotBlank;
 
 @Entity
 @Table(name = "team_game")

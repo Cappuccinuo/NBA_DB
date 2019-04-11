@@ -1,12 +1,5 @@
 package com.example.easynotes.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import org.springframework.data.jpa.domain.support.AuditingEntityListener;
-
-import javax.persistence.*;
-import javax.validation.constraints.NotBlank;
-
-
 public class PlayerSeasonInfo {
     private String team_abbreviation;
     private PlayerSeason playerSeason;

@@ -1,7 +1,6 @@
 package com.example.easynotes.exception;
 
 import com.example.easynotes.identity.TeamSeasonIdentity;
-import com.example.easynotes.model.TeamSeason;
 
 public class TeamSeasonNotFoundException extends Exception {
     private TeamSeasonIdentity teamSeasonIdentity;
