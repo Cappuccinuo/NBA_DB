@@ -15,6 +15,8 @@ public class GameInfo {
     private String home_team_nickname;
     private String date;
     private String game_id;
+    private String match_up;
+    private String score;
 
     public GameInfo() {
         super();
@@ -36,6 +38,16 @@ public class GameInfo {
         this.home_team_nickname = home_team_nickname;
         this.date = date;
         this.game_id = game_id;
+        this.match_up = home_team + " vs. " + away_team;
+        this.score = home_score.intValue() + " - " + away_score.intValue();
+    }
+
+    public String getMatch_up() {
+        return match_up;
+    }
+
+    public String getScore() {
+        return score;
     }
 
     public void setDate(String date) {
