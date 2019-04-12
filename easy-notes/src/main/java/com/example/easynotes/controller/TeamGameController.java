@@ -1,8 +1,11 @@
 package com.example.easynotes.controller;
 
+import com.example.easynotes.dao.GameInfoDao;
 import com.example.easynotes.exception.TeamGameNotFoundException;
 import com.example.easynotes.identity.TeamGameIdentity;
+import com.example.easynotes.model.GameInfo;
 import com.example.easynotes.model.TeamGame;
+import com.example.easynotes.model.TeamGameInfo;
 import com.example.easynotes.repository.TeamGameRepository;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -10,6 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.LinkedList;
 import java.util.List;
 
 @CrossOrigin
@@ -19,6 +23,8 @@ import java.util.List;
 public class TeamGameController {
     @Autowired
     TeamGameRepository teamGameRepository;
+    @Autowired
+    GameInfoDao gameInfoDao;
 
     @ApiOperation(value= "Get all games in database")
     @GetMapping("/teamgame")
@@ -34,9 +40,15 @@ public class TeamGameController {
 
     @ApiOperation(value= "Get the latest first num game of giving team")
     @GetMapping("/teamgame/{team_id}/latest{num}")
-    public List<TeamGame> getNumTeamGame(@PathVariable(value="team_id") String team_id,
-                                         @PathVariable(value="num") String num) {
-        return teamGameRepository.getNumTeamGame(team_id, Integer.parseInt(num));
+    public List<TeamGameInfo> getNumTeamGame(@PathVariable(value="team_id") String team_id,
+                                             @PathVariable(value="num") String num) {
+        List<TeamGameInfo> teamGameInfos = new LinkedList<>();
+        List<TeamGame> teamGames = teamGameRepository.getNumTeamGame(team_id, Integer.parseInt(num));
+        for (TeamGame teamGame : teamGames) {
+            GameInfo gameInfo = gameInfoDao.getGamesGivenId(teamGame.getTeamGameIdentity().getGame_id());
+            teamGameInfos.add(new TeamGameInfo(gameInfo, teamGame));
+        }
+        return teamGameInfos;
     }
 
     @ApiOperation(value= "Create a new game")

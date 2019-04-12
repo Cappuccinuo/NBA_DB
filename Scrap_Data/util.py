@@ -53,7 +53,8 @@ def load_player_game_data_at_year(teamName, year):
 
     time.sleep(5)
 
-  playerData.to_csv("data/game/" + season + "-players.csv", index=False)
+  return playerData
+  # playerData.to_csv("data/game/" + season + "-players.csv", index=False)
 
 def load_all_team_season(year):
   resDF = pd.DataFrame()
@@ -103,11 +104,6 @@ def load_team_background():
     resDF.at[i, 'Instagram'] = instagram
     resDF.at[i, 'Twitter'] = twitter
     i = i + 1
-
-    # resDF['Instagram'] = \
-    #
-    # resDF['Twitter'] = \
-    #   socialDF.loc[socialDF['ACCOUNTTYPE'] == 'Twitter']['WEBSITE_LINK'].iloc[0]
     time.sleep(2)
 
   resDF.to_csv("data/team/team-background.csv", index=False)
