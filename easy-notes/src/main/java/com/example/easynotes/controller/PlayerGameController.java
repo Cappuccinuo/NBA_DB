@@ -4,9 +4,11 @@ import com.example.easynotes.dao.GameInfoDao;
 import com.example.easynotes.exception.PlayerGameNotFoundException;
 import com.example.easynotes.identity.PlayerGameIdentity;
 import com.example.easynotes.model.GameInfo;
+import com.example.easynotes.model.Player;
 import com.example.easynotes.model.PlayerGame;
 import com.example.easynotes.model.PlayerGameInfo;
 import com.example.easynotes.repository.PlayerGameRepository;
+import com.example.easynotes.repository.PlayerRepository;
 import com.example.easynotes.repository.TeamGameRepository;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -28,6 +30,8 @@ public class PlayerGameController {
     TeamGameRepository teamGameRepository;
     @Autowired
     GameInfoDao gameInfoDao;
+    @Autowired
+    PlayerRepository playerRepository;
 
     @GetMapping("/playergame")
     public List<PlayerGame> getAllPlayerGame() {
@@ -56,7 +60,8 @@ public class PlayerGameController {
         for (PlayerGame playerGame : playerGames) {
             String game_id = playerGame.getPlayerGameIdentity().getGame_id();
             GameInfo gameInfo = gameInfoDao.getGamesGivenId(game_id);
-            playerGameInfos.add(new PlayerGameInfo(gameInfo, playerGame));
+            Player player = playerRepository.findById(playerGame.getPlayerGameIdentity().getPlayer_id()).get();
+            playerGameInfos.add(new PlayerGameInfo(gameInfo, player, playerGame));
         }
         return playerGameInfos;
     }
