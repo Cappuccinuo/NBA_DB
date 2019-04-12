@@ -91,8 +91,8 @@ BEGIN
 SELECT 		t.*
 FROM 		team_game t
 JOIN			game_info g
-ON 				t.team_id = g.away_team_id
-OR				t.team_id = g.home_team_id
+ON 				(t.team_id = g.away_team_id OR t.team_id = g.home_team_id)
+AND 			t.game_id = g.game_id
 WHERE		t.team_id = team_id
 ORDER BY str_to_date(g.game_date, "%b %d, %Y") DESC
 LIMIT 			num;
