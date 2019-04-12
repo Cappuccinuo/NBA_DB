@@ -79,3 +79,7 @@ form.example::after {
   clear: both;
   display: table;
 }
+
+.center {
+  text-align:center;
+}

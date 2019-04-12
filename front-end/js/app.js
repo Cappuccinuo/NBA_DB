@@ -88,6 +88,16 @@ app.config(function($stateProvider, $urlRouterProvider) {
         controller : "gamesDetailCtrl",
         params: {data: null}
     })
+    .state("gdetail.gteam", {
+        url : "/gteam/:tid",
+        templateUrl : "views/games_team.html",
+        controller : "gamesTeamCtrl"
+    })
+    .state("gdetail.gstats", {
+        url : "/gstats",
+        templateUrl : "views/games_stats.html",
+        controller : "gamesStatsCtrl"
+    })
     .state("nav", {
         templateUrl : "views/nav.html",
         controller : "navCtrl"

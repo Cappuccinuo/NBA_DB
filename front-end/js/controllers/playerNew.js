@@ -50,15 +50,17 @@ app.controller('playerNewCtrl', ['$scope', '$stateParams', '$state', 'httpServic
         "position": "",
         "rosterstatus": "",
         "school": "",
-        "team_id": "",
         "to_year": "",
         "weight": ""
       };
     $scope.tmp = {};
 
+    $scope.playerTeam = { "team_id": "", "player_id": ""};
+
     $scope.createNewPlayer = function () {
         console.log($scope.tmp.selectedTeam);
-        $scope.data.team_id = $scope.tmp.selectedTeam.team_id;
+        $scope.playerTeam.team_id = $scope.tmp.selectedTeam.team_id;
+        $scope.playerTeam.player_id = $scope.data.person_id;
         var d = $scope.tmp.birthdate;
         $scope.data.birthdate = d.toISOString().substring(0, 10);
         $scope.data.name = $scope.data.first_name + " " + $scope.data.last_name;
@@ -86,10 +88,18 @@ app.controller('playerNewCtrl', ['$scope', '$stateParams', '$state', 'httpServic
             }).catch(function (result) {
                 console.log(result);
                 httpService.createPlayer($scope.data).then(function(response) {
-                    console.log(response);
-                    alert("Create successfully!");
-                    $state.transitionTo("pdetail", {id: $scope.data.person_id, data: $scope.data});
+                    console.log("Create player successfully");
+                    httpService.createPlayerTeam($scope.playerTeam).then(function(response) {
+                      console.log("Create player-team successfully");
+                        alert("Create successfully!");
+                        $state.transitionTo("pdetail", {id: $scope.data.person_id, data: $scope.data});
+                    }).catch(function (result) {
+                        console.log("Create player-team wrongly");
+                        console.log(result);
+                        alert(result);
+                    });
                 }).catch(function (result) {
+                    console.log("Create player wrongly");
                     console.log(result);
                     alert(result);
                 });

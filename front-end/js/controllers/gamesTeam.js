@@ -1,5 +1,5 @@
-app.controller('playersGameCtrl', ['$scope', '$stateParams', 'httpService', 'uiGridConstants', function($scope, $stateParams, httpService, uiGridConstants) {
-    console.log("Team Game");
+app.controller('gamesTeamCtrl', ['$scope', '$stateParams', 'httpService', 'uiGridConstants', function($scope, $stateParams, httpService, uiGridConstants) {
+    console.log($stateParams);
 
     $scope.gridOptions = {
         enableHorizontalScrollbar: uiGridConstants.scrollbars.WHEN_NEEDED,
@@ -13,9 +13,7 @@ app.controller('playersGameCtrl', ['$scope', '$stateParams', 'httpService', 'uiG
         },
       
         columnDefs: [
-          { field: 'gameInfo.date', displayName: 'Game Date', width: 120},
-          { field: 'gameInfo.match_up', displayName: 'Matchup', width: 100},
-          { field: 'gameInfo.score', displayName: 'Score', width: 90},
+          { field: 'player.name', displayName: 'Player', width: 130, cellTooltip: true},
           { field: 'playerGame.start_position', displayName: 'P', width: 40},
           { field: 'playerGame.min', displayName: 'MIN', width: 50},
           { field: 'playerGame.fgm', displayName: 'FGM', width: 50},
@@ -40,8 +38,7 @@ app.controller('playersGameCtrl', ['$scope', '$stateParams', 'httpService', 'uiG
         ]
     };
 
-    $scope.num = "10";
-    httpService.getPlayerGame($stateParams.id, $scope.num).then(function(response) {
+    httpService.getPlayerStats($stateParams.tid, $stateParams.id).then(function(response) {
         console.log(response);
         $scope.gridOptions.data = response.data;
     }).catch(function (result) {

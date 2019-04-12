@@ -1,29 +1,26 @@
 <div class="container">
     <div class="panel panel-primary">
         <div class="panel-heading">
-            <h4> Welcome to the page of {{ data.away_team }} vs {{ data.home_team }}!</h4>
+            <h4> Welcome to the page of {{ data.away_team_city }} {{ data.away_team_nickname }} vs {{ data.home_team_city }} {{ data.home_team_nickname }} !</h4>
         </div>
         <div class="panel-body">
-            <div class="row" style="padding-top: 10px;">
+            <div class="row">
                 <div class="col-md-4"></div>
                 <div class="col-md-4">
-                    <h3>{{ data.away_team }} {{ data.away_score }} final {{ data.home_score }} {{ data.home_team }}</h3>
+                    <h3> {{ data.away_team_nickname }} {{ data.away_score }} —  {{ data.home_score }} {{ data.home_team_nickname }}</h3>
                 </div>
                 <div class="col-md-4"></div>
 
             </div>
             <div class="row" style="padding-top: 25px;">
-                <div class="col-md-3">
-                    <button type="button" ui-sref= "tdetail.tseason" class="btn btn-lg btn-info btn-block">Team Season</button>
+                <div class="col-md-4">
+                    <button type="button" ui-sref= "gdetail.gteam({tid: data.away_team_id})" class="btn btn-lg btn-info btn-block">{{ data.away_team_nickname }} </button>
                 </div>
-                <div class="col-md-3">
-                    <button type="button" ui-sref= "tdetail.tgame" class="btn btn-lg btn-info btn-block">Recent Games</button>
+                <div class="col-md-4">
+                    <button type="button" ui-sref= "gdetail.gteam({tid: data.home_team_id})" class="btn btn-lg btn-info btn-block">{{ data.home_team_nickname }}</button>
                 </div>
-                <div class="col-md-3">
-                    <button type="button" ui-sref= "tdetail.tplayer" class="btn btn-lg btn-info btn-block">Players</button>
-                </div>
-                <div class="col-md-3">
-                    <button type="button" ui-sref= "tdetail.tbackground" class="btn btn-lg btn-info btn-block">Team Background</button>
+                <div class="col-md-4">
+                    <button type="button" ui-sref= "gdetail.gstats" class="btn btn-lg btn-info btn-block">STATS</button>
                 </div>
             </div>
         </div>

@@ -15,16 +15,20 @@ app.service('httpService', function ($http) {
         return $http.get("http://localhost:8080/api/teamgame/" + id + "/latest" + num);
     }
 
+    function getOneTeamGame(tid, gid) {
+        return $http.get("http://localhost:8080/api/teamgame/" + tid + "/" + gid);
+    }
+
     function getTeamPlayer(id) {
-        return $http.get("http://localhost:8080/api/teambg/" + id + "/players");
+        return $http.get("http://localhost:8080/api/playerteam/players/" + id);
     }
 
     function findPlayer(name) {
         return $http.get("http://localhost:8080/api/player/filter/" + name);
     }
 
-    function getPlayerSeason(pid, tid, season) {
-        return $http.get("http://localhost:8080/api/playerseason/" + pid + "&" + tid + "&" + season);
+    function getPlayerSeason(pid, season) {
+        return $http.get("http://localhost:8080/api/playerseason/" + pid + "/" + season);
     }
 
     function getPlayerGame(id, num) {
@@ -39,6 +43,10 @@ app.service('httpService', function ($http) {
         return $http.post("http://localhost:8080/api/player", data);
     }
 
+    function createPlayerTeam (data) {
+        return $http.post("http://localhost:8080/api/playerteam", data);
+    }
+
     function deletePlayerInfo (id) {
         return $http.delete("http://localhost:8080/api/player/" + id);
     }
@@ -50,6 +58,11 @@ app.service('httpService', function ($http) {
     function getGamesByDate (date) {
         return $http.get("http://localhost:8080/api/game/" + date);
     }
+
+    function getPlayerStats(tid, gid) {
+        return $http.get("http://localhost:8080/api/game/playergames/" + tid + "&" + gid);
+    }
+
 
     return {
         getTeamsInfo: getTeamsInfo,
@@ -64,6 +77,9 @@ app.service('httpService', function ($http) {
         createPlayer: createPlayer,
         deletePlayerInfo: deletePlayerInfo,
         checkPlayerId: checkPlayerId,
-        getGamesByDate: getGamesByDate
+        getGamesByDate: getGamesByDate,
+        createPlayerTeam: createPlayerTeam,
+        getPlayerStats: getPlayerStats,
+        getOneTeamGame: getOneTeamGame
     };
 });

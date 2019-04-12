@@ -1,0 +1,198 @@
+<div class="panel panel-info">
+    <div class="panel-heading">
+        <h4> Team Statistics</h4>
+    </div>
+    <div class="panel-body">
+        <div class="row" style="padding-top: 10px;">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <h4 class="center">{{data.away_team_nickname}}</h4>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <h4 class="center">TEAM STATS</h4>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <h4 class="center">{{data.home_team_nickname}}</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="padding-top: 10px;">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <h4 class="center">{{ateam.fgm}}/{{ateam.fga}}</h4>
+                    <p class="center">{{ateam.fg_pct}}</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <h4 class="center">Field Goals</h4>
+                    <p class="center">%</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <h4 class="center">{{hteam.fgm}}/{{hteam.fga}}</h4>
+                    <p class="center">{{hteam.fg_pct}}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="padding-top: 10px;">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <h4 class="center">{{ateam.fg3m}}/{{ateam.fg3a}}</h4>
+                    <p class="center">{{ateam.fg3_pct}}</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <h4 class="center">3 Pointers</h4>
+                    <p class="center">%</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <h4 class="center">{{hteam.fg3m}}/{{hteam.fg3a}}</h4>
+                    <p class="center">{{hteam.fg3_pct}}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="padding-top: 10px;">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <h4 class="center">{{ateam.ftm}}/{{ateam.fta}}</h4>
+                    <p class="center">{{ateam.ft_pct}}</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <h4 class="center">Free Throws</h4>
+                    <p class="center">%</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <h4 class="center">{{hteam.ftm}}/{{hteam.fta}}</h4>
+                    <p class="center">{{hteam.ft_pct}}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="padding-top: 10px;">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <h4 class="center">{{ateam.reb}}</h4>
+                    <p class="center">{{ateam.o_reb}}</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <h4 class="center">Total Rebounds</h4>
+                    <p class="center">offensive</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <h4 class="center">{{hteam.reb}}</h4>
+                    <p class="center">{{hteam.o_reb}}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="padding-top: 10px;">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <h4 class="center">{{ateam.ast}}</h4>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <h4 class="center">Assists</h4>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <h4 class="center">{{hteam.ast}}</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="padding-top: 10px;">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <h4 class="center">{{ateam.blk}}</h4>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <h4 class="center">Blocks</h4>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <h4 class="center">{{hteam.blk}}</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="padding-top: 10px;">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <h4 class="center">{{ateam.stl}}</h4>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <h4 class="center">Steals</h4>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <h4 class="center">{{hteam.stl}}</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="padding-top: 10px;">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <h4 class="center">{{ateam.tov}}</h4>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <h4 class="center">Turnovers</h4>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <h4 class="center">{{hteam.tov}}</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="padding-top: 10px;">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <h4 class="center">{{ateam.pf}}</h4>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <h4 class="center">Fouls - Personal</h4>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <h4 class="center">{{hteam.pf}}</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

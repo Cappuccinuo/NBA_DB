@@ -2,9 +2,11 @@ app.controller('playersSeasonCtrl', ['$scope', '$stateParams', 'httpService', fu
     console.log("Player Season");
 
     $scope.season = "2017-18";
-    httpService.getPlayerSeason($stateParams.id, $stateParams.data.team_id, $scope.season).then(function(response) {
+    $scope.data = {};
+    httpService.getPlayerSeason($stateParams.id, $scope.season).then(function(response) {
         console.log(response);
-        $scope.data = response.data;
+        if (response.data.length != 0)  
+          $scope.data = response.data[0].playerSeason;
     }).catch(function (result) {
       console.log(result);
       //alert(result);
