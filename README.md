@@ -1,30 +1,15 @@
-1. Player ~~(Search by name)~~
-a. We can deactivate(delete) a player, but the game played by that player will not disappear. (Backend)
-b. Display the information just like team page. e.g. height, weight, birthdate. Can Update.
-c. Average statistic in given season. (Backend playerseason/season)
-~~d. Recent n game statistic. (Backend playergame/id/recent{n})~~
-e. Create a player
+Database:
+1. Install MySql workbench: https://www.mysql.com/products/workbench/
+2. Execute dump_nba.sql in Database folder.
 
-2. Scores
-~~Search by date. Just like NBA.com~~
-~~For given date, backend will give all games played on that day or will played on that day.~~
-~~Otherwise, print No games are scheduled on this day.~~
+Backend:
+1. Install Intellij IDEA Community version: https://www.jetbrains.com/idea/download
+2. Install Maven: https://maven.apache.org/
+3. Import backend code(easy-notes folder) in Intellij.
+4. Make sure all dependency in pom.xml is installed by maven automatically. Otherwise, right click pom.xml, click Maven/reimport.
+5. Modify the database username and password in easy-notes/src/main/resources/application.properties.
+6. After all dependency is imported, then execute the following command in terminal: **mvn spring-boot:run**, this will start the server in http://localhost:8080.
 
-~~json format {awayName: {}, awayScore: {}...}
-Awayteam 100
-Hometeam 98~~
-box score    team details
-This two fields are related to team_id, backend will return corresponding information.
-
-3. Update (Database trigger)
-a. Can insert future game arrangement.
-b. Update game box score.
-
-4. delete
-delete a game -> trigger update player_season, team_season, team_rank, win_loss
-
-select the form
-away_team  home_team
-upload_away_player
-upload_home_player
-Game_id will be returned by backend.
+Frontend:
+1. npm install http-server -g (https://www.npmjs.com/package/http-server)
+2. in terminal of the /front-end folder path, execute **http-server -c-1**, the terminal will give a address of the client, e.g. http://127.0.0.1:8080. Type that in chrome, and the application can be used.

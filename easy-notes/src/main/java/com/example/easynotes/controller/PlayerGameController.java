@@ -71,29 +71,29 @@ public class PlayerGameController {
                                            @RequestBody PlayerGame playerGameDetails) throws PlayerGameNotFoundException {
         PlayerGame playerGame = playerGameRepository.findById(new PlayerGameIdentity(player_id, team_id, game_id)).orElseThrow(() -> new
                 PlayerGameNotFoundException(new PlayerGameIdentity(player_id, team_id, game_id)));
-
+        
+        playerGame.setAst(playerGameDetails.getAst());
+        playerGame.setBlk(playerGameDetails.getBlk());
+        playerGame.setD_reb(playerGameDetails.getD_reb());
+        playerGame.setO_reb(playerGameDetails.getO_reb());
+        playerGame.setReb(playerGameDetails.getReb());
+        playerGame.setFg3a(playerGameDetails.getFg3a());
+        playerGame.setFg3m(playerGameDetails.getFg3m());
+        playerGame.setFg3_pct(playerGameDetails.getFg3_pct());
+        playerGame.setFga(playerGameDetails.getFga());
+        playerGame.setFgm(playerGameDetails.getFgm());
+        playerGame.setFg_pct(playerGameDetails.getFg_pct());
+        playerGame.setFta(playerGameDetails.getFta());
+        playerGame.setFtm(playerGameDetails.getFtm());
+        playerGame.setFt_pct(playerGameDetails.getFt_pct());
+        playerGame.setMin(playerGameDetails.getMin());
+        playerGame.setTov(playerGameDetails.getTov());
+        playerGame.setStl(playerGameDetails.getStl());
+        playerGame.setPlus_minus(playerGameDetails.getPlus_minus());
+        playerGame.setPts(playerGameDetails.getPts());
+        playerGame.setStart_position(playerGameDetails.getStart_position());
+        playerGame.setPf(playerGameDetails.getPf());
         PlayerGame updatedPlayerGame = playerGameRepository.save(playerGame);
-        updatedPlayerGame.setAst(playerGameDetails.getAst());
-        updatedPlayerGame.setBlk(playerGameDetails.getBlk());
-        updatedPlayerGame.setD_reb(playerGameDetails.getD_reb());
-        updatedPlayerGame.setO_reb(playerGameDetails.getO_reb());
-        updatedPlayerGame.setReb(playerGameDetails.getReb());
-        updatedPlayerGame.setFg3a(playerGameDetails.getFg3a());
-        updatedPlayerGame.setFg3m(playerGameDetails.getFg3m());
-        updatedPlayerGame.setFg3_pct(playerGameDetails.getFg3_pct());
-        updatedPlayerGame.setFga(playerGameDetails.getFga());
-        updatedPlayerGame.setFgm(playerGameDetails.getFgm());
-        updatedPlayerGame.setFg_pct(playerGameDetails.getFg_pct());
-        updatedPlayerGame.setFta(playerGameDetails.getFta());
-        updatedPlayerGame.setFtm(playerGameDetails.getFtm());
-        updatedPlayerGame.setFt_pct(playerGameDetails.getFt_pct());
-        updatedPlayerGame.setMin(playerGameDetails.getMin());
-        updatedPlayerGame.setTov(playerGameDetails.getTov());
-        updatedPlayerGame.setStl(playerGameDetails.getStl());
-        updatedPlayerGame.setPlus_minus(playerGameDetails.getPlus_minus());
-        updatedPlayerGame.setPts(playerGameDetails.getPts());
-        updatedPlayerGame.setStart_position(playerGameDetails.getStart_position());
-        updatedPlayerGame.setPf(playerGameDetails.getPf());
         return updatedPlayerGame;
     }
 

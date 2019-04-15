@@ -72,26 +72,26 @@ public class TeamGameController {
         TeamGame teamGame = teamGameRepository.findById(new TeamGameIdentity(team_id, game_id)).orElseThrow(() -> new
                 TeamGameNotFoundException(new TeamGameIdentity(team_id, game_id)));
 
+        teamGame.setAst(teamGameDetails.getAst());
+        teamGame.setBlk(teamGameDetails.getBlk());
+        teamGame.setD_reb(teamGameDetails.getD_reb());
+        teamGame.setO_reb(teamGameDetails.getO_reb());
+        teamGame.setReb(teamGameDetails.getReb());
+        teamGame.setFg3a(teamGameDetails.getFg3a());
+        teamGame.setFg3m(teamGameDetails.getFg3m());
+        teamGame.setFg3_pct(teamGameDetails.getFg3_pct());
+        teamGame.setFga(teamGameDetails.getFga());
+        teamGame.setFgm(teamGameDetails.getFgm());
+        teamGame.setFg_pct(teamGameDetails.getFg_pct());
+        teamGame.setFta(teamGameDetails.getFta());
+        teamGame.setFtm(teamGameDetails.getFtm());
+        teamGame.setFt_pct(teamGameDetails.getFt_pct());
+        teamGame.setMin(teamGameDetails.getMin());
+        teamGame.setTov(teamGameDetails.getTov());
+        teamGame.setStl(teamGameDetails.getStl());
+        teamGame.setPts(teamGameDetails.getPts());
+        teamGame.setPf(teamGameDetails.getPf());
         TeamGame updatedTeamGame = teamGameRepository.save(teamGame);
-        updatedTeamGame.setAst(teamGameDetails.getAst());
-        updatedTeamGame.setBlk(teamGameDetails.getBlk());
-        updatedTeamGame.setD_reb(teamGameDetails.getD_reb());
-        updatedTeamGame.setO_reb(teamGameDetails.getO_reb());
-        updatedTeamGame.setReb(teamGameDetails.getReb());
-        updatedTeamGame.setFg3a(teamGameDetails.getFg3a());
-        updatedTeamGame.setFg3m(teamGameDetails.getFg3m());
-        updatedTeamGame.setFg3_pct(teamGameDetails.getFg3_pct());
-        updatedTeamGame.setFga(teamGameDetails.getFga());
-        updatedTeamGame.setFgm(teamGameDetails.getFgm());
-        updatedTeamGame.setFg_pct(teamGameDetails.getFg_pct());
-        updatedTeamGame.setFta(teamGameDetails.getFta());
-        updatedTeamGame.setFtm(teamGameDetails.getFtm());
-        updatedTeamGame.setFt_pct(teamGameDetails.getFt_pct());
-        updatedTeamGame.setMin(teamGameDetails.getMin());
-        updatedTeamGame.setTov(teamGameDetails.getTov());
-        updatedTeamGame.setStl(teamGameDetails.getStl());
-        updatedTeamGame.setPts(teamGameDetails.getPts());
-        updatedTeamGame.setPf(teamGameDetails.getPf());
         return updatedTeamGame;
     }
 
