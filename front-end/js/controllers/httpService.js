@@ -19,6 +19,10 @@ app.service('httpService', function ($http) {
         return $http.get("http://localhost:8080/api/teamgame/" + tid + "/" + gid);
     }
 
+    function updateTeamGame(tid, gid, data) {
+        return $http.put("http://localhost:8080/api/teamgame/" + tid + "/" + gid, data);
+    }
+
     function getTeamPlayer(id) {
         return $http.get("http://localhost:8080/api/playerteam/players/" + id);
     }
@@ -63,6 +67,18 @@ app.service('httpService', function ($http) {
         return $http.get("http://localhost:8080/api/game/playergames/" + tid + "&" + gid);
     }
 
+    function createGame (data) {
+        return $http.post("http://localhost:8080/api/game", data);
+    }
+
+    function checkGameId(id) {
+        return $http.get("http://localhost:8080/api/game/check/" + id);
+    }
+
+    function deleteGame (id) {
+        return $http.delete("http://localhost:8080/api/game/" + id);
+    }
+
 
     return {
         getTeamsInfo: getTeamsInfo,
@@ -80,6 +96,10 @@ app.service('httpService', function ($http) {
         getGamesByDate: getGamesByDate,
         createPlayerTeam: createPlayerTeam,
         getPlayerStats: getPlayerStats,
-        getOneTeamGame: getOneTeamGame
+        getOneTeamGame: getOneTeamGame,
+        createGame: createGame,
+        checkGameId: checkGameId,
+        updateTeamGame: updateTeamGame,
+        deleteGame: deleteGame
     };
 });

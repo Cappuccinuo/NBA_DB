@@ -98,6 +98,22 @@ app.config(function($stateProvider, $urlRouterProvider) {
         templateUrl : "views/games_stats.html",
         controller : "gamesStatsCtrl"
     })
+    .state("gcreate", {
+        url : "/gcreate",
+        templateUrl : "views/game_new.html",
+        controller : "gameNewCtrl"
+    })
+    .state("gupdate", {
+        url : "/gupdate/:id",
+        templateUrl : "views/games_update.html",
+        controller : "gamesUpdateCtrl",
+        params: {data: null}
+    })
+    .state("gupdate.uteam", {
+        url : "/uteam/:tid",
+        templateUrl : "views/games_update_team.html",
+        controller : "gamesUpdateTeamCtrl"
+    })
     .state("nav", {
         templateUrl : "views/nav.html",
         controller : "navCtrl"

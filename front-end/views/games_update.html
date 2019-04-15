@@ -1,0 +1,22 @@
+<div class="container">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h4> Pelease choose one team to update the game information, or delete this game. </h4>
+            </div>
+            <div class="panel-body">
+                <div class="col-md-4">
+                    <button type="button" ui-sref= "gupdate.uteam({tid: data.away_team_id})" class="btn btn-lg btn-info btn-block">{{ data.away_team_nickname }} </button>
+                </div>
+                <div class="col-md-4">
+                    <button type="button" ui-sref= "gupdate.uteam({tid: data.home_team_id})" class="btn btn-lg btn-info btn-block">{{ data.home_team_nickname }}</button>
+                </div>
+                <div class="col-md-4">
+                    <button type="button" ng-click= "deleteGame()" class="btn btn-lg btn-info btn-block">Delete Game</button>
+                </div>
+            </div>
+        </div>
+        
+        <div ui-view></div>
+    </div>
+    
+    

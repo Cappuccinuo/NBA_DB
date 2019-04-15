@@ -1,17 +1,24 @@
 <div class="container">
-        
-    <h3>Please select a date:</h3>
-    <form class="example" name="gameForm" ng-submit="searchGames()" style="max-width:500px; margin-top: 25px">
-        <input type="date" class="form-control" placeholder="date" ng-model="data.date" required>
-        <button type="submit" class="btn btn-info" ng-disabled="gameForm.$invalid" style="margin-top: 25px">Sumbit</button>
-    </form>
-    
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Please select a date:</h3>
+            <form class="example" name="gameForm" ng-submit="searchGames()" style="max-width:500px; margin-top: 25px">
+                <input type="date" class="form-control" placeholder="date" ng-model="data.date" required>
+                <button type="submit" class="btn btn-info" ng-disabled="gameForm.$invalid" style="margin-top: 25px">Sumbit</button>
+            </form>
+
+        </div>
+        <div class="col-md-6">
+            <h3>Or if you want to create a new game:</h3>
+            <button style="margin-top: 20px" type="button" ui-sref= "gcreate" class="btn btn-lg btn-success">Create New Game</button>
+        </div>
+    </div>
+
     <div ng-if="data.isSubmitted" style="margin-top: 50px">
         <h3>The following games were held on {{data.parsedDate}}:</h3>
         <p> (View the details of one game by clicking the leftmost checkbox of the row) </p>
         <div ui-grid="gridOptions" ui-grid-selection></div>
     </div>
-    
  </div>
     
     

@@ -19,6 +19,5 @@ app.controller('teamsBackgroundCtrl', ['$scope', '$stateParams', '$state', 'http
         }, function(btn){
             console.log("no update");
         });
-        
     }
 }]);

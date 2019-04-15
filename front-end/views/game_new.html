@@ -1,0 +1,82 @@
+<div class="container">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h4> Create a new game </h4>
+        </div>
+        <div class="panel-body">
+            <form name="gameForm" ng-submit="createNewGame()">
+                <div class="row" style="padding-top: 10px;">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="game_id" class="col-md-4 control-label">Game ID:</label>
+                            <div class="col-md-8">
+                                <input type="text" name="game_id" class="form-control" placeholder="game_id" ng-model="data.game_id" required>
+                                <p ng-show="gameForm.game_id.$invalid && !gameForm.game_id.$pristine" class="help-block" style="color:red">Game ID is required.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="padding-top: 25px;">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="team" class="col-md-4 control-label">Away Team:</label>
+                            <div class="col-md-8">
+                                <ui-select ng-model="tmp.selectedAwayTeam" theme="select2" style="min-width: 300px;" title="Choose a team" required>
+                                    <ui-select-match placeholder="Select a team in the list or search the team name...">{{$select.selected.nickname}}</ui-select-match>
+                                    <ui-select-choices repeat="team in teams | propsFilter: {nickname: $select.search}">
+                                        <div ng-bind-html="team.nickname | highlight: $select.search"></div>
+                                        <small>
+                                        abbr: {{team.abbreviation}}
+                                        </small>
+                                    </ui-select-choices>
+                                </ui-select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="team" class="col-md-4 control-label">Home Team:</label>
+                            <div class="col-md-8">
+                                <ui-select ng-model="tmp.selectedHomeTeam" theme="select2" style="min-width: 300px;" title="Choose a team" required>
+                                    <ui-select-match placeholder="Select a team in the list or search the team name...">{{$select.selected.nickname}}</ui-select-match>
+                                    <ui-select-choices repeat="team in teams | propsFilter: {nickname: $select.search}">
+                                        <div ng-bind-html="team.nickname | highlight: $select.search"></div>
+                                        <small>
+                                        abbr: {{team.abbreviation}}
+                                        </small>
+                                    </ui-select-choices>
+                                </ui-select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="padding-top: 25px;">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="game_date" class="col-md-4 control-label">Game Date:</label>
+                            <div class="col-md-8">
+                                <input type="date" class="form-control" placeholder="game_date" ng-model="tmp.game_date" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="season" class="col-md-4 control-label">Season:</label>
+                            <div class="col-md-8">
+                                <input type="text" class="form-control" placeholder="season" ng-model="data.season" readonly>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="row" style="padding-top: 25px; padding-left: 15px;">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-info" ng-disabled="gameForm.$invalid">Sumbit</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -24,7 +24,10 @@ app.controller('gamesCtrl', ['$scope', 'httpService', '$state', function($scope,
         { field: 'away_team', displayName: 'Away Team'},
         { field: 'home_team', displayName: 'Home Team'},
         { field: 'away_score', displayName: 'Away Score'},
-        { field: 'home_score', displayName: 'Home Score'}
+        { field: 'home_score', displayName: 'Home Score'},
+        { name: 'Update',
+          cellTemplate : '<div class="ui-grid-cell-contents"><button type="button" class="btn btn-primary btn-sm" ui-sref= "gupdate({id: row.entity.game_id, data: row.entity})">Update</button></div>'
+        }
       ]
     };
 
