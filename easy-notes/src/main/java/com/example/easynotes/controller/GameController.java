@@ -1,6 +1,7 @@
 package com.example.easynotes.controller;
 
 import com.example.easynotes.dao.GameInfoDao;
+import com.example.easynotes.exception.GameInfoTableAlreadyExistException;
 import com.example.easynotes.exception.GameInfoTableNotFoundException;
 import com.example.easynotes.model.*;
 import com.example.easynotes.repository.GameInfoTableRepository;
@@ -9,6 +10,7 @@ import com.example.easynotes.repository.PlayerRepository;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.LinkedList;
@@ -40,6 +42,25 @@ public class GameController {
         throws GameInfoTableNotFoundException {
         return gameInfoTableRepository.findById(game_id).orElseThrow(() -> new
                 GameInfoTableNotFoundException(game_id));
+    }
+
+    @PostMapping("/game")
+    public GameInfoTable createPlayer(@RequestBody GameInfoTable gameInfoDetails) throws GameInfoTableAlreadyExistException {
+        if (gameInfoTableRepository.findById(gameInfoDetails.getGame_id()).isPresent()) {
+            throw new GameInfoTableAlreadyExistException(gameInfoDetails.getGame_id());
+        }
+        else {
+            return gameInfoTableRepository.save(gameInfoDetails);
+        }
+    }
+
+    @DeleteMapping("/game/{game_id}")
+    public ResponseEntity<?> deleteGameInfoTable(@PathVariable(value = "game_id") String game_id)
+            throws GameInfoTableNotFoundException {
+        GameInfoTable gameInfoTable = gameInfoTableRepository.findById(game_id).orElseThrow(() ->
+                new GameInfoTableNotFoundException(game_id));
+        gameInfoTableRepository.delete(gameInfoTable);
+        return ResponseEntity.ok().build();
     }
 
     @ApiOperation(value = "player-game data of all players in the specific team for the specific game.")
