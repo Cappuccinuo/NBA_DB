@@ -1,10 +1,9 @@
 package com.example.easynotes.controller;
 
 import com.example.easynotes.dao.GameInfoDao;
-import com.example.easynotes.model.GameInfo;
-import com.example.easynotes.model.Player;
-import com.example.easynotes.model.PlayerGame;
-import com.example.easynotes.model.PlayerGameInfo;
+import com.example.easynotes.exception.GameInfoTableNotFoundException;
+import com.example.easynotes.model.*;
+import com.example.easynotes.repository.GameInfoTableRepository;
 import com.example.easynotes.repository.PlayerGameRepository;
 import com.example.easynotes.repository.PlayerRepository;
 import io.swagger.annotations.Api;
@@ -26,11 +25,21 @@ public class GameController {
     PlayerGameRepository playerGameRepository;
     @Autowired
     PlayerRepository playerRepository;
+    @Autowired
+    GameInfoTableRepository gameInfoTableRepository;
 
     @ApiOperation(value= "Get all games in database")
     @GetMapping("/game/{date}")
     public List<GameInfo> getAllGameOnDate(@PathVariable(value="date") String date) {
         return gameInfoDao.getGamesOnDate(date);
+    }
+
+    @ApiOperation(value = "Get game info given game_id")
+    @GetMapping("/game/check/{game_id}")
+    public GameInfoTable getGameGivenId(@PathVariable(value="game_id") String game_id)
+        throws GameInfoTableNotFoundException {
+        return gameInfoTableRepository.findById(game_id).orElseThrow(() -> new
+                GameInfoTableNotFoundException(game_id));
     }
 
     @ApiOperation(value = "player-game data of all players in the specific team for the specific game.")
