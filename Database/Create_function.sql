@@ -32,3 +32,13 @@ BEGIN
     
 END //
 DELIMITER ;
+CALL get_team_game_desc("1610612738", 3);
+SELECT 		t.*, g.game_date
+FROM 		team_game t
+JOIN			game_info g
+ON 				(t.team_id = g.away_team_id OR t.team_id = g.home_team_id)
+AND 			t.game_id = g.game_id
+WHERE		t.team_id = "1610612738"
+ORDER BY str_to_date(g.game_date, "%b %d, %Y") DESC;
+
+SELECT * FROM game_info;
