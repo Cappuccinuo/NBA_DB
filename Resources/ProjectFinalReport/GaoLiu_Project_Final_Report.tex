@@ -55,7 +55,8 @@ Northeastern University, Spring 2019  \\
         % YOUR NAMES GO HERE
     {Group Name: GaoLiu}\\
     {Name: Zihan Liu UID: 001880907}\\
-    {Name: Yuan Gao UID: 001202419}
+    {Name: Yuan Gao UID: 001202419}\\
+    {Github: https://github.com/Cappuccinuo/NBA\_DB}
 \end{center} 
 %
 \vspace{0.2cm}
@@ -64,15 +65,17 @@ The project is a NBA data statistics website for one specific season.
 The data domains contain games, teams and players related data. The user can do the following things in our website:
 \begin{itemize}
     \item Display the statistical data of players and teams in one game or average stats in entire season, as well as player and team information.
-    \item Insert new players and new teams.
+    \item Insert new players and new games.
     \item Update the information of games, teams and players.
-    \item Delete one specific game, team or player.
+    \item Delete one specific game, or player.
 \end{itemize}
+\section{README}
+\href{https://github.com/Cappuccinuo/NBA_DB/blob/master/README.md}{Click here to access}
 
 \section{Architecture}
 We used the following architecture to implement our project. Basically we use the \href{https://mlsdev.com/blog/81-a-beginner-s-tutorial-for-understanding-restful-api}{REST Api architecture}. 
 \begin{center}
-\includegraphics[width=1\textwidth]{REST}
+\includegraphics[width=0.8\textwidth]{REST}
 \end{center}
 The advantages of this architecture are:
 \begin{itemize}
@@ -140,6 +143,22 @@ For conceptual design, we can see that we have three main entities, game, player
 \end{center}
 
 \section{User flow}
+\begin{center}
+\includegraphics[width=1\textwidth]{User_Flow_Game}
+Game flow
+\end{center}
+
+\bigskip
+\begin{center}
+\includegraphics[width=1\textwidth]{User_Flow_Player}
+Player flow
+\end{center}
+\bigskip
+\begin{center}
+\includegraphics[width=1\textwidth]{User_Flow_Team}
+Team flow
+\end{center}
+
 \section{Lessons Learned}
 Technical expertise gained
 \begin{itemize}
@@ -168,7 +187,19 @@ Function not working
     to fetch and feed them into database. So we just download player games for two team in one season.
     \item We didn't implement insert player game, as one game will have more than 15 records, which will be a disaster for user 
     to type. So we only implement insert team game stats, our trigger will automatically update the team season after all.
+    \item For data simplicity, we only import team game in season 2017-18.
 \end{itemize}
 \section{Future Work}
-
+Planned uses of the database
+\begin{itemize}
+    \item This database can be provided to anyone who is interested in the data of NBA in season 2017-18. 
+    \item People can do data analysis and visualization based on our databases. 
+    \item Game developer may use our database to create new player, and create new game.
+\end{itemize}
+Potential areas of added functionality                                  
+\begin{itemize}
+\item Add the function of creating new team. 
+\item Add more filters to query, like filter the player who can score 20+ and assist 5+.
+\item Add some function to analyze the game, the player stats, maybe introducing some machine learning techiniques in our website.
+\end{itemize}
 \end{document}

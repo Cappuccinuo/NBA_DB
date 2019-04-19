@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.1.21)  18 APR 2019 12:37
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.1.21)  18 APR 2019 23:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -481,13 +481,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 66.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 67.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 66.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 67.
 File: REST.png Graphic file (type QTm)
 
 <use  "REST.png" > [1
@@ -496,23 +496,30 @@ File: REST.png Graphic file (type QTm)
 File: CD.png Graphic file (type QTm)
  <use  "CD.png" >
 File: schema.pdf Graphic file (type QTm)
- <use  "schema.pdf" > [3] [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 174.
+ <use  "schema.pdf" > [3]
+File: User_Flow_Game.png Graphic file (type QTm)
 
-[5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 174.
+<use  "User_Flow_Game.png" > [4]
+File: User_Flow_Player.png Graphic file (type QTm)
+ <use  "User_Flow_Player.png" >
+File: User_Flow_Team.png Graphic file (type QTm)
+
+<use  "User_Flow_Team.png" > [5] [6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 205.
+ [7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 205.
  (./GaoLiu_Project_Final_Report.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 174.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 174.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 174.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 205.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 205.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 205.
  ) 
 Here is how much of TeX's memory you used:
- 11245 strings out of 493706
- 159065 string characters out of 6145769
+ 11251 strings out of 493706
+ 159177 string characters out of 6145769
  236672 words of memory out of 5000000
- 14463 multiletter control sequences out of 15000+600000
+ 14466 multiletter control sequences out of 15000+600000
  16805 words of font info for 49 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 42i,10n,48p,438b,394s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,10n,48p,438b,398s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on GaoLiu_Project_Final_Report.pdf (5 pages).
+Output written on GaoLiu_Project_Final_Report.pdf (7 pages).
